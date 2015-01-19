@@ -2984,9 +2984,9 @@
 7	miten	miten	ADV	Adv	_	8	advmod	_	_
 8	kylmää	kylmä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	10	xcomp	_	_
 9	täällä	täällä	ADV	Adv	_	10	advmod	_	_
-10	on	olla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	on	olla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 11	,	,	PUNCT	Punct	_	10	punct	_	_
-12	huudan	huutaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	3:parataxis	_
+12	huudan	huutaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
 13	läiskyvälle	läiskyä	VERB	V	Case=All|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
 14	kyyhkysparvelle	kyyhkys#parvi	NOUN	N	Case=All|Number=Sing	12	nmod	_	_
 15	vai	vai	CONJ	C	_	12	cc	_	_

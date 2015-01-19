@@ -6819,7 +6819,7 @@
 15	kovin	kovin	ADV	Adv	_	16	advmod	_	_
 16	harvoin	harvoin	ADV	Adv	_	10	advmod	_	_
 17	,	,	PUNCT	Punct	_	21	punct	_	_
-18	etenkin	etenkin	ADV	Adv	_	0	root	19:advmod	_
+18	etenkin	etenkin	ADV	Adv	_	19	advmod	_	_
 19	jos	jos	SCONJ	C	_	21	mark	25:mark|29:mark	_
 20	aikoo	aikoa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	25:aux|29:aux	_
 21	pysyä	pysyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	_
