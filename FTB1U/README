@@ -1,6 +1,6 @@
 * Origin
 
-The UD version of FinnTreeBank 1 is derived from FinnTreeBank 1 2014
+The UD version of FinnTreeBank 1 was derived from FinnTreeBank 1 2014
 by a scripted mapping of labels and some restructuring in an attempt
 to conform approximately to the UD Finnish model.
 
@@ -12,7 +12,9 @@ and further revised in FIN-CLARIN projects in the Department of Modern
 Languages, University of Helsinki.
 
 
-* Remaining differences from the UD Finnish model
+* Differences from the UD Finnish model
+
+Some differences from the UD Finnish model remain unaddressed.
 
 Surface words that have an adverb or a conjunction fused with a
 following negative verb are separated into two tokens in the
@@ -24,8 +26,8 @@ A small number of multiword sequences remain as single tokens.
 Most punctuation tokens are linked to a nearby token instead of a
 clause head.
 
-The xcomp relation is not used in the mapping - the distinction agains
-comp is not supported in the underlying FinnTreeBank model.
+The xcomp relation is not used in the mapping (the distinction between
+xcomp and comp is not supported in the underlying FinnTreeBank model).
 
 As a catchall, the dep relation is used as intended when a more proper
 mapping could not be determined.
@@ -50,4 +52,13 @@ POS tags: 14
 Category=value feature pairs: 64
 
 
-* 
+* Sources
+
+VISK = Auli Hakulinen, Maria Vilkuna, Riitta Korhonen, Vesa Koivisto,
+Tarja Riitta Heinonen and Irja Alho 2004: Iso suomen
+kielioppi. Helsinki: Suomalaisen Kirjallisuuden Seura. Online version.
+Available: http://scripta.kotus.fi/visk URN:ISBN:978-952-5446-35-7
+
+<http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/>
+
+fin-clarin@helsinki.fi
