@@ -418,7 +418,7 @@
 7	mielessä	mieli	NOUN	N	Case=Ine|Number=Sing	2	nmod	_	_
 8	ja	ja	CONJ	C	_	7	cc	_	_
 9	miksei	miksi#ei	VERB	V	Negative=Yes|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	advmod	_	_
-10	miestenkin	mies	NOUN	N	Case=Gen|Clitic=Kin|Number=Plur	6	remnant	_	_
+10	miestenkin	mies	NOUN	N	Case=Gen|Clitic=Kin|Number=Plur	7	conj	2:nmod	_
 11	.	.	PUNCT	Punct	_	2	punct	_	_
 12	:)	:)	SYM	Symb	_	2	discourse	_	_
 
@@ -3003,7 +3003,7 @@
 26	lihaa	liha	NOUN	N	Case=Par|Number=Sing	23	conj	21:nmod	_
 27	,	,	PUNCT	Punct	_	21	punct	_	_
 28	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	29	amod	_	_
-29	haukkapala	haukka#pala	NOUN	N	Case=Nom|Number=Sing	16	conj	3:parataxis	_
+29	haukkapala	haukka#pala	NOUN	N	Case=Nom|Number=Sing	16	conj	_	_
 30	varpushaukalle	varpus#haukka	NOUN	N	Case=All|Number=Sing	29	nmod	_	_
 31	,	,	PUNCT	Punct	_	35	punct	_	_
 32	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	35	nsubj	_	_
@@ -3015,10 +3015,10 @@
 38	hampurilaisia	hampurilainen	NOUN	N	Case=Par|Number=Plur	37	dobj	_	_
 39	,	,	PUNCT	Punct	_	37	punct	_	_
 40	majoneesi	majoneesi	NOUN	N	Case=Nom|Number=Sing	41	nsubj	_	_
-41	virtaa	virrata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	conj	3:parataxis	_
+41	virtaa	virrata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	conj	_	_
 42	suonissani	suoni	NOUN	N	Case=Ine|Number=Plur|Number[psor]=Sing|Person[psor]=1	41	nmod	_	_
 43	,	,	PUNCT	Punct	_	37	punct	_	_
-44	jaksan	jaksaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	37	conj	3:parataxis	_
+44	jaksan	jaksaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	37	conj	_	_
 45	taas	taas	ADV	Adv	_	44	advmod	_	_
 46	laulaa	laulaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	44	xcomp	_	_
 47	,	,	PUNCT	Punct	_	55	punct	_	_
@@ -3038,12 +3038,12 @@
 61	mies	mies	NOUN	N	Case=Nom|Number=Sing	55	advcl	_	_
 62	,	,	PUNCT	Punct	_	61	punct	_	_
 63	ei	ei	VERB	V	Negative=Yes|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	64	neg	_	_
-64	toimi	toimia	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	37	conj	3:parataxis	_
+64	toimi	toimia	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	37	conj	_	_
 65	,	,	PUNCT	Punct	_	64	punct	_	_
 66	en	ei	VERB	V	Negative=Yes|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	69	neg	_	_
 67	ole	olla	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	69	cop	_	_
 68	samaa	sama	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	69	det	_	_
-69	maata	maa	NOUN	N	Case=Par|Number=Sing	64	conj	3:parataxis	_
+69	maata	maa	NOUN	N	Case=Par|Number=Sing	64	conj	_	_
 70	kuin	kuin	SCONJ	C	_	75	mark	_	_
 71	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	75	det	_	_
 72	aamukaljalla	aamu#kalja	NOUN	N	Case=Ade|Number=Sing	73	nmod	_	_
@@ -3491,7 +3491,7 @@
 1	Saat	saada	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	maistaa	maistaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	_
 3	,	,	PUNCT	Punct	_	1	punct	_	_
-4	mies	mies	NOUN	N	Case=Nom|Number=Sing	5	nsubj	7:nsubj	_
+4	mies	mies	NOUN	N	Case=Nom|Number=Sing	5	nsubj	7:nsubj|8:nsubj	_
 5	lupasi	luvata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
 6	ja	ja	CONJ	C	_	5	cc	_	_
 7	rupesi	ruveta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
@@ -10111,7 +10111,7 @@
 
 # sentence-text: EU:n komissio tietää tilanteen, muttei ole halunnut puuttua siihen, sanoo Suomen oikeusministeriön vaalijohtaja Arto Jääskeläinen Helsingin Sanomille.
 1	EU:n	EU	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	komissio	komissio	NOUN	N	Case=Nom|Number=Sing	3	nsubj	8:nsubj	_
+2	komissio	komissio	NOUN	N	Case=Nom|Number=Sing	3	nsubj	8:nsubj|9:nsubj	_
 3	tietää	tietää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	tilanteen	tilanne	NOUN	N	Case=Gen|Number=Sing	3	dobj	_	_
 5	,	,	PUNCT	Punct	_	3	punct	_	_

@@ -11,4 +11,8 @@ parts.
 
 TDT evaluation service address: http://bionlp-www.utu.fi/tdteval/
 
+* CHANGELOG
 
+The data has only seen small changes between the original 1.0 release
+and the current 1.1 release. These changes fix a small number of
+annotation problems noticed after the 1.0 release.
