@@ -1,0 +1,26 @@
+FTB1U is derived from FinnTreeBank 1 2014 by automated mapping of
+labels and some restructuring in an attempt to conform to the new
+Universal Dependency Finnish model.
+
+FTB1U is Copyright 2014 FIN-CLARIN
+
+FTB1U is Free Software. You may use, study, modify, and distribute it
+under the conditions of the GNU Lesser General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version (LGPLv3+). You should
+have received a copy of the license with FTB1U. See
+<http://www.gnu.org/licenses/>.
+
+Alternatively, at your option, FTB1U is a Free Cultural Work which you
+are free to share and adapt for any purpose, even commercially, under
+the Creative Commons Attribution 4.0 International (CC BY 4.0) license
+as long as you give proper attribution and apply no additional legal
+restrictions. See the human-readable deed and actual license at
+<http://creativecommons.org/licenses/by/4.0/>.
+
+Unannotated linguistic material in FinnTreeBank 1 2014 was adapted
+from the examples in Ison suomen kieliopin verkkoversio (The Web
+Version of the Large Grammar of Finnish, VISK), available on-line as
+<http://scripta.kotus.fi/visk>, and annotations originally produced
+and further revised in FIN-CLARIN projects in the Department of Modern
+Languages, University of Helsinki.
