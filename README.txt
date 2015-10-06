@@ -16,3 +16,8 @@ TDT evaluation service address: http://bionlp-www.utu.fi/tdteval/
 The data has only seen small changes between the original 1.0 release
 and the current 1.1 release. These changes fix a small number of
 annotation problems noticed after the 1.0 release.
+
+Documentation status: complete
+Data source: automatic conversion + manual check
+Data available since: UD v1.0
+License: CC BY-SA 4.0
