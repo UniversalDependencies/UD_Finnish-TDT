@@ -19,7 +19,7 @@ annotation problems noticed after the 1.0 release.
 
 --- Machine readable metadata ---
 Documentation status: complete
-Data source: automatic conversion + manual check
+Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-SA 4.0
 Genre: news wiki blog legal fiction
