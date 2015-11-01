@@ -9142,7 +9142,7 @@
 4	pyörtyisit	_	_	_	_	_	_	_	_
 5	.	_	_	_	_	_	_	_	_
 
-# sentence-text: Viisas ystäväni kertoi koko homman idean: Hyväksy itsesi, ole oma itsesi ja nauti elämästäsi. No joo, ajattelin, kun kuulin sen.
+# sentence-text: Viisas ystäväni kertoi koko homman idean: Hyväksy itsesi, ole oma itsesi ja nauti elämästäsi.
 1	Viisas	_	_	_	_	_	_	_	_
 2	ystäväni	_	_	_	_	_	_	_	_
 3	kertoi	_	_	_	_	_	_	_	_
@@ -9161,6 +9161,7 @@
 16	elämästäsi	_	_	_	_	_	_	_	_
 17	.	_	_	_	_	_	_	_	_
 
+# sentence-text: No joo, ajattelin, kun kuulin sen.
 1	No	_	_	_	_	_	_	_	_
 2	joo	_	_	_	_	_	_	_	_
 3	,	_	_	_	_	_	_	_	_
