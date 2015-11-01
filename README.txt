@@ -11,17 +11,26 @@ parts.
 
 TDT evaluation service address: http://bionlp-www.utu.fi/tdteval/
 
-* CHANGELOG
+* CHANGELOG 1.0 -> 1.1
 
 The data has only seen small changes between the original 1.0 release
 and the current 1.1 release. These changes fix a small number of
 annotation problems noticed after the 1.0 release.
+
+* CHANGELOG 1.1 -> 1.2
+
+- Names now follow the official UD style, i.e. are left-headed
+- Where appropriate, `foreign` relation is used
+- `SpaceAfter=No` feature added
+- Various fixes of individual annotation errors
+
 
 --- Machine readable metadata ---
 Documentation status: complete
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-SA 4.0
-Genre: news wiki blog legal fiction
+Genre: news wiki blog legal fiction FTB1
+
 
 
