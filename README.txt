@@ -30,5 +30,5 @@ Documentation status: complete
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-SA 4.0
-Genre: news wiki blog legal fiction FTB1
+Genre: news wiki blog legal fiction grammar-examples
 Contributors: Ginter, Filip; Kanerva, Jenna; Laippala, Veronika; Missilä, Anna; Pyysalo, Sampo
