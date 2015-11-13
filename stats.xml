@@ -84,7 +84,7 @@
     <feat name="Mood" value="Imp" upos="VERB">362</feat><!-- lisää, älä, ota, älkää, keitä, paista, leikkaa, lue, tee, Kypsennä -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">19288</feat><!-- on, oli, ovat, ole, voi, olivat, voidaan, olen, saa, tulee -->
     <feat name="Mood" value="Pot" upos="AUX,VERB">45</feat><!-- lienee, liene, lie, hypänne, kertone, lienevät, luvanne, saanen, Palauttanet, Suonet -->
-    <feat name="Negative" value="Yes" upos="VERB">2224</feat><!-- ei, en, eivät, eikä, ettei, emme, et, enkä, etten, eivätkä -->
+    <feat name="Negative" value="Neg" upos="VERB">2224</feat><!-- ei, en, eivät, eikä, ettei, emme, et, enkä, etten, eivätkä -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">23687</feat><!-- ovat, jotka, ne, eivät, olivat, niiden, he, meidän, niitä, heidän -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">93128</feat><!-- on, ei, oli, se, hän, sen, joka, sitä, olisi, vuonna -->
     <feat name="Number[psor]" value="Plur" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">307</feat><!-- joukkueemme, mielestämme, elämässämme, itsellemme, itseämme, keskuudessamme, lapsemme, edessämme, elämämme, elämästämme -->
@@ -120,13 +120,13 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">4698</feat><!-- voidaan, tehty, ollut, annettu, tehdään, julkaistiin, käytetään, annetun, sovelletaan, otetaan -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="44">
     <dep name="acl">3263</dep>
-    <dep name="acl:relcl">1892</dep>
-    <dep name="advcl">3158</dep>
-    <dep name="advmod">12670</dep>
+    <dep name="acl:relcl">1894</dep>
+    <dep name="advcl">3156</dep>
+    <dep name="advmod">12673</dep>
     <dep name="amod">8865</dep>
-    <dep name="appos">1255</dep>
+    <dep name="appos">1256</dep>
     <dep name="aux">2899</dep>
     <dep name="auxpass">665</dep>
     <dep name="case">2706</dep>
@@ -136,33 +136,34 @@
     <dep name="compound">1154</dep>
     <dep name="compound:nn">1088</dep>
     <dep name="compound:prt">256</dep>
-    <dep name="conj">9260</dep>
+    <dep name="conj">9259</dep>
     <dep name="cop">3279</dep>
     <dep name="csubj">94</dep>
-    <dep name="csubj:cop">136</dep>
+    <dep name="csubj:cop">137</dep>
     <dep name="dep">11</dep>
     <dep name="det">3162</dep>
     <dep name="discourse">269</dep>
     <dep name="dobj">10125</dep>
+    <dep name="foreign">93</dep>
     <dep name="goeswith">17</dep>
     <dep name="mark">3454</dep>
     <dep name="mwe">494</dep>
-    <dep name="name">2670</dep>
-    <dep name="neg">1753</dep>
-    <dep name="nmod">22487</dep>
+    <dep name="name">2574</dep>
+    <dep name="neg">1755</dep>
+    <dep name="nmod">22489</dep>
     <dep name="nmod:gobj">1350</dep>
     <dep name="nmod:gsubj">498</dep>
     <dep name="nmod:own">284</dep>
     <dep name="nmod:poss">9870</dep>
-    <dep name="nsubj">11865</dep>
+    <dep name="nsubj">11866</dep>
     <dep name="nsubj:cop">2736</dep>
     <dep name="nummod">3519</dep>
-    <dep name="parataxis">731</dep>
+    <dep name="parataxis">732</dep>
     <dep name="punct">26398</dep>
-    <dep name="remnant">375</dep>
+    <dep name="remnant">371</dep>
     <dep name="root">13581</dep>
     <dep name="vocative">106</dep>
-    <dep name="xcomp">2308</dep>
-    <dep name="xcomp:ds">973</dep>
+    <dep name="xcomp">2307</dep>
+    <dep name="xcomp:ds">971</dep>
   </deps>
 </treebank>
