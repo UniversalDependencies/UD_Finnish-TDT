@@ -24,6 +24,13 @@ annotation problems noticed after the 1.0 release.
 - `SpaceAfter=No` feature added
 - Various fixes of individual annotation errors
 
+* CHANGELOG 1.2 -> 1.3
+
+- No changes
+
+* CHANGELOG 1.3 -> 1.4
+
+- No changes
 
 --- Machine readable metadata ---
 Documentation status: complete
