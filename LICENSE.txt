@@ -13,13 +13,13 @@ Acknowledgments (all names in alphabetic order):
   Department of IT, University of Turku
 
 * Conversion to the Universal Dependencies scheme: Copyright © 2014,
-  Filip Ginter, Jenna Kanerva, Veronika Laippala, Anna Missilä, Sampo
-  Pyysalo - BioNLP group, Department of IT, University of Turku
+  Filip Ginter, Jenna Kanerva, Veronika Laippala, Anna Missilä, Stina
+  Ojala, Sampo Pyysalo - BioNLP group, Department of IT, University of Turku
 
 * Morphological analysis utilizes the output of the OMorFi analyzer
   http://omorfi.googlecode.com
 
-* Text (file names from the official release of TDT)
+* Text (file names from the official release of TDT and CoNLL-U sentence metadata)
 
   o Files b101-b116 Copyright © 2010 http://ranneliike.net/blogi.php?nick=Aboa
   o Files b201-b204 Copyright © 2010 http://moumou.indiedays.com/

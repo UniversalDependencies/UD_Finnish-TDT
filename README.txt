@@ -1,15 +1,5 @@
-The gold annotation for the TDT official test set is not publicly
-distributed. Instead, you can submit your parser output on the file
-fi_ud_test-official.conllu to the evaluation service at the
-address below. The service will compare your parser output against the
-gold standard and will give you the scores for a number of standard
-metrics. These are to be considered the "official" test set results.
-
-The files fi_ud_devel.conllu and fi_ud_test.conllu are obtained by
-splitting the original development set of TDT into two equally-sized
-parts.
-
-TDT evaluation service address: http://bionlp-www.utu.fi/tdteval/
+This treebank is based on the Turku Dependency Treebank (TDT) release
+2013-07-18 available from http://bionlp.utu.fi/fintreebank.html
 
 * CHANGELOG 1.0 -> 1.1
 
@@ -32,11 +22,25 @@ annotation problems noticed after the 1.0 release.
 
 - No changes
 
+* CHANGELOG 1.4 -> 2.0
+
+- Conversion to the 2.0 scheme
+  - empty nodes re-inserted from TDT sources
+  - olla verbs follow copula analysis
+  - numbers with space "6 000" now a single token
+  - goeswith used for things like "EU: n"
+- A number of small fixes
+- The former secret test set now part of the release, what used to be dev+test is now dev. New sizes:
+  - train size =  12217 sentences
+  - dev size   =  716+648 sentences
+  - test size  =  1555 sentences
+
+
 --- Machine readable metadata ---
 Documentation status: complete
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-SA 4.0
 Genre: news wiki blog legal fiction grammar-examples
-Contributors: Ginter, Filip; Kanerva, Jenna; Laippala, Veronika; Missilä, Anna; Pyysalo, Sampo
-Contact: ginter@cs.utu.fi, jmnybl@utu.fi
+Contributors: Ginter, Filip; Kanerva, Jenna; Laippala, Veronika; Missilä, Anna; Ojala, Stina; Pyysalo, Sampo
+Contact: figint@utu.fi, jmnybl@utu.fi
