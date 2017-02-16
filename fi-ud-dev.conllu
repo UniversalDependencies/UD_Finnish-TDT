@@ -1157,7 +1157,7 @@
 # sent_id =  b504.13
 1	Myöhemmin	myöhemmin	ADV	Adv	_	4	orphan	2.1:advmod	_
 2	sitten	sitten	ADV	Adv	_	4	orphan	2.1:advmod	_
-2.1	tulee	tulla	_	_	_	_	_	_	_
+2.1	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
 3	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	det	_	_
 4	näyttö	näyttö	NOUN	N	Case=Nom|Number=Sing	0	root	2.1:nsubj	_
 5	tai	tai	CCONJ	C	_	13	cc	_	_
@@ -2077,7 +2077,7 @@
 1	Lisä	lisätä	VERB	V	Mood=Imp|Number=Sing|Person=2|Typo=Yes|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mausteet	mauste	NOUN	N	Case=Nom|Number=Plur	1	obj	_	_
 3	ja	ja	CCONJ	C	_	6	cc	3.1:cc	_
-3.1	lisää	lisätä	_	_	_	_	_	1:conj	_
+3.1	lisää	lisätä	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	_	_	1:conj	_
 4	halutessasi	haluta	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=2|VerbForm=Inf|Voice=Act	6	orphan	3.1:advcl	_
 5	hieman	hieman	ADV	Adv	_	6	orphan	3.1:advmod	_
 6	paprikasuikaleita	paprika#suikale	NOUN	N	Case=Par|Number=Plur	1	conj	3.1:obj	_
@@ -4135,7 +4135,7 @@
 6	lävitse	lävitse	ADP	Adp	AdpType=Post	5	case	_	_
 7	tai	tai	CCONJ	C	_	9	cc	8.1:cc	_
 8	joskus	joskus	ADV	Adv	_	9	orphan	8.1:advmod	_
-8.1	kuuluu	kuulua	_	_	_	_	_	3:conj	_
+8.1	kuuluu	kuulua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:conj	_
 9	karjahdus	karjahdus	NOUN	N	Case=Nom|Number=Sing	3	conj	8.1:nsubj	_
 10	jonkun	joku	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	11	det	_	_
 11	varomattoman	varomaton	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	12	nsubj	_	_
@@ -4662,7 +4662,7 @@
 # sent_id =  h1014.7
 1	Punanen	punainen	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Style=Coll	2	amod	_	_
 2	kenttä	kenttä	NOUN	N	Case=Nom|Number=Sing	0	root	2.1:nsubj	_
-2.1	tulee	tulla	_	_	_	_	_	_	_
+2.1	tulee	tulla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
 3	tonne	tonne	ADV	Adv	_	4	advmod	_	_
 4	päätyyn	pääty	NOUN	N	Case=Ill|Number=Sing	2	orphan	2.1:obl	SpaceAfter=No
 5	.	.	PUNCT	Punct	_	2	punct	2.1:punct	_
@@ -6216,7 +6216,7 @@
 4	lainsäädännöllä	lain#säädäntö	NOUN	N	Case=Ade|Number=Sing	19	orphan	6.1:obl	SpaceAfter=No
 5	"	"	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
 6	:	:	PUNCT	Punct	_	4	punct	_	_
-6.1	tarkoitetaan	tarkoittaa	_	_	_	_	_	_	_
+6.1	tarkoitetaan	tarkoittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	_	_
 7	direktiivin	direktiivi	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
 8	89/662/ETY	89/662/ETY	NUM	Num	_	7	nummod	_	_
 9	liitteessä	liite	NOUN	N	Case=Ine|Number=Sing	18	obl	_	_
@@ -6240,7 +6240,7 @@
 4	viranomaisilla	viran#omainen	NOUN	N	Case=Ade|Number=Plur	7	orphan	6.1:obl	SpaceAfter=No
 5	"	"	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
 6	:	:	PUNCT	Punct	_	4	punct	_	_
-6.1	tarkoitetaan	tarkoittaa	_	_	_	_	_	_	_
+6.1	tarkoitetaan	tarkoittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	_	_
 7	virkaeläinlääkäriä	virka#eläin#lääkäri	NOUN	N	Case=Par|Number=Sing	0	root	6.1:obj	_
 8	tai	tai	CCONJ	C	_	20	cc	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	15	punct	_	_
@@ -7713,7 +7713,7 @@
 12	ainekset	aines	NOUN	N	Case=Nom|Number=Plur	11	obj	_	_
 13	kulhoon	kulho	NOUN	N	Case=Ill|Number=Sing	11	obl	_	_
 14	ja	ja	CCONJ	C	_	15	cc	14.1:cc	_
-14.1	laittoi	laittaa	_	_	_	_	_	11:conj	_
+14.1	laittoi	laittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	11:conj	_
 15	koneen	kone	NOUN	N	Case=Gen|Number=Sing	11	conj	14.1:obj	_
 16	päälle	päälle	ADV	Adv	_	15	orphan	14.1:compound:prt	SpaceAfter=No
 17	.	.	PUNCT	Punct	_	2	punct	_	_
@@ -9564,7 +9564,7 @@
 8	ja	ja	CCONJ	C	_	10	cc	10.1:cc	_
 9	osasto	osasto	NOUN	N	Case=Nom|Number=Sing	10	compound:nn	_	_
 10	LV37	LV37	SYM	Symb	_	3	conj	10.1:nsubj	_
-10.1	sijaitsee	sijaita	_	_	_	_	_	3:conj	_
+10.1	sijaitsee	sijaita	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:conj	_
 11	Kätilöopiston	kätilö#opisto	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	sairaalassa	sairaala	NOUN	N	Case=Ine|Number=Sing	10	orphan	10.1:obl	SpaceAfter=No
 13	.	.	PUNCT	Punct	_	3	punct	_	_
@@ -9621,7 +9621,7 @@
 5	Suomen	Suomi	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	mestaruutta	mestaruus	NOUN	N	Case=Par|Number=Sing	2	obj	_	_
 7	ja	ja	CCONJ	C	_	12	cc	7.1:cc	_
-7.1	voitti	voittaa	_	_	_	_	_	2:conj	_
+7.1	voitti	voittaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	2:conj	_
 8	viisiottelussa	viisi#ottelu	NOUN	N	Case=Ine|Number=Sing	12	orphan	7.1:obl	_
 9	hallissa	halli	NOUN	N	Case=Ine|Number=Sing	12	orphan	7.1:obl	_
 10	myös	myös	ADV	Adv	_	12	advmod	_	_
@@ -10185,7 +10185,7 @@
 12	vastaava	vastaava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	_
 13	sana	sana	NOUN	N	Case=Nom|Number=Sing	4	conj	14.1:nsubj	_
 14	puolestaan	puolestaan	ADV	Adv	_	13	advmod	_	_
-14.1	viittaa	viitata	_	_	_	_	_	4:conj	_
+14.1	viittaa	viitata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	4:conj	_
 15	tapaan	tapa	NOUN	N	Case=Ill|Number=Sing	13	orphan	14.1:obl	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	13	punct	14.1:punct	_
 17	tottumukseen	tottumus	NOUN	N	Case=Ill|Number=Sing	13	orphan	14.1:obl	SpaceAfter=No
@@ -11234,7 +11234,7 @@
 15	,	,	PUNCT	Punct	_	16	punct	17.1:punct	_
 16	yksi	yksi	NUM	Num	Case=Nom|Number=Sing|NumType=Card	14	conj	17.1:nsubj	_
 17	heistä	hän	PRON	Pron	Case=Ela|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
-17.1	loukkaantui	loukkaantua	_	_	_	_	_	14:conj	_
+17.1	loukkaantui	loukkaantua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	14:conj	_
 18	vakavasti	vakavasti	ADV	Adv	_	16	orphan	17.1:advmod	SpaceAfter=No
 19	.	.	PUNCT	Punct	_	5	punct	_	_
 
@@ -11952,7 +11952,7 @@
 4	miettiä	miettiä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	acl	_	SpaceAfter=No
 5	,	,	PUNCT	Punct	_	6	punct	6.1:punct	_
 6	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	4	ccomp	6.1:obj	_
-6.1	tehtäisiin	tehdä	_	_	_	_	_	4:ccomp	_
+6.1	tehtäisiin	tehdä	VERB	_	Mood=Cnd|VerbForm=Fin|Voice=Pass	_	_	4:ccomp	_
 7	seuraavaksi	seuraavaksi	ADV	Adv	_	6	orphan	6.1:advmod	SpaceAfter=No
 8	,	,	PUNCT	Punct	_	12	punct	_	_
 9	mistä	mikä	PRON	Pron	Case=Ela|Number=Sing|PronType=Int	10	det	_	_
@@ -12201,7 +12201,7 @@
 6	ohjelmaan	ohjelma	NOUN	N	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	11	punct	8.1:punct	_
 8	mutta	mutta	CCONJ	C	_	11	cc	8.1:cc	_
-8.1	vaikuttaa	vaikuttaa	_	_	_	_	_	4:conj	_
+8.1	vaikuttaa	vaikuttaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	4:conj	_
 9	kyllä	kyllä	ADV	Adv	_	11	orphan	8.1:advmod	_
 10	vähäsen	vähäsen	ADV	Adv	Style=Coll	11	orphan	8.1:advmod	_
 11	asenteisiin	asenne	NOUN	N	Case=Ill|Number=Plur	4	conj	8.1:obl	SpaceAfter=No
@@ -14447,7 +14447,7 @@
 2	jatkoin	jatkaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	matkaani	matka	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	5	punct	4.1:punct	_
-4.1	oli	olla	_	_	_	_	_	2:conj	_
+4.1	oli	olla	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	2:conj	_
 5	tyttöjä	tyttö	NOUN	N	Case=Par|Number=Plur	2	conj	4.1:nsubj	_
 6	siellä	siellä	ADV	Adv	_	5	advmod	_	_
 7	täällä	täällä	ADV	Adv	_	6	fixed	_	SpaceAfter=No
@@ -15445,7 +15445,7 @@
 8	mieleisensä	mieleinen	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Person[psor]=3	4	obj	_	_
 9	ja	ja	CCONJ	C	_	12	cc	10.1:cc	_
 10	samalla	samalla	ADV	Adv	_	12	orphan	10.1:advmod	_
-10.1	valita	valita	_	_	_	_	_	4:conj	_
+10.1	valita	valita	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	_	_	4:conj	_
 11	tulevan	tuleva	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	12	amod	_	_
 12	aviomiehensä	avio#mies	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	4	conj	10.1:obj	SpaceAfter=No
 13	.	.	PUNCT	Punct	_	2	punct	_	_
@@ -18991,14 +18991,14 @@
 # sent_id =  t029.12
 1	Norjasta	Norja	PROPN	N	Case=Ela|Number=Sing	3	obl	_	_
 2	Leafin	Leaf	PROPN	N	Case=Gen|Number=Sing	3	obj	9.1:obj	_
-3	saa	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	saa	saada	VERB	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	omakseen	oma	ADJ	A	Case=Tra|Degree=Pos|Number=Sing|Person[psor]=3	3	obl	9.1:obl	_
 5	vajaalla	vajaa	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	6	advmod	_	_
 6	33 000	33 000	NUM	Num	NumType=Card	7	nummod	_	_
 7	eurolla	euro	NOUN	N	Case=Ade|Number=Sing	3	obl	_	_
 8	ja	ja	CCONJ	C	_	9	cc	9.1:cc	_
 9	Tanskasta	Tanska	PROPN	N	Case=Ela|Number=Sing	3	conj	9.1:obl	_
-9.1	saa	saada	_	_	_	_	_	3:conj	_
+9.1	saa	saada	VERB	_	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:conj	_
 10	noin	noin	ADV	Adv	_	11	advmod	_	_
 11	39 000	39 000	NUM	Num	NumType=Card	12	nummod	_	_
 12	eurolla	euro	NOUN	N	Case=Ade|Number=Sing	9	orphan	9.1:obl	SpaceAfter=No
@@ -20248,7 +20248,7 @@
 10	kirjastonhoitajana	kirjaston#hoitaja	NOUN	N	Case=Ess|Number=Sing	6	obl	_	_
 11	1654	1654	NUM	Num	NumType=Card	6	obl	_	_
 12	ja	ja	CCONJ	C	_	16	cc	12.1:cc	_
-12.1	toimi	toimia	_	_	_	_	_	6:conj	_
+12.1	toimi	toimia	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	6:conj	_
 13	Turun	Turku	PROPN	N	Case=Gen|Number=Sing	14	nmod:poss	_	_
 14	akatemian	akatemia	NOUN	N	Case=Gen|Number=Sing	16	nmod:poss	13:flat:name	_
 15	runousopin	runous#oppi	NOUN	N	Case=Gen|Number=Sing	16	nmod:poss	_	_
@@ -21201,7 +21201,7 @@
 9	ohjataan	ohjata	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
 10	syöttöaitaan	syöttö#aita	NOUN	N	Case=Ill|Number=Sing	9	obl	_	_
 11	ja	ja	CCONJ	C	_	13	cc	11.1:cc	_
-11.1	ohjataan	ohjata	_	_	_	_	_	9:conj	_
+11.1	ohjataan	ohjata	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	9:conj	_
 12	edelleen	edelleen	ADV	Adv	_	13	orphan	11.1:advmod	_
 13	siulojen	siula	NOUN	N	Case=Gen|Number=Plur	9	conj	11.1:obl	_
 14	eli	eli	CCONJ	C	_	15	cc	_	_
@@ -21293,7 +21293,7 @@
 10	vasta	vasta	ADV	Adv	_	11	advmod	_	_
 11	myöhemmin	myöhemmin	ADV	Adv	_	12	advmod	_	_
 12	talvella	talvi	NOUN	N	Case=Ade|Number=Sing	3	conj	12.1:obl	_
-12.1	kuljetetaan	kuljettaa	_	_	_	_	_	3:conj	_
+12.1	kuljetetaan	kuljettaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	_	_	3:conj	_
 13	kelkoin	kelkka	NOUN	N	Case=Ins|Number=Plur	12	orphan	12.1:obl	SpaceAfter=No
 14	.	.	PUNCT	Punct	_	3	punct	_	_
 
@@ -21843,7 +21843,7 @@
 9	sdp:n	sdp	PROPN	N	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	Kimmo	Kimmo	PROPN	N	Case=Nom|Number=Sing	5	conj	11.1:nsubj	_
 11	Kiljunen	Kiljunen	PROPN	N	Case=Nom|Number=Sing	10	flat:name	_	_
-11.1	hävisi	hävitä	_	_	_	_	_	5:conj	_
+11.1	hävisi	hävitä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	5:conj	_
 12	4 103	4 103	NUM	Num	NumType=Card	13	nummod	_	_
 13	äänellä	ääni	NOUN	N	Case=Ade|Number=Sing	10	orphan	11.1:obl	SpaceAfter=No
 14	,	,	PUNCT	Punct	_	17	punct	18.1:punct	_
@@ -21851,7 +21851,7 @@
 16	kok	kok	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	17	nmod:poss	_	_
 17	Risto	Risto	PROPN	N	Case=Nom|Number=Sing	5	conj	18.1:nsubj	_
 18	Penttilä	Penttilä	PROPN	N	Case=Nom|Number=Sing	17	flat:name	_	_
-18.1	hävisi	hävitä	_	_	_	_	_	5:conj	_
+18.1	hävisi	hävitä	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	5:conj	_
 19	4 849	4 849	NUM	Num	NumType=Card	20	nummod	_	_
 20	äänellä	ääni	NOUN	N	Case=Ade|Number=Sing	17	orphan	18.1:obl	SpaceAfter=No
 21	.	.	PUNCT	Punct	_	5	punct	_	_
