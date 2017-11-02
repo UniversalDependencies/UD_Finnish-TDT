@@ -1,8 +1,15 @@
 # Summary
 
-UD_Finnish is based on the Turku Dependency Treebank (TDT), a broad-coverage dependency treebank of general Finnish. The treebank covers numerous genres. The conversion to UD was followed by extensive manual checks and corrections, and the treebank closely adheres to the UD guidelines.
+UD_Finnish is based on the Turku Dependency Treebank (TDT), a broad-coverage dependency treebank of general Finnish covering numerous genres. The conversion to UD was followed by extensive manual checks and corrections, and the treebank closely adheres to the UD guidelines.
+
+# Introduction
+
+The treebank contains texts from Wikipedia articles, Wikinews articles, University online news, Blog entries, Student magazine articles, Grammar examples, Europarl speeches, JRC-Acquis legislation, Financial news, and Fiction sourced from 674 individual documents. The original annotation of the treebank was in Stanford Dependencies, including secondary dependencies, and fully manually checked morphological annotation. The treebank is also accompanied by a PropBank annotation (http://turkunlp.github.io/Finnish_PropBank/) and a dependency parser pipeline substantially outperforming the baseline UDPipe model (http://turkunlp.github.io/Finnish-dep-parser/).
+
 
 # Acknowledgments
+
+The team behind the Turku Dependency Treebank: Katri Haverinen, Jenna Kanerva (Nyblom), Timo Viljanen, Veronika Laippala, Samuel Kohonen, Anna Missilä, Stina Ojala, Filip Ginter.
 
 We are grateful for the funding received from:
 
@@ -51,10 +58,15 @@ annotation problems noticed after the 1.0 release.
 
 
 --- Machine readable metadata ---
-Documentation status: complete
-Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-SA 4.0
+Includes text: yes
 Genre: news wiki blog legal fiction grammar-examples
+Lemmas: manual native
+UPOS: converted from manual
+XPOS: converted from manual
+Features: converted from manual
+Relations: manual native
 Contributors: Ginter, Filip; Kanerva, Jenna; Laippala, Veronika; Missilä, Anna; Ojala, Stina; Pyysalo, Sampo
 Contact: figint@utu.fi, jmnybl@utu.fi
+Contributing: elsewhere
