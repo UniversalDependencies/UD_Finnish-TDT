@@ -1,5 +1,19 @@
-This treebank is based on the Turku Dependency Treebank (TDT) release
-2013-07-18 available from http://bionlp.utu.fi/fintreebank.html
+# Summary
+
+UD_Finnish is based on the Turku Dependency Treebank (TDT), a broad-coverage dependency treebank of general Finnish. The treebank covers numerous genres. The conversion to UD was followed by extensive manual checks and corrections, and the treebank closely adheres to the UD guidelines.
+
+# Acknowledgments
+
+We are grateful for the funding received from:
+
+* University of Turku
+* Turku Centre for Computer Science
+* Finnish Academy
+* Turku University Foundation
+
+We thank all the authors who kindly allowed us to include their texts into the treebank, either by explicit permission, or by releasing their text under an open license in the first place.
+
+# Changelogs
 
 * CHANGELOG 1.0 -> 1.1
 
