@@ -56,6 +56,12 @@ annotation problems noticed after the 1.0 release.
   - dev size   =  716+648 sentences
   - test size  =  1555 sentences
 
+* CHANGELOG 2.0 -> 2.1
+
+- Better features for foreign proper names
+- Derivation features are now consistently annotated
+- Various fixes of individual annotation errors
+
 
 --- Machine readable metadata ---
 Data available since: UD v1.0
@@ -67,6 +73,6 @@ UPOS: converted from manual
 XPOS: converted from manual
 Features: converted from manual
 Relations: manual native
-Contributors: Ginter, Filip; Kanerva, Jenna; Laippala, Veronika; Missilä, Anna; Ojala, Stina; Pyysalo, Sampo
+Contributors: Ginter, Filip; Kanerva, Jenna; Laippala, Veronika; Miekka, Niko; Missilä, Anna; Ojala, Stina; Pyysalo, Sampo
 Contact: figint@utu.fi, jmnybl@utu.fi
 Contributing: elsewhere
