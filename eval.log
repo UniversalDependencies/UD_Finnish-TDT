@@ -1,0 +1,41 @@
+Sun Feb 11 20:38:53 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Finnish
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Finnish:
+commit 8d490e404566132871ec00c9dd82e64fb57a7671
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 11 13:55:32 2017 +0100
+Size: counted 201952 of 201952 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.6160600908037.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 146179 out of 201952 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 31 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 11340 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 201952 words.
+Genres: found 6 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
+(weight=0.0769230769230769) * (score{genres}=0.428571428571429) = 0.032967032967033
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.768416052831561) = 0.197029757136298
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
+(weight=0.307692307692308) * (score{udapi}=0.438480430993503) = 0.134917055690309
+(weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
+(TOTAL score=0.67340514252023) * (availability=1) * (validity=1) = 0.67340514252023
+STARS = 3.5
+UD_Finnish	0.67340514252023	3.5
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
