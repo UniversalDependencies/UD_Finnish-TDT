@@ -1,6 +1,6 @@
 # Summary
 
-UD_Finnish is based on the Turku Dependency Treebank (TDT), a broad-coverage dependency treebank of general Finnish covering numerous genres. The conversion to UD was followed by extensive manual checks and corrections, and the treebank closely adheres to the UD guidelines.
+UD_Finnish-TDT is based on the Turku Dependency Treebank (TDT), a broad-coverage dependency treebank of general Finnish covering numerous genres. The conversion to UD was followed by extensive manual checks and corrections, and the treebank closely adheres to the UD guidelines.
 
 # Introduction
 
@@ -61,6 +61,10 @@ annotation problems noticed after the 1.0 release.
 - Better features for foreign proper names
 - Derivation features are now consistently annotated
 - Various fixes of individual annotation errors
+
+* CHANGELOG 2.1 -> 2.2
+
+- Repository renamed from UD_Finnish to UD_Finnish-TDT.
 
 
 --- Machine readable metadata ---

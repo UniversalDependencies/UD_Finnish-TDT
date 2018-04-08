@@ -38,7 +38,7 @@
     <feat name="Case" value="Acc" upos="PRON">154</feat><!-- hänet, minut, meidät, sinut, heidät, mut, sut, kenet, teidät, ketkä -->
     <feat name="Case" value="Ade" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">4075</feat><!-- tällä, sillä, perusteella, jolla, joilla, tavalla, avulla, meillä, minulla, alueella -->
     <feat name="Case" value="All" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">2399</feat><!-- minulle, hänelle, kaikille, meille, sille, niille, komissiolle, itselleen, toiselle, jäsenvaltioille -->
-    <feat name="Case" value="Com" upos="ADJ,NOUN,PRON,PROPN">47</feat><!-- kaikkine, poikineen, postikuluineen, Näine, ajatuksineni, allekirjoittajineen, asenteineen, bajamajoineen, eduskuntakäsittelyineenkin, herkkuineen -->
+    <feat name="Case" value="Com" upos="ADJ,NOUN,PRON,PROPN">47</feat><!-- kaikkine, poikineen, postikuluineen, Näine, ajatuksineni, allekirjoittajineen, asenteineen, bajamajoineen, e​d​u​s​k​u​n​t​a​k​ä​s​i​t​t​e​l​y​i​n​e​e​n​k​i​n, herkkuineen -->
     <feat name="Case" value="Ela" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">5239</feat><!-- siitä, tästä, niistä, josta, vuodesta, joista, mielestäni, mistä, asiasta, syystä -->
     <feat name="Case" value="Ess" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2458</feat><!-- vuonna, päivänä, aikana, tänä, vuosina, verrattuna, tarkoituksena, osana, tiistaina, perjantaina -->
     <feat name="Case" value="Gen" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">24847</feat><!-- sen, euroopan, tämän, hänen, vuoden, jonka, Turun, suomen, yhteisön, komission -->
