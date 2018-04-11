@@ -1,15 +1,11 @@
-Sun Feb 11 20:38:53 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Finnish
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-Evaluating the following revision of UD_Finnish:
-commit 8d490e404566132871ec00c9dd82e64fb57a7671
+Date:   Wed Apr 11 09:21:53 2018 +0200
+Evaluating the following revision of UD_Finnish-TDT:
+commit 00ec733569229c0ae298a6008792ad4089847f56
+Merge: 9d66956 cea7b4a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 11 13:55:32 2017 +0100
 Size: counted 201952 of 201952 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6160600908037.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -26,6 +22,13 @@ Universal relations: source of annotation (from README) factor is 1.
 Udapi: found 11340 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 201952 words.
 Genres: found 6 out of 14 known.
+validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-dev.conllu
+*** PASSED ***
+validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-test.conllu
+*** PASSED ***
+validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.428571428571429) = 0.032967032967033
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -36,6 +39,4 @@ Genres: found 6 out of 14 known.
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
 (TOTAL score=0.67340514252023) * (availability=1) * (validity=1) = 0.67340514252023
 STARS = 3.5
-UD_Finnish	0.67340514252023	3.5
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Finnish-TDT	0.67340514252023	3.5
