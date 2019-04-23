@@ -3591,7 +3591,7 @@
 44	sääntöjen	sääntö	NOUN	N	Case=Gen|Number=Plur	46	obl	_	_
 45	mukaan	mukaan	ADP	Adp	AdpType=Post	44	case	_	_
 46	todistaa	todistaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	35	ccomp	_	_
-47	koska	koska	SCONJ	C	_	46	advmod	_	_
+47	koska	koska	ADV	Adv	_	46	advmod	_	_
 48	tahansa	tahansa	ADV	Adv	_	47	fixed	_	_
 49	laajalla	laaja	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	50	amod	_	_
 50	dokumentaatiolla	dokumentaatio	NOUN	N	Case=Ade|Number=Sing	46	obl	_	SpaceAfter=No
@@ -4087,8 +4087,8 @@
 43	kilpailusta	kilpailu	NOUN	N	Case=Ela|Derivation=U|Number=Sing	45	obl	_	_
 44	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	aux	_	_
 45	tullut	tulla	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	20	conj	12:advcl	_
-46	suuressa	suuri	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	47	amod	_	_
-47	määrin	määrä	NOUN	N	Case=Ins|Number=Plur	48	nmod	_	_
+46	suuressa	suuressa	ADV	Adv	_	48	advmod	_	_
+47	määrin	määrin	ADV	Adv	_	46	fixed	_	_
 48	maailmanlaajuista	maa#ilman#laajuinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	45	xcomp	_	SpaceAfter=No
 49	.	.	PUNCT	Punct	_	12	punct	_	_
 
@@ -4972,7 +4972,7 @@
 1	Paikalliset	paikallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Plur	2	amod	_	_
 2	viranomaiset	viran#omainen	NOUN	N	Case=Nom|Number=Plur	3	nsubj	6:nsubj	_
 3	pystyvät	pystyä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	jossain	jokin	PRON	Pron	Case=Ine|Number=Sing|PronType=Ind	6	advmod	_	_
+4	jossain	jossain	ADV	Adv	_	6	advmod	_	_
 5	määrin	määrin	ADV	Adv	_	4	fixed	_	_
 6	hoitamaan	hoitaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp	_	_
 7	ongelmat	ongelma	NOUN	N	Case=Nom|Number=Plur	6	obj	_	SpaceAfter=No
@@ -7240,7 +7240,7 @@
 16	ansiosta	ansio	NOUN	N	Case=Ela|Number=Sing	17	obl	_	_
 17	kantaa	kantaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	acl:relcl	_	_
 18	mukana	mukana	ADV	Adv	_	17	advmod	_	_
-19	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	21	advmod	_	_
+19	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	21	obl	_	_
 20	ikinä	ikinä	ADV	Adv	_	19	fixed	_	_
 21	menenkin	mennä	VERB	V	Clitic=Kin|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	SpaceAfter=No
 22	.	.	PUNCT	Punct	_	3	punct	_	_
@@ -9801,10 +9801,10 @@
 8	,	,	PUNCT	Punct	_	9	punct	_	_
 9	suuntautukoot	suuntautua	VERB	V	Mood=Imp|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	advcl	_	_
 10	sitten	sitten	ADV	Adv	_	9	advmod	_	_
-11	mille	mikä	PRON	Pron	Case=All|Number=Sing|PronType=Rel	13	advmod	_	_
+11	mille	mikä	PRON	Pron	Case=All|Number=Sing|PronType=Rel	13	det	_	_
 12	lääketieteen	lääke#tiede	NOUN	N	Case=Gen|Number=Sing	13	nmod:poss	_	_
 13	alueelle	alue	NOUN	N	Case=All|Number=Sing	9	obl	_	_
-14	hyvänsä	hyvänsä	ADV	Adv	_	11	fixed	_	SpaceAfter=No
+14	hyvänsä	hyvänsä	ADV	Adv	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # text = Vaikein näistä pulmakysymyksistä koskee sopimuksen valvontaa.
@@ -14066,7 +14066,7 @@
 30	tai	tai	CCONJ	C	_	31	cc	_	_
 31	klinikalle	klinikka	NOUN	N	Case=All|Number=Sing	27	conj	21:obl	_
 32	tai	tai	CCONJ	C	_	34	cc	_	_
-33	sieltä	se	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	34	advmod	_	_
+33	sieltä	sieltä	ADV	Adv	_	34	advmod	_	_
 34	pois	pois	ADV	Adv	_	27	conj	21:advmod	SpaceAfter=No
 35	.	.	PUNCT	Punct	_	5	punct	_	_
 
@@ -15904,7 +15904,7 @@
 9	tapoihin	tapa	NOUN	N	Case=Ill|Number=Plur	6	conj	10:nmod	_
 10	sopeutuminen	sopeutuminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	0	root	_	_
 11	ja	ja	CCONJ	C	_	15	cc	_	_
-12	loppujen	loppu	NOUN	N	Case=Gen|Derivation=U|Number=Plur	15	advmod	_	_
+12	loppujen	loppujen	ADV	Adv	_	15	advmod	_	_
 13	lopuksi	lopuksi	ADV	Adv	_	12	fixed	_	_
 14	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	_	_
 15	toi	tuoda	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
@@ -15924,8 +15924,8 @@
 7	koulupäivät	koulu#päivä	NOUN	N	Case=Nom|Number=Plur	8	obj	_	_
 8	saatiin	saada	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	_
 9	usein	usein	ADV	Adv	_	8	advmod	_	_
-10	sen	sen	ADV	Adv	_	12	advmod	_	_
-11	verran	verran	ADV	Adv	_	10	fixed	_	_
+10	sen	sen	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	11	nmod:poss	_	_
+11	verran	verran	ADV	Adv	_	12	advmod	_	_
 12	ajoissa	ajoissa	ADV	Adv	_	8	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	Punct	_	16	punct	_	_
 14	että	että	SCONJ	C	_	16	mark	_	_
@@ -16431,7 +16431,7 @@
 18	;	;	PUNCT	Punct	_	14	punct	_	_
 19	pennissä	penni	NOUN	N	Case=Ine|Number=Sing	14	parataxis	_	_
 20	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
-21	miljoonan	miljoona	NOUN	N	Case=Gen|Number=Sing	22	nmod:poss	_	_
+21	miljoonan	miljoona	NUM	Num	Case=Gen|Number=Sing|NumType=Card	22	nmod:poss	_	_
 22	alku	alku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	19	nsubj:cop	_	_
 23	ja	ja	CCONJ	C	_	26	cc	_	_
 24	muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	26	det	_	_
@@ -20098,8 +20098,8 @@
 2	markkina-asemasta	markkina#asema	NOUN	N	Case=Ela|Number=Sing	4	obl	_	_
 3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
 4	käyty	käydä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-5	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	7	advmod	_	_
-6	verran	verran	ADV	Adv	_	5	fixed	_	_
+5	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	6	nmod:poss	_	_
+6	verran	verran	ADV	Adv	_	7	advmod	_	_
 7	keskustelua	keskustelu	NOUN	N	Case=Par|Derivation=U|Number=Sing	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	Punct	_	4	punct	_	_
 
@@ -20109,7 +20109,7 @@
 2	päällystetty	päällystää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 3	paperi	paperi	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	_
 4	(	(	PUNCT	Punct	_	6	punct	_	SpaceAfter=No
-5	engl.	englanti	NOUN	N	Case=Tra|Number=Sing	6	nmod	_	_
+5	engl.	engl.	NOUN	N	Abbr=Yes|Case=Tra|Number=Sing	6	nmod	_	_
 6	light	light	X	Foreign	Foreign=Yes	3	appos	_	_
 7	weight	weight	X	Foreign	Foreign=Yes	6	flat:name	_	_
 8	coated	coated	X	Foreign	Foreign=Yes	6	flat:name	_	_
@@ -21445,8 +21445,8 @@
 6	kuolleisuuden	kuolleisuus	NOUN	N	Case=Gen|Derivation=Inen,Vs|Number=Sing	7	nmod:gsubj	_	_
 7	vähenemä	vähetä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	11	nsubj:cop	_	_
 8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
-9	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	11	advmod	_	_
-10	verran	verran	ADV	Adv	_	9	fixed	_	_
+9	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	10	nmod:poss	_	_
+10	verran	verran	ADV	Adv	_	11	advmod	_	_
 11	pienempi	pieni	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	17	punct	_	_
 13	ja	ja	CCONJ	C	_	17	cc	_	_
@@ -21504,8 +21504,8 @@
 # sent_id =  w146.11
 1	Luvut	luku	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	_
 2	vaihtelevat	vaihdella	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	2	advmod	_	_
-4	verran	verran	ADV	Adv	_	3	fixed	_	_
+3	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	4	nmod:poss	_	_
+4	verran	verran	ADV	Adv	_	2	advmod	_	_
 5	eri	eri	ADJ	A	_	6	amod	_	_
 6	aikona	aika	NOUN	N	Case=Ess|Number=Plur|Typo=Yes	10	obl	_	_
 7	ja	ja	CCONJ	C	_	9	cc	_	_
@@ -21524,8 +21524,8 @@
 4	kuvauksen	kuvaus	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	herkkyys	herkkyys	NOUN	N	Case=Nom|Number=Sing	9	nsubj:cop	_	_
 6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
-7	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	9	advmod	_	_
-8	verran	verran	ADV	Adv	_	7	fixed	_	_
+7	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	8	nmod:poss	_	_
+8	verran	verran	ADV	Adv	_	9	advmod	_	_
 9	pienempi	pieni	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	Punct	_	19	punct	_	_
 11	ja	ja	CCONJ	C	_	19	cc	_	_
@@ -22205,7 +22205,7 @@
 3	olympiakultaa	olympia#kulta	NOUN	N	Case=Par|Number=Sing	2	obj	_	_
 4	Amsterdamin	Amsterdam	PROPN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	kesäolympialaisissa	kesä#olympialaiset	NOUN	N	Case=Ine|Number=Plur	2	obl	_	_
-6	4x100	4x100	SYM	Symb	_	7	nummod	_	_
+6	4x100	4x100	NUM	Num	_	7	nummod	_	_
 7	metrin	metri	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	vapaauintiviestissä	vapaa#uinti#viesti	NOUN	N	Case=Ine|Number=Sing	5	nmod	_	_
 9	ja	ja	CCONJ	C	_	11	cc	9.1:cc	_
@@ -23103,7 +23103,7 @@
 
 # text = Periaatteessa mitä vain voi muokata, miten tahansa haluat, poikkeuksena lattiat.
 # sent_id =  w173.39
-1	Periaatteessa	periaate	NOUN	N	Case=Ine|Number=Sing	2	nmod	_	_
+1	Periaatteessa	periaate	NOUN	N	Case=Ine|Number=Sing	5	obl	_	_
 2	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	5	obj	_	_
 3	vain	vain	ADV	Adv	_	2	fixed	_	_
 4	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
@@ -23249,7 +23249,7 @@
 14	simit	sim	NOUN	N	Case=Nom|Number=Plur	15	nsubj	_	_
 15	kehittyvät	kehittyä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 16	viisaasti	viisaasti	ADV	Adv	Derivation=Sti	15	advmod	_	_
-17	omin	oma	ADJ	A	Case=Ins|Degree=Pos|Number=Plur	15	advmod	_	_
+17	omin	omin	ADV	Adv	_	15	advmod	_	_
 18	päin	päin	ADV	Adv	_	17	fixed	_	SpaceAfter=No
 19	;	;	PUNCT	Punct	_	15	punct	_	_
 20	ikääntyvät	ikääntyä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	SpaceAfter=No
@@ -23875,7 +23875,7 @@
 1	Alexanderin	Alexander	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	saaristo	saaristo	NOUN	N	Case=Nom|Number=Sing	9	nsubj:cop	1:flat:name	_
 3	(	(	PUNCT	Punct	_	5	punct	_	SpaceAfter=No
-4	engl.	englanti	NOUN	N	Case=Tra|Number=Sing	5	nmod	_	_
+4	engl.	engl.	NOUN	N	Abbr=Yes|Case=Tra|Number=Sing	5	nmod	_	_
 5	Alexander	Alexander	PROPN	N	Case=Nom|Number=Sing	2	appos	_	_
 6	Archipelago	Archipelago	PROPN	N	Case=Nom|Number=Sing	5	flat:name	_	SpaceAfter=No
 7	)	)	PUNCT	Punct	_	5	punct	_	_
