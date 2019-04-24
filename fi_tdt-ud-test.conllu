@@ -904,7 +904,7 @@
 15	kun	kun	SCONJ	C	_	16	mark	20:mark	_
 16	tunnetaan	tuntea	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	_
 17	vähän	vähän	ADV	Adv	_	18	advmod	_	_
-18	paremmin	paremmin	ADV	Adv	_	16	advmod	_	_
+18	paremmin	hyvin	ADV	Adv	Degree=Cmp	16	advmod	_	_
 19	ja	ja	CCONJ	C	_	20	cc	_	_
 20	rakastetaan	rakastaa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	conj	12:advcl	_
 21	oikein	oikein	ADV	Adv	_	22	advmod	_	_
@@ -1124,7 +1124,7 @@
 1	”	”	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
 2	Voisiko	voida	VERB	V	Clitic=Ko|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 3	vaimosi	vaimo	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
-4	paremmin	paremmin	ADV	Adv	_	2	advmod	_	_
+4	paremmin	hyvin	ADV	Adv	Degree=Cmp	2	advmod	_	_
 5	jos	jos	SCONJ	C	_	6	mark	10:mark	_
 6	pyytäisit	pyytää	VERB	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	advcl	_	_
 7	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	det	_	_
@@ -1144,7 +1144,7 @@
 # sent_id =  b401.38
 1	Voisitko	voida	VERB	V	Clitic=Ko|Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	itse	itse	ADV	Adv	_	1	advmod	_	_
-3	paremmin	paremmin	ADV	Adv	_	1	advmod	_	SpaceAfter=No
+3	paremmin	hyvin	ADV	Adv	Degree=Cmp	1	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	7	punct	_	_
 5	jos	jos	SCONJ	C	_	7	mark	_	_
 6	seksielämäsi	seksi#elämä	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	nsubj	_	_
@@ -1417,7 +1417,7 @@
 6	saavat	saada	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	sinut	sinä	PRON	Pron	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	voimaan	voida	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp:ds	_	_
-9	paremmin	paremmin	ADV	Adv	_	8	advmod	_	SpaceAfter=No
+9	paremmin	hyvin	ADV	Adv	Degree=Cmp	8	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	Punct	_	13	punct	_	_
 11	miksi	miksi	ADV	Adv	_	13	advmod	_	_
 12	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	cop	_	_
@@ -1499,7 +1499,7 @@
 5	häntä	hän	PRON	Pron	Case=Par|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 6	enemmän	enemmän	ADV	Adv	_	4	advmod	_	_
 7	ja	ja	CCONJ	C	_	8	cc	_	_
-8	paremmin	paremmin	ADV	Adv	_	6	conj	4:advmod	SpaceAfter=No
+8	paremmin	hyvin	ADV	Adv	Degree=Cmp	6	conj	4:advmod	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	12	punct	_	_
 10	miten	miten	ADV	Adv	_	12	advmod	_	_
 11	voisit	voida	AUX	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -2570,7 +2570,7 @@
 15	tai	tai	CCONJ	C	_	18	cc	_	_
 16	joskus	joskus	ADV	Adv	_	18	advmod	_	_
 17	jopa	jopa	ADV	Adv	_	18	advmod	_	_
-18	ranskalaisilla	ranska#lainen	NOUN	N	Case=Ade|Derivation=Lainen|Number=Plur	13	conj	8:obl	_
+18	ranskalaisilla	ranskalainen	NOUN	N	Case=Ade|Derivation=Lainen|Number=Plur	13	conj	8:obl	_
 19	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # text = Vaan onhan sitä edes kerran kokeiltava....
@@ -2785,7 +2785,7 @@
 14	viallisia	viallinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Plur	15	amod	_	_
 15	tuotteita	tuote	NOUN	N	Case=Par|Number=Plur	12	obj	_	_
 16	pois	pois	ADV	Adv	_	12	advmod	_	_
-17	markkinoilta	markkina	NOUN	N	Case=Abl|Number=Plur	16	nmod	_	_
+17	markkinoilta	markkinat	NOUN	N	Case=Abl|Number=Plur	16	nmod	_	_
 
 # text = Haluaisin aluksi todeta, että molemmissa tapauksissa, joita täällä käsitellään, on kyse tuotteista, joita ei ollut hyväksytty EU:n lainsäädännön mukaisesti EU:n markkinoille.
 # sent_id =  e1008.5
@@ -2813,7 +2813,7 @@
 22	lainsäädännön	lain#säädäntö	NOUN	N	Case=Gen|Number=Sing	23	nmod:poss	_	_
 23	mukaisesti	mukaisesti	ADV	Adv	Derivation=Sti	20	advmod	_	_
 24	EU:n	EU	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	25	nmod:poss	_	_
-25	markkinoille	markkina	NOUN	N	Case=All|Number=Plur	20	obl	_	SpaceAfter=No
+25	markkinoille	markkinat	NOUN	N	Case=All|Number=Plur	20	obl	_	SpaceAfter=No
 26	.	.	PUNCT	Punct	_	1	punct	_	_
 
 # text = Lelut, jotka sisältävät lyijypitoista maalia on luonnollisesti kielletty Euroopassa - toisin kuin Yhdysvalloissa - jo kauan sitten.
@@ -3195,7 +3195,7 @@
 10	tapauksessa	tapaus	NOUN	N	Case=Ine|Number=Sing	3	obl	_	_
 11	-	-	PUNCT	Punct	_	3	punct	_	_
 12	siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	15	obl	_	_
-13	kiinalainen	kiina#lainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	14	amod	_	_
+13	kiinalainen	kiinalainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	14	amod	_	_
 14	alihankkija	ali#hankkija	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	15	nsubj	_	_
 15	toimitti	toimittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 16	maalia	maali	NOUN	N	Case=Par|Number=Sing	15	obj	_	SpaceAfter=No
@@ -3319,7 +3319,7 @@
 2	selvää	selvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Punct	_	7	punct	_	_
 4	että	että	SCONJ	C	_	7	mark	_	_
-5	lelumarkkinat	lelu#markkina	NOUN	N	Case=Nom|Number=Plur	7	nsubj	_	_
+5	lelumarkkinat	lelu#markkinat	NOUN	N	Case=Nom|Number=Plur	7	nsubj	_	_
 6	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	muuttuneet	muuttua	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	2	csubj:cop	_	_
 8	dramaattisesti	dramaattisesti	ADV	Adv	Derivation=Sti	7	advmod	_	_
@@ -3388,7 +3388,7 @@
 17	suojellaan	suojella	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	conj	11:acl:relcl	_
 18	CE-merkintä	CE#merkintä	NOUN	N	Case=Nom|Number=Sing	17	obj	_	_
 19	entistä	entinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	20	advcl	_	_
-20	paremmin	paremmin	ADV	Adv	_	17	advmod	_	SpaceAfter=No
+20	paremmin	hyvin	ADV	Adv	Degree=Cmp	17	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # text = Haluaisin todeta jotain CE-merkinnästä: CE-merkintä osoittaa, että valmistaja - olipa se eurooppalainen tai Euroopan ulkopuolinen, joka haluaa myydä Euroopassa - takaa täysin sen, että sen tuote vastaa täysin EU:ssa voimassa olevia määräyksiä.
@@ -3556,7 +3556,7 @@
 9	arvioi	arvioida	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 10	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	14	det	_	_
 11	ainoan	ainoa	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	10	fixed	_	_
-12	markkinoille	markkina	NOUN	N	Case=All|Number=Plur	13	obl	_	_
+12	markkinoille	markkinat	NOUN	N	Case=All|Number=Plur	13	obl	_	_
 13	tulevan	tulla	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
 14	lelun	lelu	NOUN	N	Case=Gen|Number=Sing	9	obj	_	_
 15	vai	vai	CCONJ	C	_	16	cc	_	_
@@ -3638,7 +3638,7 @@
 1	Annan	antaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	teille	sinä	PRON	Pron	Case=All|Number=Plur|Person=2|PronType=Prs	1	obl	_	_
 3	yhden	yksi	NUM	Num	Case=Gen|Number=Sing|NumType=Card	4	nummod	_	_
-4	esimerkin	esi#merkki	NOUN	N	Case=Gen|Number=Sing	1	obj	_	SpaceAfter=No
+4	esimerkin	esimerkki	NOUN	N	Case=Gen|Number=Sing	1	obj	_	SpaceAfter=No
 5	:	:	PUNCT	Punct	_	4	punct	_	_
 6	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	7	obj	_	_
 7	tehdään	tehdä	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	parataxis	_	_
@@ -3790,7 +3790,7 @@
 8	sitä	sitä	CCONJ	C	_	9	cc	_	_
 9	suurempi	suuri	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	6	conj	_	_
 10	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
-11	markkinoilla	markkina	NOUN	N	Case=Ade|Number=Plur	12	obl	_	_
+11	markkinoilla	markkinat	NOUN	N	Case=Ade|Number=Plur	12	obl	_	_
 12	toimivien	toimia	VERB	V	Case=Gen|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	13	acl	_	_
 13	yritysten	yritys	NOUN	N	Case=Gen|Number=Plur	14	nmod:poss	_	_
 14	vastuu	vastuu	NOUN	N	Case=Nom|Number=Sing	9	nsubj:cop	_	SpaceAfter=No
@@ -10837,7 +10837,7 @@
 # sent_id =  h1039.23
 1	Ottakaamme	ottaa	VERB	V	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 2	muutamia	muutama	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	3	det	_	_
-3	esimerkkejä	esi#merkki	NOUN	N	Case=Par|Number=Plur	1	obj	_	_
+3	esimerkkejä	esimerkki	NOUN	N	Case=Par|Number=Plur	1	obj	_	_
 4	läpimurtokeksintöjen	läpi#murto#keksintö	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	_
 5	pohjalta	pohja	NOUN	N	Case=Abl|Number=Sing	6	obl	_	_
 6	syntyneistä	syntyä	VERB	V	Case=Ela|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	8	acl	_	_
@@ -11166,7 +11166,7 @@
 7	että	että	SCONJ	C	_	10	mark	_	_
 8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	_
 9	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
-10	totta	tosi	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	ccomp	_	SpaceAfter=No
+10	totta	totta	ADV	Adv	_	5	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # text = Odotin häntä kesään.
@@ -11686,7 +11686,7 @@
 1	Mies	mies	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 2	palautti	palauttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	työkalut	työ#kalu	NOUN	N	Case=Nom|Number=Plur	2	obj	_	_
-4	työnantajalleen	työnantaja	NOUN	N	Case=All|Derivation=Ja|Number=Sing|Person[psor]=3	2	obl	_	SpaceAfter=No
+4	työnantajalleen	työn#antaja	NOUN	N	Case=All|Derivation=Ja|Number=Sing|Person[psor]=3	2	obl	_	SpaceAfter=No
 5	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # text = - Löydettäessä hän oli ollut surmattuna useita tunteja, hän tyytyy toteamaan.
@@ -12084,7 +12084,7 @@
 3	(	(	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
 4	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=No
 5	)	)	PUNCT	Punct	_	4	punct	_	_
-6	N:o	numero	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	_
+6	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	_
 7	1/2005	1/2005	NUM	Num	NumType=Card	6	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	Punct	_	9	punct	_	_
 9	tehty	tehdä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
@@ -12111,7 +12111,7 @@
 30	(	(	PUNCT	Punct	_	31	punct	_	SpaceAfter=No
 31	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	SpaceAfter=No
 32	)	)	PUNCT	Punct	_	31	punct	_	_
-33	N:o	numero	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	_
+33	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	_
 34	1255/97	1255/97	NUM	Num	NumType=Card	33	nummod	_	_
 35	muuttamisesta	muuttaminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	16	conj	2:nmod	_
 
@@ -12907,7 +12907,7 @@
 23	(	(	PUNCT	Punct	_	24	punct	_	SpaceAfter=No
 24	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	22	nmod	_	SpaceAfter=No
 25	)	)	PUNCT	Punct	_	24	punct	_	_
-26	N:o	numero	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	22	nmod	_	_
+26	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	22	nmod	_	_
 27	1255/97	1255/97	NUM	Num	NumType=Card	26	nummod	_	_
 28	säännöksiä	säännös	NOUN	N	Case=Par|Number=Plur	4	obj	_	SpaceAfter=No
 29	.	.	PUNCT	Punct	_	2	punct	_	_
@@ -13095,7 +13095,7 @@
 4	,	,	PUNCT	Punct	_	10	punct	_	_
 5	että	että	SCONJ	C	_	10	mark	19:mark	_
 6	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	7	nmod:poss	9:nmod:poss	_
-7	työntekijät	työntekijä	NOUN	N	Case=Nom|Derivation=Ja|Number=Plur	10	nsubj	19:nsubj	_
+7	työntekijät	työn#tekijä	NOUN	N	Case=Nom|Derivation=Ja|Number=Plur	10	nsubj	19:nsubj	_
 8	ja	ja	CCONJ	C	_	9	cc	_	_
 9	vierailijat	vierailija	NOUN	N	Case=Nom|Derivation=Ja|Number=Plur	7	conj	10:nsubj|19:nsubj	_
 10	tuntevat	tuntea	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
@@ -13167,7 +13167,7 @@
 14	(	(	PUNCT	Punct	_	15	punct	_	SpaceAfter=No
 15	ETY	ETY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	13	nmod	_	SpaceAfter=No
 16	)	)	PUNCT	Punct	_	15	punct	_	_
-17	N:o	numero	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	13	nmod	_	_
+17	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	13	nmod	_	_
 18	3820/85	3820/85	NUM	Num	NumType=Card	17	nummod	_	_
 19	säädetään	säätää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 20	kuljettajien	kuljettaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Plur	21	nmod:poss	_	_
@@ -13204,7 +13204,7 @@
 10	(	(	PUNCT	Punct	_	11	punct	_	SpaceAfter=No
 11	ETY	ETY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	9	nmod	_	SpaceAfter=No
 12	)	)	PUNCT	Punct	_	11	punct	_	_
-13	N:o	numero	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	9	nmod	_	_
+13	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	9	nmod	_	_
 14	3821/85	3821/85	NUM	Num	NumType=Card	13	nummod	_	_
 15	säädetään	säätää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	20	punct	_	_
@@ -13378,7 +13378,7 @@
 12	joko	joko	CCONJ	C	_	13	cc:preconj	_	_
 13	suoraan	suoraan	ADV	Adv	_	11	advmod	_	_
 14	tai	tai	CCONJ	C	_	15	cc	_	_
-15	markkinoiden	markkina	NOUN	N	Case=Gen|Number=Plur	13	conj	11:obl	_
+15	markkinoiden	markkinat	NOUN	N	Case=Gen|Number=Plur	13	conj	11:obl	_
 16	tai	tai	CCONJ	C	_	17	cc	_	_
 17	keräilykeskuksen	keräily#keskus	NOUN	N	Case=Gen|Number=Sing	15	conj	11:obl	_
 18	kautta	kautta	ADP	Adp	AdpType=Post	15	case	17:case	_
@@ -13743,7 +13743,7 @@
 24	(	(	PUNCT	Punct	_	25	punct	_	SpaceAfter=No
 25	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	SpaceAfter=No
 26	)	)	PUNCT	Punct	_	25	punct	_	_
-27	N:o	numero	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	_
+27	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	_
 28	411/98	411/98	NUM	Num	NumType=Card	27	nummod	_	_
 29	.	.	PUNCT	Punct	_	4	punct	_	_
 
@@ -14117,7 +14117,7 @@
 13	,	,	PUNCT	Punct	_	14	punct	_	_
 14	koontikeskuksia	koonti#keskus	NOUN	N	Case=Par|Number=Plur	12	conj	6:acl:relcl	_
 15	ja	ja	CCONJ	C	_	16	cc	_	_
-16	markkinoita	markkina	NOUN	N	Case=Par|Number=Plur	12	conj	6:acl:relcl	_
+16	markkinoita	markkinat	NOUN	N	Case=Par|Number=Plur	12	conj	6:acl:relcl	_
 17	ja	ja	CCONJ	C	_	34	cc	_	_
 18	joissa	joka	PRON	Pron	Case=Ine|Number=Plur|PronType=Rel	34	obl	_	_
 19	eri	eri	ADJ	A	_	20	amod	_	_
@@ -16127,7 +16127,7 @@
 8	hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	9	amod	_	_
 9	matkakohteita	matka#kohde	NOUN	N	Case=Par|Number=Plur	12	nsubj:cop	14:nsubj:cop|16:nsubj:cop|18:nsubj:cop|20:nsubj:cop|22:nsubj:cop	_
 10	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	14:cop|16:cop|18:cop|20:cop|22:cop	_
-11	mm.	muun#muassa	ADV	Adv	_	12	advmod	14:advmod|16:advmod|18:advmod|20:advmod|22:advmod	_
+11	mm.	mm.	ADV	Adv	Abbr=Yes	12	advmod	14:advmod|16:advmod|18:advmod|20:advmod|22:advmod	_
 12	Australia	Australia	PROPN	N	Case=Nom|Number=Sing	1	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	Punct	_	14	punct	_	_
 14	Malesia	Malesia	PROPN	N	Case=Nom|Number=Sing	12	conj	1:advcl	SpaceAfter=No
@@ -17035,7 +17035,7 @@
 5	muassa	muassa	ADV	Adv	_	4	fixed	_	_
 6	viime	viime	ADJ	A	_	7	amod	_	_
 7	joulukuun	joulukuu	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
-8	presidentinvaalien	presidentin#vaali	NOUN	N	Case=Gen|Number=Plur	9	nmod:poss	_	_
+8	presidentinvaalien	presidentin#vaalit	NOUN	N	Case=Gen|Number=Plur	9	nmod:poss	_	_
 9	aikaan	aika	NOUN	N	Case=Ill|Number=Sing	10	obl	14:obl	_
 10	tukahdutettiin	tukahduttaa	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 11	väkivaltaisesti	väki#valtaisesti	ADV	Adv	Derivation=Sti	10	advmod	_	_
@@ -17175,7 +17175,7 @@
 20	hyvin	hyvin	ADV	Adv	_	14	advmod	_	_
 21	tai	tai	CCONJ	C	_	23	cc	_	_
 22	jopa	jopa	ADV	Adv	_	23	advmod	_	_
-23	paremmin	paremmin	ADV	Adv	_	20	conj	14:advmod	_
+23	paremmin	hyvin	ADV	Adv	Degree=Cmp	20	conj	14:advmod	_
 24	kuin	kuin	SCONJ	C	_	25	orphan	25.1:mark:comparator	_
 25	suomalaiset	suomalainen	NOUN	N	Case=Nom|Derivation=Lainen|Number=Plur	14	conj	25.1:nsubj	_
 25.1	työllistyvät	työllistyä	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	14:conj	_
@@ -18948,7 +18948,7 @@
 14	sovellusmahdollisuudet	sovellus#mahdollisuus	NOUN	N	Case=Nom|Derivation=Llinen,Vs|Number=Plur	12	obj	_	_
 15	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	16	nmod:gobj	_	_
 16	käyttöön	käyttö	NOUN	N	Case=Ill|Number=Sing	14	nmod	_	_
-17	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	18	dep	_	_
+17	mitä	mitä	ADV	Adv	_	18	advmod	_	_
 18	erilaisimmissa	erilainen	ADJ	A	Case=Ine|Degree=Sup|Derivation=Lainen|Number=Plur	19	amod	_	_
 19	hoitosovelluksissa	hoito#sovellus	NOUN	N	Case=Ine|Number=Plur	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	Punct	_	3	punct	_	_
@@ -20389,7 +20389,7 @@
 4	muassa	muassa	ADV	Adv	_	3	fixed	_	_
 5	jalkapalloa	jalka#pallo	NOUN	N	Case=Par|Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	9	punct	_	_
-7	esim.	esimerkiksi	ADV	Adv	Abbr=Yes	9	advmod	_	_
+7	esim.	esim.	ADV	Adv	Abbr=Yes	9	advmod	_	_
 8	Liigacupin	liiga#cup	PROPN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
 9	finaalin	finaali	NOUN	N	Case=Gen|Number=Sing	5	appos	_	_
 10	keväisin	keväisin	ADV	Adv	_	9	advmod	_	SpaceAfter=No
@@ -20822,7 +20822,7 @@
 1	Myriam	Myriam	PROPN	N	Case=Nom|Number=Sing	17	nsubj:cop	20:nsubj:cop	_
 2	Bédard	Bédard	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
-4	s.	syntyä	VERB	V	Abbr=Yes|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
+4	s.	s.	VERB	V	Abbr=Yes|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
 5	22.	22.	ADJ	Num	NumType=Ord	4	obl	_	_
 6	joulukuuta	joulukuu	NOUN	N	Case=Par|Number=Sing	5	flat	_	_
 7	1969	1969	NUM	Num	NumType=Card	5	flat	_	_
@@ -20965,7 +20965,7 @@
 9	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	syytti	syyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 11	entistä	entinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	12	amod	_	_
-12	työnantajaansa	työ#antaja	NOUN	N	Case=Ill|Derivation=Ja|Number=Sing|Person[psor]=3	10	obj	_	_
+12	työnantajaansa	työn#antaja	NOUN	N	Case=Ill|Derivation=Ja|Number=Sing|Person[psor]=3	10	obj	_	_
 13	VIA	VIA	PROPN	N	Case=Nom|Number=Sing	12	appos	_	_
 14	Railia	Rail	PROPN	N	Case=Par|Number=Sing	13	flat:name	_	_
 15	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
@@ -20988,7 +20988,7 @@
 5	Татьяна	Татьяна	PROPN	N	Case=Nom|Number=Sing	1	appos	_	_
 6	Левина	Левина	PROPN	N	Case=Nom|Number=Sing	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	5	punct	_	_
-8	s.	syntyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
+8	s.	s.	VERB	V	Abbr=Yes|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
 9	28.	28.	ADJ	Num	NumType=Ord	8	obl	_	_
 10	helmikuuta	helmikuu	NOUN	N	Case=Par|Number=Sing	9	flat	_	_
 11	1977	1977	NUM	Num	NumType=Card	9	flat	_	SpaceAfter=No
@@ -21127,7 +21127,7 @@
 1	Nikolaj	Nikolaj	PROPN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	_
 2	Znaider	Znaider	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	_
 3	(	(	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
-4	s.	syntynyt	VERB	V	Abbr=Yes|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
+4	s.	s.	VERB	V	Abbr=Yes|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
 5	5.	5.	ADJ	Num	NumType=Ord	4	obl	_	_
 6	heinäkuuta	heinäkuu	NOUN	N	Case=Par|Number=Sing	5	flat	_	_
 7	1975	1975	NUM	Num	NumType=Card	5	flat	_	SpaceAfter=No
@@ -21241,7 +21241,7 @@
 2	tarinakin	tarina	NOUN	N	Case=Nom|Clitic=Kin|Number=Sing	3	nsubj	_	_
 3	sijoittuu	sijoittua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	nukkejen	nukke	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	_
-5	maailmaan	maa#ilma	NOUN	N	Case=Ill|Number=Sing	3	obl	_	SpaceAfter=No
+5	maailmaan	maailma	NOUN	N	Case=Ill|Number=Sing	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # text = King Diamond sai idean levylle keikkaillessaan Mercyful Faten kanssa Euroopassa.
@@ -22077,7 +22077,7 @@
 9	1621	1621	NUM	Num	NumType=Card	5	flat	_	SpaceAfter=No
 10	)	)	PUNCT	Punct	_	5	punct	_	_
 11	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	15:cop|17:cop	_
-12	alankomaalainen	alankomaa#lainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	13	amod	15:amod|17:amod	_
+12	alankomaalainen	alankomaalainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	13	amod	15:amod|17:amod	_
 13	säveltäjä	säveltäjä	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	urkuri	urkuri	NOUN	N	Case=Nom|Number=Sing	13	conj	_	_
@@ -22636,7 +22636,7 @@
 3	osaavat	osata	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	huolehtia	huolehtia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp	_	_
 5	itsestään	itse	PRON	Pron	Case=Ela|Number=Sing|Person[psor]=3|Reflex=Yes	4	obl	_	_
-6	paremmin	paremmin	ADV	Adv	_	4	advmod	_	SpaceAfter=No
+6	paremmin	hyvin	ADV	Adv	Degree=Cmp	4	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	12	punct	_	_
 8	vaikka	vaikka	SCONJ	C	_	12	mark	_	_
 9	vapaan	vapaa	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	10	amod	_	_
@@ -22766,7 +22766,7 @@
 11	valtavasta	valtava	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	12	amod	_	_
 12	valikoimasta	valikoima	NOUN	N	Case=Ela|Number=Sing	10	obl	_	_
 13	(	(	PUNCT	Punct	_	15	punct	_	SpaceAfter=No
-14	mm.	mm.	ADV	Adv	_	15	advmod	18:advmod|20:advmod|23:advmod|25:advmod	_
+14	mm.	mm.	ADV	Adv	Abbr=Yes	15	advmod	18:advmod|20:advmod|23:advmod|25:advmod	_
 15	epäonnekas	epä#onnekas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	appos	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	18	punct	_	_
 17	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	18	amod	_	_
@@ -22777,8 +22777,8 @@
 22	synnynnäinen	synnynnäinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	23	amod	_	_
 23	kokki	kokki	NOUN	N	Case=Nom|Number=Sing	15	conj	12:appos	SpaceAfter=No
 24	,	,	PUNCT	Punct	_	25	punct	_	_
-25	vedenpelkoinen	vesi#pelkoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	15	conj	12:appos	_
-26	jne	jne	ADV	Adv	Abbr=Yes	15	advmod	_	SpaceAfter=No
+25	vedenpelkoinen	veden#pelkoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	15	conj	12:appos	_
+26	jne	jne.	ADV	Adv	Abbr=Yes	15	advmod	_	SpaceAfter=No
 27	...	...	PUNCT	Punct	_	15	punct	_	SpaceAfter=No
 28	)	)	PUNCT	Punct	_	15	punct	_	_
 
@@ -23634,7 +23634,7 @@
 5	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	4	acl:relcl	_	_
 6	ympärillä	ympärillä	ADP	Adp	AdpType=Post	5	case	_	_
 7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-8	mm.	mm	ADV	Adv	_	9	advmod	11:advmod|13:advmod|15:advmod	_
+8	mm.	mm.	ADV	Adv	Abbr=Yes	9	advmod	11:advmod|13:advmod|15:advmod	_
 9	hätäkeskus	hätä#keskus	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	SpaceAfter=No
 10	,	,	PUNCT	Punct	_	11	punct	_	_
 11	elokuvateatteri	elo#kuva#teatteri	NOUN	N	Case=Nom|Number=Sing	9	conj	5:nsubj:cop	SpaceAfter=No
@@ -23891,7 +23891,7 @@
 2	kanavat	kanava	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	_
 3	erottavat	erottaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	saaret	saari	NOUN	N	Case=Nom|Number=Plur	3	obj	_	_
-5	mantereesta	mantere	NOUN	N	Case=Ela|Number=Sing	3	obl	_	SpaceAfter=No
+5	mantereesta	manner	NOUN	N	Case=Ela|Number=Sing	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # text = Suurimmat saaret ovat Chichagof Island, Admiralty Island, Baranof Island, Wrangell Island, Revillagigedo Island, Kupreanof Island ja Prince of Wales Island.
@@ -23990,7 +23990,7 @@
 5	,	,	PUNCT	Punct	_	6	punct	_	_
 6	Juneau	Juneau	PROPN	N	Case=Nom|Number=Sing	4	appos	_	_
 7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
-8	mantereella	mantere	NOUN	N	Case=Ade|Number=Sing	0	root	_	_
+8	mantereella	manner	NOUN	N	Case=Ade|Number=Sing	0	root	_	_
 9	eikä	ei	VERB	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	cc	_	_
 10	kuulu	kuulua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
 11	saaristoon	saaristo	NOUN	N	Case=Ill|Number=Sing	10	obl	_	SpaceAfter=No
@@ -24047,7 +24047,7 @@
 3	Chung	Chung	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	_
 4	Ting	Ting	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	_
 5	(	(	PUNCT	Punct	_	6	punct	_	SpaceAfter=No
-6	s.	syntyä	VERB	V	Abbr=Yes|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
+6	s.	s.	VERB	V	Abbr=Yes|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	acl	_	_
 7	27.	27.	ADJ	Num	NumType=Ord	6	obl	_	_
 8	tammikuuta	tammikuu	NOUN	N	Case=Par|Number=Sing	7	flat	_	_
 9	1936	1936	NUM	Num	NumType=Card	7	flat	_	SpaceAfter=No
@@ -25139,8 +25139,8 @@
 # sent_id =  wn051.2
 1	Supertiistaina	super#tiistai	NOUN	N	Case=Ess|Number=Sing	5	obl	_	_
 2	Yhdysvaltojen	Yhdysvallat	PROPN	N	Case=Gen|Number=Plur	3	nmod:poss	_	_
-3	presidentinvaalien	presidentin#vaali	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	_
-4	esivaaleissa	esi#vaali	NOUN	N	Case=Ine|Number=Plur	5	obl	_	_
+3	presidentinvaalien	presidentin#vaalit	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	_
+4	esivaaleissa	esi#vaalit	NOUN	N	Case=Ine|Number=Plur	5	obl	_	_
 5	äänestettiin	äänestää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	24	24	NUM	Num	NumType=Card	7	nummod	_	_
 7	osavaltioissa	osa#valtio	NOUN	N	Case=Ine|Number=Sing|Typo=Yes	5	obl	_	SpaceAfter=No
@@ -25150,7 +25150,7 @@
 # sent_id =  wn051.3
 1	Näihin	tämä	PRON	Pron	Case=Ill|Number=Plur|PronType=Dem	2	obl	_	_
 2	kuuluivat	kuulua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	esivaalien	esi#vaali	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	_
+3	esivaalien	esi#vaalit	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	_
 4	lopputuloksen	loppu#tulos	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	kannalta	kanta	NOUN	N	Case=Abl|Number=Sing	6	nmod	_	_
 6	merkittävät	merkittävä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
@@ -25173,7 +25173,7 @@
 # text = Demokraattien esivaalien tämän hetkisten tulosten mukaan Hillary Clinton on voittamassa Kaliforniassa, New Yorkissa ja New Jerseyssä, joka antaa hänelle esivaalien johtoaseman vaikka Barack Obama voittaakin hänet useammassa eri osavaltiossa.
 # sent_id =  wn051.4
 1	Demokraattien	demokraatti	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	_
-2	esivaalien	esi#vaali	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	_
+2	esivaalien	esi#vaalit	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	_
 3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	det	_	_
 4	hetkisten	hetkinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Plur	5	amod	_	_
 5	tulosten	tulos	NOUN	N	Case=Gen|Number=Plur	10	obl	_	_
@@ -25193,7 +25193,7 @@
 19	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	20	nsubj	_	_
 20	antaa	antaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 21	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
-22	esivaalien	esi#vaali	NOUN	N	Case=Gen|Number=Plur	23	nmod:poss	_	_
+22	esivaalien	esi#vaalit	NOUN	N	Case=Gen|Number=Plur	23	nmod:poss	_	_
 23	johtoaseman	johto#asema	NOUN	N	Case=Gen|Number=Sing	20	obj	_	_
 24	vaikka	vaikka	SCONJ	C	_	27	mark	_	_
 25	Barack	Barack	PROPN	N	Case=Nom|Number=Sing	27	nsubj	_	_
@@ -25260,7 +25260,7 @@
 6	sunnuntaina	sunnuntai	NOUN	N	Case=Ess|Number=Sing	4	obl	_	_
 7	heitettyään	heittää	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Past|Person[psor]=3|VerbForm=Part|Voice=Pass	4	advcl	_	_
 8	kenkänsä	kenkä	NOUN	N	Case=Nom|Number=Sing|Person[psor]=3	7	obj	_	_
-9	Yhdysvaltain	Yhdysvalta	PROPN	N	Case=Gen|Number=Plur	10	nmod:poss	_	_
+9	Yhdysvaltain	Yhdysvallat	PROPN	N	Case=Gen|Number=Plur	10	nmod:poss	_	_
 10	presidentti	presidentti	NOUN	N	Case=Nom|Number=Sing	11	compound:nn	_	_
 11	George	George	PROPN	N	Case=Nom|Number=Sing	7	obl	_	_
 12	W.	W.	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	11	flat:name	_	_
