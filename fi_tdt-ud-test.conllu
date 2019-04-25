@@ -4384,7 +4384,7 @@
 18	todellakin	todella	ADV	Adv	Clitic=Kin	19	advmod	_	_
 19	tuttu	tuttu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	Punct	_	24	punct	_	_
-21	enkä	ei	VERB	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	24	cc	_	_
+21	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	24	aux	_	_
 22	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	_
 23	koskaan	koskaan	ADV	Adv	_	24	advmod	_	_
 24	sanonut	sanoa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	19	conj	7:advcl	_
@@ -7283,7 +7283,7 @@
 4	koskaan	koskaan	ADV	Adv	_	5	advmod	7.1:advmod	_
 5	puhu	puhua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	8	punct	7.1:punct	_
-7	enkä	ei	VERB	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	8	cc	7.1:cc	_
+7	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	7.1:cc	_
 7.1	puhu	puhua	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	_	_	5:conj	_
 8	mäkään	minä	PRON	Pron	Case=Nom|Clitic=Kaan|Number=Sing|PronType=Prs|Style=Coll	5	conj	7.1:nsubj	SpaceAfter=No
 9	.	.	PUNCT	Punct	_	5	punct	_	_
@@ -8405,7 +8405,7 @@
 21	jengi	jengi	NOUN	N	Case=Nom|Number=Sing	23	nsubj	_	_
 22	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	23	obj	27:obj	_
 23	tiedä	tietää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
-24	enkä	ei	VERB	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	27	cc	_	_
+24	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	27	aux	_	_
 25	mä	minä	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	27	nsubj	_	_
 26	aio	aikoa	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
 27	kertoo	kertoa	VERB	V	InfForm=1|Number=Sing|Style=Coll|VerbForm=Inf|Voice=Act	23	conj	4:advcl	SpaceAfter=No
@@ -17809,7 +17809,7 @@
 3	salaisuuksia	salaisuus	NOUN	N	Case=Par|Derivation=Inen,Vs|Number=Plur	2	obj	_	_
 4	eteenpäin	eteenpäin	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Punct	_	7	punct	_	_
-6	äläkä	ei	VERB	V	Clitic=Ka|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	7	cc	_	_
+6	äläkä	ei	AUX	V	Clitic=Ka|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	osallistu	osallistua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
 8	juoruiluun	juoruilu	NOUN	N	Case=Ill|Derivation=U|Number=Sing	7	obl	_	SpaceAfter=No
 9	.	.	PUNCT	Punct	_	2	punct	_	_
