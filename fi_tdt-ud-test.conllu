@@ -1230,7 +1230,7 @@
 8	suhteen	suhde	NOUN	N	Case=Gen|Number=Sing	7	obj	_	_
 9	tai	tai	CCONJ	C	_	10	cc	_	_
 10	avioliiton	avio#liitto	NOUN	N	Case=Gen|Number=Sing	8	conj	7:obj	SpaceAfter=No
-11	,	,	PUNCT	Punct	_	21	punct	_	_
+11	,	,	PUNCT	Punct	_	13	punct	11.1:punct	_
 11.1	tehdä	tehdä	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	_	_	7:conj	_
 12	esimerkiksi	esimerkiksi	ADV	Adv	_	13	advmod	_	_
 13	avioehdon	avio#ehto	NOUN	N	Case=Gen|Number=Sing	7	conj	11.1:obj	_
