@@ -1917,7 +1917,7 @@
 3	ala	alkaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	kuin	kuin	ADV	Adv	_	6	advmod	_	_
 5	kolme	kolme	NUM	Num	Case=Nom|Number=Sing|NumType=Card	6	nummod	_	_
-6	kuukautta	kuu#kausi	NOUN	N	Case=Par|Number=Sing	3	nsubj	8:nsubj:cop	_
+6	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	3	nsubj	8:nsubj:cop	_
 7	ekasta	eka	ADJ	A	Case=Ela|Degree=Pos|Number=Sing|Style=Coll	8	amod	_	_
 8	matkasta	matka	NOUN	N	Case=Ela|Number=Sing	3	xcomp	_	_
 9	olemaan	olla	AUX	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	8	cop	_	SpaceAfter=No
@@ -2295,8 +2295,8 @@
 5	laskun	lasku	NOUN	N	Case=Gen|Derivation=U|Number=Sing	3	obj	_	_
 6	vain	vain	ADV	Adv	_	7	advmod	_	_
 7	44	44	NUM	Num	NumType=Card	8	nummod	_	_
-8	%:	prosentti	NOUN	N	Case=Ade|Number=Sing	3	obl	_	_
-9	lla	lla	NOUN	N	Case=Ade|Number=Sing	8	goeswith	_	SpaceAfter=No
+8	%:	%	SYM	Punct	_	3	obl	_	_
+9	lla	lla	NOUN	N	Case=Ade|Number=Sing|Typo=Yes	8	goeswith	_	SpaceAfter=No
 10	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = e1039.9
@@ -2308,8 +2308,8 @@
 5	nostamalla	nostaa	VERB	V	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	_
 6	tulonlisät	tulo#lisä	NOUN	N	Case=Nom|Number=Plur	5	obj	_	_
 7	75	75	NUM	Num	NumType=Card	8	nummod	_	_
-8	%:	prosentti	NOUN	N	Case=Ill|Number=Sing	5	obl	_	_
-9	iin	iin	NOUN	N	Case=Ill|Number=Sing	8	goeswith	_	_
+8	%:	%	SYM	Punct	_	5	obl	_	_
+9	iin	iin	NOUN	N	Case=Ill|Number=Sing|Typo=Yes	8	goeswith	_	_
 10	hintojen	hinta	NOUN	N	Case=Gen|Number=Plur	11	nmod:poss	_	_
 11	laskusta	lasku	NOUN	N	Case=Ela|Derivation=U|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	Punct	_	2	punct	_	_
@@ -2383,7 +2383,7 @@
 # text = Viimeksi EU: n jäseniksi liittyneet valtiot saivat miltei 170 000 tonnin kiintiön.
 1	Viimeksi	viimeksi	ADV	Adv	_	5	advmod	_	_
 2	EU:	EU	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	4	nmod:poss	_	_
-3	n	n	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	2	goeswith	_	_
+3	n	n	NOUN	N	Case=Gen|Number=Sing|Typo=Yes	2	goeswith	_	_
 4	jäseniksi	jäsen	NOUN	N	Case=Tra|Number=Plur	5	xcomp	_	_
 5	liittyneet	liittyä	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	6	acl	_	_
 6	valtiot	valtio	NOUN	N	Case=Nom|Number=Plur	7	nsubj	_	_
@@ -2808,8 +2808,8 @@
 5	käytetäänkö	käyttää	VERB	V	Clitic=Ko|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 6	oikeudellisena	oikeudellinen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Llinen|Number=Sing	7	amod	_	_
 7	perustana	perusta	NOUN	N	Case=Ess|Number=Sing	5	obl	_	_
-8	EY:	EY	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	10	nmod:poss	_	_
-9	n	n	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	8	goeswith	_	_
+8	EY:	EY	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	10	nmod:poss	_	_
+9	n	n	NOUN	N	Case=Gen|Number=Sing|Typo=Yes	8	goeswith	_	_
 10	perustamissopimuksen	perustamis#sopimus	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	19:nmod:poss	_
 11	43	43	NUM	Num	NumType=Card	12	nummod	_	_
 12	artiklaa	artikla	NOUN	N	Case=Par|Number=Sing	5	obj	_	_
@@ -2821,8 +2821,8 @@
 18	a	a	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	19	compound:nn	_	_
 19	artiklaa	artikla	NOUN	N	Case=Par|Number=Sing	12	conj	5:obj	_
 20	(	(	PUNCT	Punct	_	23	punct	_	SpaceAfter=No
-21	EY:	EY	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	23	nmod:poss	_	_
-22	n	n	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	21	goeswith	_	_
+21	EY:	EY	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	23	nmod:poss	_	_
+22	n	n	NOUN	N	Case=Gen|Number=Sing|Typo=Yes	21	goeswith	_	_
 23	sisämarkkinat	sisä#markkinat	NOUN	N	Case=Nom|Number=Plur	19	nmod	_	SpaceAfter=No
 24	)	)	PUNCT	Punct	_	23	punct	_	SpaceAfter=No
 25	.	.	PUNCT	Punct	_	3	punct	_	_
@@ -2842,8 +2842,8 @@
 11	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	3	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	22	punct	_	_
 13	että	että	SCONJ	C	_	22	mark	_	_
-14	EY:	EY	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	16	nmod:poss	_	_
-15	n	n	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	14	goeswith	_	_
+14	EY:	EY	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	16	nmod:poss	_	_
+15	n	n	NOUN	N	Case=Gen|Number=Sing|Typo=Yes	14	goeswith	_	_
 16	perustamissopimuksen	perustamis#sopimus	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	_
 17	43	43	NUM	Num	NumType=Card	18	nummod	_	_
 18	artikla	artikla	NOUN	N	Case=Nom|Number=Sing	22	nsubj:cop	_	_
@@ -2873,8 +2873,8 @@
 16	yhdenmukaistamisesta	yhdenmukaistaminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	Punct	_	29	punct	_	_
 18	vaikka	vaikka	SCONJ	C	_	29	mark	_	_
-19	EY:	EY	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	21	nmod:poss	_	_
-20	n	n	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	19	goeswith	_	_
+19	EY:	EY	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	21	nmod:poss	_	_
+20	n	n	NOUN	N	Case=Gen|Number=Sing|Typo=Yes	19	goeswith	_	_
 21	perustamissopimuksen	perustamis#sopimus	NOUN	N	Case=Gen|Number=Sing	23	nmod:poss	27:nmod:poss	_
 22	100	100	NUM	Num	NumType=Card	23	nummod	_	_
 23	artiklaa	artikla	NOUN	N	Case=Par|Number=Sing	29	obj	_	_
@@ -3892,7 +3892,7 @@
 3	vielä	vielä	ADV	Adv	_	4	advmod	6:advmod|9:advmod	_
 4	viikkoja	viikko	NOUN	N	Case=Par|Number=Plur	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	Punct	_	6	punct	_	_
-6	kuukausia	kuu#kausi	NOUN	N	Case=Par|Number=Plur	4	conj	2:obl	_
+6	kuukausia	kuukausi	NOUN	N	Case=Par|Number=Plur	4	conj	2:obl	_
 7	tai	tai	CCONJ	C	_	9	cc	_	_
 8	jopa	jopa	ADV	Adv	_	9	advmod	_	_
 9	vuosia	vuosi	NOUN	N	Case=Par|Number=Plur	4	conj	2:obl	SpaceAfter=No
@@ -4407,7 +4407,7 @@
 6	kaksi	kaksi	NUM	Num	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
 7	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	9	compound:nn	_	_
 8	neljä	neljä	NUM	Num	Case=Nom|Number=Sing|NumType=Card	9	nummod	_	_
-9	kuukautta	kuu#kausi	NOUN	N	Case=Par|Number=Sing	3	obl	_	SpaceAfter=No
+9	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	3	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Punct	_	13	punct	_	_
 11	kun	kun	SCONJ	C	_	13	mark	_	_
 12	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
@@ -4641,7 +4641,7 @@
 14	vähintään	vähintään	ADV	Adv	_	15	advmod	_	_
 15	5 000	5 000	NUM	Num	NumType=Card	16	nummod	_	_
 16	markkaa	markka	NOUN	N	Case=Par|Number=Sing	13	obj	_	_
-17	kuukaudessa	kuu#kausi	NOUN	N	Case=Ine|Number=Sing	13	obl	_	SpaceAfter=No
+17	kuukaudessa	kuukausi	NOUN	N	Case=Ine|Number=Sing	13	obl	_	SpaceAfter=No
 18	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = h1014.5
@@ -17695,7 +17695,7 @@
 3	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	cop	_	_
 4	yli	yli	ADV	Adv	_	5	advmod	_	_
 5	kuuden	kuusi	NUM	Num	Case=Gen|Number=Sing|NumType=Card	6	nummod	_	_
-6	kuukauden	kuu#kausi	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	_
+6	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	ajan	aika	NOUN	N	Case=Gen|Number=Sing	8	obl	_	_
 8	vapaa	vapaa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	_
 9	astumataudista	astuma#tauti	NOUN	N	Case=Ela|Number=Sing	8	nmod	_	SpaceAfter=No

@@ -1836,12 +1836,12 @@
 3	täällä	täällä	ADV	Adv	_	0	root	_	_
 4	oltu	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	cop	_	_
 5	3,5	3,5	NUM	Num	NumType=Card	6	nummod	_	_
-6	kk	kuu#kausi	NOUN	N	Abbr=Yes|Case=Par|Number=Sing	3	obl	_	_
+6	kk	kk	NOUN	N	Abbr=Yes|Case=Par|Number=Sing	3	obl	_	_
 7	ja	ja	CCONJ	C	_	8	cc	_	_
 8	edessä	edessä	ADV	Adv	_	3	conj	_	_
 9	enää	enää	ADV	Adv	_	8	advmod	_	_
 10	reilu	reilu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	_
-11	kuukausi	kuu#kausi	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	SpaceAfter=No
+11	kuukausi	kuukausi	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	SpaceAfter=No
 12	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # sent_id = b602.7
@@ -4221,7 +4221,7 @@
 2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	kuulu	kuulua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	EU:	EU	PROPN	N	Abbr=Yes|Case=All|Number=Sing	3	obl	_	_
-5	lle	lle	PROPN	N	Abbr=Yes|Case=All|Number=Sing	4	goeswith	_	SpaceAfter=No
+5	lle	lle	NOUN	N	Case=All|Number=Sing|Typo=Yes	4	goeswith	_	SpaceAfter=No
 6	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # sent_id = e1062.2
@@ -5366,7 +5366,7 @@
 4	näyttänyt	näyttää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	jo	jo	ADV	Adv	_	6	advmod	_	_
 6	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	7	det	_	_
-7	kuukautta	kuu#kausi	NOUN	N	Case=Par|Number=Sing	4	obl	_	SpaceAfter=No
+7	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = f401.16
@@ -6985,7 +6985,7 @@
 13	,	,	PUNCT	Punct	_	16	punct	_	_
 14	näinä	tämä	PRON	Pron	Case=Ess|Number=Plur|PronType=Dem	16	det	_	_
 15	vapauden	vapaus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	16	nmod:poss	_	_
-16	kuukausina	kuu#kausi	NOUN	N	Case=Ess|Number=Plur	1	appos	_	_
+16	kuukausina	kuukausi	NOUN	N	Case=Ess|Number=Plur	1	appos	_	_
 17	(	(	PUNCT	Punct	_	19	punct	_	SpaceAfter=No
 18	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
 19	huomioitava	huomioida	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	1	parataxis	_	SpaceAfter=No
@@ -10886,7 +10886,7 @@
 3	Suomea	Suomi	PROPN	N	Case=Par|Number=Sing	2	nmod	_	_
 4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 5	viime	viime	ADJ	A	_	6	amod	_	_
-6	kuukausina	kuu#kausi	NOUN	N	Case=Ess|Number=Plur	7	obl	_	_
+6	kuukausina	kuukausi	NOUN	N	Case=Ess|Number=Plur	7	obl	_	_
 7	tapahtunut	tapahtua	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	useita	usea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	10	amod	_	_
 9	järkyttäviä	järkyttävä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	10	amod	_	_
@@ -12083,7 +12083,7 @@
 1	Neuvoston	neuvosto	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	asetus	asetus	NOUN	N	Case=Nom|Number=Sing	0	root	_	_
 3	(	(	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
-4	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=No
+4	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=No
 5	)	)	PUNCT	Punct	_	4	punct	_	_
 6	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	_
 7	1/2005	1/2005	NUM	Num	NumType=Card	6	nummod	_	SpaceAfter=No
@@ -12110,7 +12110,7 @@
 28	ja	ja	CCONJ	C	_	29	cc	_	_
 29	asetuksen	asetus	NOUN	N	Case=Gen|Number=Sing	24	conj	35:nmod:gobj	_
 30	(	(	PUNCT	Punct	_	31	punct	_	SpaceAfter=No
-31	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	SpaceAfter=No
+31	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	SpaceAfter=No
 32	)	)	PUNCT	Punct	_	31	punct	_	_
 33	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	_
 34	1255/97	1255/97	NUM	Num	NumType=Card	33	nummod	_	_
@@ -12906,7 +12906,7 @@
 21	neuvoston	neuvosto	NOUN	N	Case=Gen|Number=Sing	22	nmod:poss	_	_
 22	asetuksen	asetus	NOUN	N	Case=Gen|Number=Sing	28	nmod:poss	_	_
 23	(	(	PUNCT	Punct	_	24	punct	_	SpaceAfter=No
-24	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	22	nmod	_	SpaceAfter=No
+24	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	22	nmod	_	SpaceAfter=No
 25	)	)	PUNCT	Punct	_	24	punct	_	_
 26	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	22	nmod	_	_
 27	1255/97	1255/97	NUM	Num	NumType=Card	26	nummod	_	_
@@ -13742,7 +13742,7 @@
 22	neuvoston	neuvosto	NOUN	N	Case=Gen|Number=Sing	23	nmod:poss	_	_
 23	asetus	asetus	NOUN	N	Case=Nom|Number=Sing	4	obj	_	_
 24	(	(	PUNCT	Punct	_	25	punct	_	SpaceAfter=No
-25	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	SpaceAfter=No
+25	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	SpaceAfter=No
 26	)	)	PUNCT	Punct	_	25	punct	_	_
 27	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	_
 28	411/98	411/98	NUM	Num	NumType=Card	27	nummod	_	_
@@ -14314,7 +14314,7 @@
 28	neuvoston	neuvosto	NOUN	N	Case=Gen|Number=Sing	29	nmod:poss	_	_
 29	asetuksen	asetus	NOUN	N	Case=Gen|Number=Sing	12	obj	_	_
 30	(	(	PUNCT	Punct	_	31	punct	_	SpaceAfter=No
-31	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	SpaceAfter=No
+31	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	SpaceAfter=No
 32	)	)	PUNCT	Punct	_	31	punct	_	_
 33	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	29	nmod	_	_
 34	384/96	384/96	NUM	Num	NumType=Card	33	nummod	_	_
@@ -14748,7 +14748,7 @@
 1	Komission	komissio	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	asetus	asetus	NOUN	N	Case=Nom|Number=Sing	0	root	_	_
 3	(	(	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
-4	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=No
+4	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=No
 5	)	)	PUNCT	Punct	_	4	punct	_	_
 6	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	2	nmod	_	_
 7	1415/2006	1415/2006	NUM	Num	NumType=Card	6	nummod	_	SpaceAfter=No
@@ -14798,7 +14798,7 @@
 22	neuvoston	neuvosto	NOUN	N	Case=Gen|Number=Sing	23	nmod:poss	_	_
 23	asetuksen	asetus	NOUN	N	Case=Gen|Number=Sing	12	obj	_	_
 24	(	(	PUNCT	Punct	_	25	punct	_	SpaceAfter=No
-25	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	SpaceAfter=No
+25	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	SpaceAfter=No
 26	)	)	PUNCT	Punct	_	25	punct	_	_
 27	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	23	nmod	_	_
 28	1784/2003	1784/2003	NUM	Num	NumType=Card	27	nummod	_	_
@@ -15076,7 +15076,7 @@
 4	kuitenkaan	kuitenkaan	ADV	Adv	_	3	advmod	_	_
 5	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	cop	_	_
 6	kyseisenä	kyseinen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Inen|Number=Sing	7	amod	_	_
-7	kuukautena	kuu#kausi	NOUN	N	Case=Ess|Number=Sing	9	obl	_	_
+7	kuukautena	kuukausi	NOUN	N	Case=Ess|Number=Sing	9	obl	_	_
 8	voimassa	voimassa	ADV	Adv	_	9	compound:prt	_	_
 9	olevaa	olla	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	10	acl	_	_
 10	interventiohintaa	interventio#hinta	NOUN	N	Case=Par|Number=Sing	17	advcl	_	SpaceAfter=No
@@ -15271,7 +15271,7 @@
 # text = Asetuksen (EY) N:o 1784/200325 artiklan 2 kohdassa tarkoitettua menettelyä noudattaen komissio vahvistaa vähimmäismyyntihinnan tai päättää olla hyväksymättä saatuja tarjouksia.
 1	Asetuksen	asetus	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	_
 2	(	(	PUNCT	Punct	_	3	punct	_	SpaceAfter=No
-3	EY	EY	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	1	nmod	_	SpaceAfter=No
+3	EY	EY	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	1	nmod	_	SpaceAfter=No
 4	)	)	PUNCT	Punct	_	3	punct	_	_
 5	N:o	N:o	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	1	nmod	_	_
 6	1784/200325	1784/200325	NUM	Num	NumType=Card	5	nummod	_	_
@@ -15484,7 +15484,7 @@
 1	Vietin	viettää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	neljä	neljä	NUM	Num	Case=Nom|Number=Sing|NumType=Card	4	nummod	_	_
 3	huikeaa	huikea	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	_
-4	kuukautta	kuu#kausi	NOUN	N	Case=Par|Number=Sing	1	obj	_	_
+4	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	1	obj	_	_
 5	viime	viime	ADJ	A	_	6	amod	_	_
 6	syksynä	syksy	NOUN	N	Case=Ess|Number=Sing	1	obl	_	_
 7	vaihto-opiskelijana	vaihto#opiskelija	NOUN	N	Case=Ess|Derivation=Ja|Number=Sing	1	obl	_	_
@@ -15696,7 +15696,7 @@
 14	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	hakea	hakea	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	acl:relcl	_	_
 16	3-8	3-8	NUM	Num	NumType=Card	17	nummod	_	_
-17	kuukauden	kuu#kausi	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	_
+17	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	_
 18	vaihtoihin	vaihto	NOUN	N	Case=Ill|Number=Plur	15	obl	_	_
 19	eri	eri	ADJ	A	_	20	amod	_	_
 20	puolelle	puoli	NOUN	N	Case=All|Number=Sing	15	obl	_	_
@@ -16558,7 +16558,7 @@
 3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	vääntänyt	vääntää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	useiden	usea	ADJ	A	Case=Gen|Number=Plur	6	amod	_	_
-6	kuukausien	kuu#kausi	NOUN	N	Case=Gen|Number=Plur	7	nmod:poss	_	_
+6	kuukausien	kuukausi	NOUN	N	Case=Gen|Number=Plur	7	nmod:poss	_	_
 7	ajan	aika	NOUN	N	Case=Gen|Number=Sing	4	obl	_	_
 8	kättä	käsi	NOUN	N	Case=Par|Number=Sing	4	obj	_	_
 9	elintarviketurvallisuusvirasto	elin#tarvike#turvallisuus#virasto	NOUN	N	Case=Nom|Number=Sing	10	compound:nn	_	_
@@ -16824,7 +16824,7 @@
 4	vuonna	vuosi	NOUN	N	Case=Ess|Number=Sing	3	obl	_	_
 5	2009	2009	NUM	Num	NumType=Card	4	nummod	_	_
 6	kymmenen	kymmenen	NUM	Num	Case=Gen|Number=Sing|NumType=Card	7	nummod	_	_
-7	kuukauden	kuu#kausi	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
+7	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	ajan	aika	NOUN	N	Case=Gen|Number=Sing	3	obl	_	_
 9	tilintarkastusketjun	tilin#tarkastus#ketju	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	_
 10	tietojärjestelmiin	tieto#järjestelmä	NOUN	N	Case=Ill|Number=Plur	3	obl	_	SpaceAfter=No
@@ -17390,7 +17390,7 @@
 11	avoimilla	avoin	ADJ	A	Case=Ade|Degree=Pos|Number=Plur	12	amod	_	_
 12	työmarkkinoilla	työ#markkinat	NOUN	N	Case=Ade|Number=Plur	0	root	_	_
 13	kolme	kolme	NUM	Num	Case=Nom|Number=Sing|NumType=Card	14	nummod	_	_
-14	kuukautta	kuu#kausi	NOUN	N	Case=Par|Number=Sing	16	nmod	_	_
+14	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	16	nmod	_	_
 15	toimenpiteen	toimen#pide	NOUN	N	Case=Gen|Number=Sing	16	nmod:gsubj	_	_
 16	päätymisen	päättyminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	12	obl	_	_
 17	jälkeen	jälkeen	ADP	Adp	AdpType=Post	16	case	_	SpaceAfter=No
@@ -17416,7 +17416,7 @@
 13	avoimilla	avoin	ADJ	A	Case=Ade|Degree=Pos|Number=Plur	14	amod	_	_
 14	työmarkkinoilla	työ#markkinat	NOUN	N	Case=Ade|Number=Plur	7	conj	_	_
 15	kolme	kolme	NUM	Num	Case=Nom|Number=Sing|NumType=Card	16	nummod	_	_
-16	kuukautta	kuu#kausi	NOUN	N	Case=Par|Number=Sing	18	nmod	_	_
+16	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	18	nmod	_	_
 17	toimenpiteen	toimen#pide	NOUN	N	Case=Gen|Number=Sing	18	nmod:gsubj	_	_
 18	päättymisen	päättyminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	14	obl	_	_
 19	jälkeen	jälkeen	ADP	Adp	AdpType=Post	18	case	_	SpaceAfter=No
@@ -25099,7 +25099,7 @@
 2	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=0|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	pitänyt	pitää	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	aux	_	_
 4	tehdä	tehdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
-5	kuukauden	kuu#kausi	NOUN	N	Case=Gen|Number=Sing	4	obl	_	_
+5	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	4	obl	_	_
 6	sisällä	sisällä	ADP	Adp	AdpType=Post	5	case	_	_
 7	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	nmod:gobj	_	_
 8	julistamisesta	julistaminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -25288,7 +25288,7 @@
 10	oikeuden	oikeus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	12	nmod	_	_
 11	eteen	eteen	ADP	Adp	AdpType=Post	10	case	_	_
 12	pääsemistä	pääseminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	9	obj	_	_
-13	kuukausia	kuu#kausi	NOUN	N	Case=Par|Number=Plur	9	obl	_	SpaceAfter=No
+13	kuukausia	kuukausi	NOUN	N	Case=Par|Number=Plur	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	Punct	_	9	punct	_	_
 
 # sent_id = wn061.4
