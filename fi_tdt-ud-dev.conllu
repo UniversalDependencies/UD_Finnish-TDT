@@ -1086,18 +1086,20 @@
 19	vievät	viedä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	7:parataxis	_
 20	liikaa	liikaa	ADV	Adv	_	21	advmod	_	_
 21	pinnejä	pinni	NOUN	N	Case=Par|Number=Plur	19	obj	_	_
-22	ellen	jos#ei	VERB	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	23	mark	_	_
-23	osta	ostaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
-24	erillistä	erillinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	25	amod	_	_
-25	driver-chippiä	driver#chip	NOUN	Foreign	Case=Par|Number=Sing	23	obj	_	_
-26	niille	se	PRON	Pron	Case=All|Number=Plur|PronType=Dem	23	obl	_	SpaceAfter=No
-27	)	)	PUNCT	Punct	_	13	punct	_	SpaceAfter=No
-28	,	,	PUNCT	Punct	_	30	punct	_	_
-29	josta	joka	PRON	Pron	Case=Ela|Number=Sing|PronType=Rel	30	obl	_	_
-30	näkisi	nähdä	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
-31	annetut	antaa	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	32	acl	_	_
-32	arvot	arvo	NOUN	N	Case=Nom|Number=Plur	30	obj	_	SpaceAfter=No
-33	.	.	PUNCT	Punct	_	2	punct	_	_
+22-23	ellen	_	_	_	_	_	_	_	_
+22	jos	jos	SCONJ	C	_	24	mark	_	_
+23	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	24	aux	_	_
+24	osta	ostaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+25	erillistä	erillinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	26	amod	_	_
+26	driver-chippiä	driver#chip	NOUN	Foreign	Case=Par|Number=Sing	24	obj	_	_
+27	niille	se	PRON	Pron	Case=All|Number=Plur|PronType=Dem	24	obl	_	SpaceAfter=No
+28	)	)	PUNCT	Punct	_	13	punct	_	SpaceAfter=No
+29	,	,	PUNCT	Punct	_	31	punct	_	_
+30	josta	joka	PRON	Pron	Case=Ela|Number=Sing|PronType=Rel	31	obl	_	_
+31	näkisi	nähdä	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+32	annetut	antaa	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	33	acl	_	_
+33	arvot	arvo	NOUN	N	Case=Nom|Number=Plur	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = b504.10
 # text = Todennäköisesti siis päädyn aluksi ratkaisuun, jossa Arduinolla säädetään pelkkä intervalli.
@@ -1718,30 +1720,32 @@
 
 # sent_id = b605.7
 # text = Ja ettei nyt jäätäisi ihan sinne menneisyyteen ja toiseen maailmansotaan, niin perjantaina lähdetään Caron ja Sophien kanssa viikonlopuksi Brysseliin ihmettelemään vähän EU:ta.
-1	Ja	ja	CCONJ	C	_	4	cc	_	_
-2	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	mark	_	_
-3	nyt	nyt	ADV	Adv	_	4	advmod	_	_
-4	jäätäisi	jäädä	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Pass	14	advcl	_	_
-5	ihan	ihan	ADV	Adv	_	7	advmod	10:advmod	_
-6	sinne	sinne	ADV	Adv	_	7	advmod	10:advmod	_
-7	menneisyyteen	menneisyys	NOUN	N	Case=Ill|Number=Sing	4	obl	_	_
-8	ja	ja	CCONJ	C	_	10	cc	_	_
-9	toiseen	toinen	ADJ	Num	Case=Ill|Derivation=Inen|Number=Sing|NumType=Ord	10	amod	_	_
-10	maailmansotaan	maailman#sota	NOUN	N	Case=Ill|Number=Sing	7	conj	4:obl|9:flat:name	SpaceAfter=No
-11	,	,	PUNCT	Punct	_	4	punct	_	_
-12	niin	niin	ADV	Adv	_	14	advmod	_	_
-13	perjantaina	perjantai	NOUN	N	Case=Ess|Number=Sing	14	obl	_	_
-14	lähdetään	lähteä	VERB	V	Mood=Ind|Number=Plur|Person=1|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-15	Caron	Caro	PROPN	N	Case=Gen|Number=Sing	14	obl	_	_
-16	ja	ja	CCONJ	C	_	17	cc	_	_
-17	Sophien	Sophie	PROPN	N	Case=Gen|Number=Sing	15	conj	14:obl	_
-18	kanssa	kanssa	ADP	Adp	AdpType=Post	15	case	17:case	_
-19	viikonlopuksi	viikon#loppu	NOUN	N	Case=Tra|Derivation=U|Number=Sing	14	obl	_	_
-20	Brysseliin	Bryssel	PROPN	N	Case=Ill|Number=Sing	14	obl	_	_
-21	ihmettelemään	ihmetellä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	14	xcomp	_	_
-22	vähän	vähän	ADV	Adv	_	21	advmod	_	_
-23	EU:ta	EU	PROPN	N	Abbr=Yes|Case=Par|Number=Sing	21	obj	_	SpaceAfter=No
-24	.	.	PUNCT	Punct	_	14	punct	_	_
+1	Ja	ja	CCONJ	C	_	5	cc	_	_
+2-3	ettei	_	_	_	_	_	_	_	_
+2	että	että	SCONJ	C	_	5	mark	_	_
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	nyt	nyt	ADV	Adv	_	5	advmod	_	_
+5	jäätäisi	jäädä	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Pass	15	advcl	_	_
+6	ihan	ihan	ADV	Adv	_	8	advmod	11:advmod	_
+7	sinne	sinne	ADV	Adv	_	8	advmod	11:advmod	_
+8	menneisyyteen	menneisyys	NOUN	N	Case=Ill|Number=Sing	5	obl	_	_
+9	ja	ja	CCONJ	C	_	11	cc	_	_
+10	toiseen	toinen	ADJ	Num	Case=Ill|Derivation=Inen|Number=Sing|NumType=Ord	11	amod	_	_
+11	maailmansotaan	maailman#sota	NOUN	N	Case=Ill|Number=Sing	8	conj	5:obl|10:flat:name	SpaceAfter=No
+12	,	,	PUNCT	Punct	_	5	punct	_	_
+13	niin	niin	ADV	Adv	_	15	advmod	_	_
+14	perjantaina	perjantai	NOUN	N	Case=Ess|Number=Sing	15	obl	_	_
+15	lähdetään	lähteä	VERB	V	Mood=Ind|Number=Plur|Person=1|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	Caron	Caro	PROPN	N	Case=Gen|Number=Sing	15	obl	_	_
+17	ja	ja	CCONJ	C	_	18	cc	_	_
+18	Sophien	Sophie	PROPN	N	Case=Gen|Number=Sing	16	conj	15:obl	_
+19	kanssa	kanssa	ADP	Adp	AdpType=Post	16	case	18:case	_
+20	viikonlopuksi	viikon#loppu	NOUN	N	Case=Tra|Derivation=U|Number=Sing	15	obl	_	_
+21	Brysseliin	Bryssel	PROPN	N	Case=Ill|Number=Sing	15	obl	_	_
+22	ihmettelemään	ihmetellä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+23	vähän	vähän	ADV	Adv	_	22	advmod	_	_
+24	EU:ta	EU	PROPN	N	Abbr=Yes|Case=Par|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	Punct	_	15	punct	_	_
 
 # sent_id = b605.8
 # text = Muita viikon kantavia teemoja on ollut laiskottelu; tää lomailu ei nyt ihan taida sopia mulle...
@@ -2066,11 +2070,13 @@
 # sent_id = b716.10
 # text = Varo, ettet ylikypsennä mössöksi.
 1	Varo	varoa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	Punct	_	4	punct	_	_
-3	ettet	että#ei	VERB	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	4	mark	_	_
-4	ylikypsennä	ylikypsentää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
-5	mössöksi	mössö	NOUN	N	Case=Tra|Number=Sing	4	obl	_	SpaceAfter=No
-6	.	.	PUNCT	Punct	_	1	punct	_	_
+2	,	,	PUNCT	Punct	_	5	punct	_	_
+3-4	ettet	_	_	_	_	_	_	_	_
+3	että	että	SCONJ	C	_	5	mark	_	_
+4	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	ylikypsennä	ylikypsentää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	mössöksi	mössö	NOUN	N	Case=Tra|Number=Sing	5	obl	_	SpaceAfter=No
+7	.	.	PUNCT	Punct	_	1	punct	_	_
 
 # sent_id = b716.11
 # text = Lisä mausteet ja halutessasi hieman paprikasuikaleita tai tuoretta chiliä.
@@ -3075,21 +3081,23 @@
 1	Löisi	lyödä	VERB	V	Mood=Cnd|Number=Sing|Person=0|VerbForm=Fin|Voice=Act	0	root	_	_
 2	sellaisella	sellainen	ADJ	A	Case=Ade|Derivation=Lainen|Number=Sing	3	amod	_	_
 3	voimalla	voima	NOUN	N	Case=Ade|Number=Sing	1	obl	_	SpaceAfter=No
-4	,	,	PUNCT	Punct	_	6	punct	_	_
-5	etten	että#ei	VERB	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	mark	10:mark	_
-6	kuulisi	kuulla	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	3	ccomp	_	_
-7	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	8	det	_	_
-8	ajatuksia	ajatus	NOUN	N	Case=Par|Number=Plur	6	obj	_	SpaceAfter=No
-9	,	,	PUNCT	Punct	_	10	punct	_	_
-10	kuulisi	kuulla	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	6	conj	3:ccomp	_
-11	autosi	auto	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	12	nmod:poss	_	_
-12	ääntä	ääni	NOUN	N	Case=Par|Number=Sing	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	Punct	_	14	punct	_	_
-14	avainta	avain	NOUN	N	Case=Par|Number=Sing	12	conj	10:obj	_
-15	lukossa	lukko	NOUN	N	Case=Ine|Number=Sing	14	nmod	_	_
-16	ja	ja	CCONJ	C	_	17	cc	_	_
-17	sinua	sinä	PRON	Pron	Case=Par|Number=Sing|Person=2|PronType=Prs	12	conj	10:obj	SpaceAfter=No
-18	.	.	PUNCT	Punct	_	1	punct	_	_
+4	,	,	PUNCT	Punct	_	7	punct	_	_
+5-6	etten	_	_	_	_	_	_	_	_
+5	että	että	SCONJ	C	_	7	mark	11:mark	_
+6	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	11:mark	_
+7	kuulisi	kuulla	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	3	ccomp	_	_
+8	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	9	det	_	_
+9	ajatuksia	ajatus	NOUN	N	Case=Par|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	Punct	_	11	punct	_	_
+11	kuulisi	kuulla	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	7	conj	3:ccomp	_
+12	autosi	auto	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	13	nmod:poss	_	_
+13	ääntä	ääni	NOUN	N	Case=Par|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	Punct	_	15	punct	_	_
+15	avainta	avain	NOUN	N	Case=Par|Number=Sing	13	conj	11:obj	_
+16	lukossa	lukko	NOUN	N	Case=Ine|Number=Sing	15	nmod	_	_
+17	ja	ja	CCONJ	C	_	18	cc	_	_
+18	sinua	sinä	PRON	Pron	Case=Par|Number=Sing|Person=2|PronType=Prs	13	conj	11:obj	SpaceAfter=No
+19	.	.	PUNCT	Punct	_	1	punct	_	_
 
 # sent_id = f204.8
 # text = Suljen silmäni ja olen metsässä, missä pahvilaatikot ovat puuna ja sade nostanut maan ilmaan.
@@ -7208,16 +7216,18 @@
 6	selvisi	selvitä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	melko	melko	ADV	Adv	_	8	advmod	_	_
 8	pian	pian	ADV	Adv	_	6	advmod	_	SpaceAfter=No
-9	,	,	PUNCT	Punct	_	17	punct	_	_
-10	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	17	mark	_	_
-11	kyseinen	kyseinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	12	amod	_	_
-12	neste	neste	NOUN	N	Case=Nom|Number=Sing	17	nsubj	_	_
-13	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	17	aux	_	_
-14	ihmiselle	ihminen	NOUN	N	Case=All|Number=Sing	15	obl	_	_
-15	kelpaavaa	kelvata	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
-16	juomaa	juoma	NOUN	N	Case=Par|Number=Sing	17	obj	_	_
-17	nähnytkään	nähdä	VERB	V	Case=Nom|Clitic=Kaan|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	csubj	_	SpaceAfter=No
-18	.	.	PUNCT	Punct	_	6	punct	_	_
+9	,	,	PUNCT	Punct	_	18	punct	_	_
+10-11	ettei	_	_	_	_	_	_	_	_
+10	että	että	SCONJ	C	_	18	mark	_	_
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	_
+12	kyseinen	kyseinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	13	amod	_	_
+13	neste	neste	NOUN	N	Case=Nom|Number=Sing	18	nsubj	_	_
+14	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	18	aux	_	_
+15	ihmiselle	ihminen	NOUN	N	Case=All|Number=Sing	16	obl	_	_
+16	kelpaavaa	kelvata	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	17	acl	_	_
+17	juomaa	juoma	NOUN	N	Case=Par|Number=Sing	18	obj	_	_
+18	nähnytkään	nähdä	VERB	V	Case=Nom|Clitic=Kaan|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	csubj	_	SpaceAfter=No
+19	.	.	PUNCT	Punct	_	6	punct	_	_
 
 # sent_id = s106.4
 # text = Oluen kotikuoinen ja luova valmistaminen on selvästikin vaikea homma, joka vaatii tarkemman perehtymisen kuin pelkän reseptin lukeminen.
@@ -7749,13 +7759,15 @@
 5	puolesta	puolesta	ADP	Adp	AdpType=Post	2	case	_	_
 6	puhuu	puhua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	Punct	_	11	punct	_	_
-9	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	mark	_	_
-10	esimerkiksi	esimerkiksi	ADV	Adv	_	11	advmod	_	_
-11	keskiajallakaan	keski#aika	NOUN	N	Case=Ade|Clitic=Kaan|Number=Sing	7	ccomp	_	_
-12	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	cop	_	_
-13	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	11	nsubj:cop	_	SpaceAfter=No
-14	.	.	PUNCT	Punct	_	6	punct	_	_
+8	,	,	PUNCT	Punct	_	12	punct	_	_
+9-10	ettei	_	_	_	_	_	_	_	_
+9	että	että	SCONJ	C	_	12	mark	_	_
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	_
+11	esimerkiksi	esimerkiksi	ADV	Adv	_	12	advmod	_	_
+12	keskiajallakaan	keski#aika	NOUN	N	Case=Ade|Clitic=Kaan|Number=Sing	7	ccomp	_	_
+13	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	12	cop	_	_
+14	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	12	nsubj:cop	_	SpaceAfter=No
+15	.	.	PUNCT	Punct	_	6	punct	_	_
 
 # sent_id = s106.34
 # text = Joten tämä ei tule olemaan kynnys tiellä makkaranvalmistukseen.
@@ -10255,14 +10267,16 @@
 4	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	3	obj	_	_
 5	tai	tai	CCONJ	C	_	6	cc	_	_
 6	palvelua	palvelu	NOUN	N	Case=Par|Derivation=U|Number=Sing	4	conj	3:obj	SpaceAfter=No
-7	,	,	PUNCT	Punct	_	11	punct	_	_
-8	vaikkei	vaikka#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	mark	_	_
-9	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
-10	suorassa	suora	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	11	amod	_	_
-11	yhteydessä	yhteys	NOUN	N	Case=Ine|Derivation=Vs|Number=Sing	3	advcl	_	_
-12	toimittajan	toimittaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Sing	11	obl	_	_
-13	kanssa	kanssa	ADP	Adp	AdpType=Post	12	case	_	SpaceAfter=No
-14	.	.	PUNCT	Punct	_	3	punct	_	_
+7	,	,	PUNCT	Punct	_	12	punct	_	_
+8-9	vaikkei	_	_	_	_	_	_	_	_
+8	vaikka	vaikka	SCONJ	C	_	12	mark	_	_
+9	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	_
+10	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	suorassa	suora	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	12	amod	_	_
+12	yhteydessä	yhteys	NOUN	N	Case=Ine|Derivation=Vs|Number=Sing	3	advcl	_	_
+13	toimittajan	toimittaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Sing	12	obl	_	_
+14	kanssa	kanssa	ADP	Adp	AdpType=Post	13	case	_	SpaceAfter=No
+15	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # sent_id = w182.11
 # text = Tuote voidaan myydä asiakkaalle tukku- tai vähittäisliikkeen kautta.
@@ -10868,16 +10882,18 @@
 1	Suomen	Suomi	PROPN	N	Case=Gen|Number=Sing	3	nsubj	_	_
 2	tulisi	tulla	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 3	osoittaa	osoittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp:ds	_	SpaceAfter=No
-4	,	,	PUNCT	Punct	_	7	punct	_	_
-5	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	mark	_	_
-6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj	_	_
-7	hyväksy	hyväksyä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-8	demokraattisten	demokraattinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Plur	9	amod	_	_
-9	arvojen	arvo	NOUN	N	Case=Gen|Number=Plur	12	nmod:gobj	_	_
-10	ja	ja	CCONJ	C	_	11	cc	_	_
-11	ihmisoikeusrikkomusten	ihmis#oikeus#rikkomus	NOUN	N	Case=Gen|Number=Plur	9	conj	12:nmod:gobj	_
-12	polkemista	polkeminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	7	obj	_	SpaceAfter=No
-13	.	.	PUNCT	Punct	_	2	punct	_	_
+4	,	,	PUNCT	Punct	_	8	punct	_	_
+5-6	ettei	_	_	_	_	_	_	_	_
+5	että	että	SCONJ	C	_	8	mark	_	_
+6	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	_
+8	hyväksy	hyväksyä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	demokraattisten	demokraattinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Plur	10	amod	_	_
+10	arvojen	arvo	NOUN	N	Case=Gen|Number=Plur	13	nmod:gobj	_	_
+11	ja	ja	CCONJ	C	_	12	cc	_	_
+12	ihmisoikeusrikkomusten	ihmis#oikeus#rikkomus	NOUN	N	Case=Gen|Number=Plur	10	conj	13:nmod:gobj	_
+13	polkemista	polkeminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	8	obj	_	SpaceAfter=No
+14	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = wn020.8
 # text = Mielenosoittajat vaativat, että Suomen valtion on avattava silmänsä yhteistyökumppaniensa ihmisoikeusrikkomuksille.
@@ -11349,14 +11365,16 @@
 10	katsojalle	katsoja	NOUN	N	Case=All|Derivation=Ja|Number=Sing	9	obl	_	_
 11	vakuutuksen	vakuutus	NOUN	N	Case=Gen|Number=Sing	9	obj	_	_
 12	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	11	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	Punct	_	17	punct	_	_
-14	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	17	mark	19:mark	_
-15	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	17	obj	19:obj	_
-16	tarvitse	tarvita	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	19:aux	_
-17	ajatella	ajatella	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	12	ccomp	_	_
-18	tahi	tahi	CCONJ	C	_	19	cc	_	_
-19	pohtia	pohtia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	conj	12:ccomp	SpaceAfter=No
-20	.	.	PUNCT	Punct	_	4	punct	_	_
+13	,	,	PUNCT	Punct	_	18	punct	_	_
+14-15	ettei	_	_	_	_	_	_	_	_
+14	että	että	SCONJ	C	_	18	mark	20:mark	_
+15	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	20:mark	_
+16	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	18	obj	20:obj	_
+17	tarvitse	tarvita	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	20:aux	_
+18	ajatella	ajatella	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	12	ccomp	_	_
+19	tahi	tahi	CCONJ	C	_	20	cc	_	_
+20	pohtia	pohtia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	18	conj	12:ccomp	SpaceAfter=No
+21	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = b107.4
 # text = Valitettavasti esitys oli hyvin pitkälle sellainen.
@@ -11760,18 +11778,20 @@
 
 # sent_id = b308.6
 # text = Jouluvalmistelut ovat tällä hetkellä monen naisen mielessä ja miksei miestenkin. :)
-1	Jouluvalmistelut	joulu#valmistelu	NOUN	N	Case=Nom|Derivation=U|Number=Plur	7	nsubj:cop	10:nsubj:cop	_
+1	Jouluvalmistelut	joulu#valmistelu	NOUN	N	Case=Nom|Derivation=U|Number=Plur	7	nsubj:cop	11:nsubj:cop	_
 2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 3	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	4	det	_	_
-4	hetkellä	hetki	NOUN	N	Case=Ade|Number=Sing	7	obl	10:obl	_
+4	hetkellä	hetki	NOUN	N	Case=Ade|Number=Sing	7	obl	11:obl	_
 5	monen	moni	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	6	det	_	_
 6	naisen	nainen	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	mielessä	mieli	NOUN	N	Case=Ine|Number=Sing	0	root	_	_
-8	ja	ja	CCONJ	C	_	10	cc	_	_
-9	miksei	miksi#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	advmod	_	_
-10	miestenkin	mies	NOUN	N	Case=Gen|Clitic=Kin|Number=Plur	7	conj	_	SpaceAfter=No
-11	.	.	PUNCT	Punct	_	7	punct	_	_
-12	:)	:)	SYM	Symb	_	7	discourse	_	_
+8	ja	ja	CCONJ	C	_	11	cc	_	_
+9-10	miksei	_	_	_	_	_	_	_	_
+9	miksi	miksi	ADV	Adv	_	11	advmod	_	_
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	miestenkin	mies	NOUN	N	Case=Gen|Clitic=Kin|Number=Plur	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	Punct	_	7	punct	_	_
+13	:)	:)	SYM	Symb	_	7	discourse	_	_
 
 # sent_id = b308.7
 # text = Itse olen vapauttanut itseni joulustressistä ja aika hyvin olen siinä onnistunutkin.
@@ -11793,21 +11813,23 @@
 1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 2	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	kieltää	kieltää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	Punct	_	9	punct	_	_
-5	ettenkö	että#ei	VERB	V	Clitic=Ko|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	9	mark	_	_
-6	jollain	jokin	PRON	Pron	Case=Ade|Number=Sing|PronType=Ind	7	det	_	_
-7	tasoilla	taso	NOUN	N	Case=Ade|Number=Plur	9	obl	_	_
-8	HIEMAN	hieman	ADV	Adv	_	9	advmod	_	_
-9	pohtisi	pohtia	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	3	ccomp	_	_
-10	päivien	päivä	NOUN	N	Case=Gen|Number=Plur	11	nmod:gsubj	_	_
-11	hupenemista	hupeneminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	9	obj	_	SpaceAfter=No
-12	,	,	PUNCT	Punct	_	15	punct	_	_
-13	mutta	mutta	CCONJ	C	_	15	cc	_	_
-14	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	15	nsubj:cop	17:nsubj:cop	_
-15	vähäistä	vähäinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	9	conj	_	_
-16	ja	ja	CCONJ	C	_	17	cc	_	_
-17	häiritsemätöntä	häiritsemätön	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	15	conj	_	SpaceAfter=No
-18	.	.	PUNCT	Punct	_	3	punct	_	_
+4	,	,	PUNCT	Punct	_	10	punct	_	_
+5-6	ettenkö	_	_	_	_	_	_	_	_
+5	että	että	SCONJ	C	_	10	mark	_	_
+6	enkö	ei	AUX	V	Clitic=Ko|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	_
+7	jollain	jokin	PRON	Pron	Case=Ade|Number=Sing|PronType=Ind	8	det	_	_
+8	tasoilla	taso	NOUN	N	Case=Ade|Number=Plur	10	obl	_	_
+9	HIEMAN	hieman	ADV	Adv	_	10	advmod	_	_
+10	pohtisi	pohtia	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	3	ccomp	_	_
+11	päivien	päivä	NOUN	N	Case=Gen|Number=Plur	12	nmod:gsubj	_	_
+12	hupenemista	hupeneminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	Punct	_	16	punct	_	_
+14	mutta	mutta	CCONJ	C	_	16	cc	_	_
+15	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	16	nsubj:cop	18:nsubj:cop	_
+16	vähäistä	vähäinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	10	conj	_	_
+17	ja	ja	CCONJ	C	_	18	cc	_	_
+18	häiritsemätöntä	häiritsemätön	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # sent_id = b308.9
 # text = Itse asiassa odotan, että valvontajakson päättyessä pääsen siivouksen ja leipomisen pariin. :)
@@ -13715,29 +13737,31 @@
 14	etu	etu	NOUN	N	Case=Nom|Number=Sing	0	root	_	_
 15	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	16	det	_	_
 16	planeetalla	planeetta	NOUN	N	Case=Ade|Number=Sing	14	obl	_	SpaceAfter=No
-17	,	,	PUNCT	Punct	_	25	punct	_	_
-18	mutta	mutta	CCONJ	C	_	25	cc	_	_
-19	ellemme	jos#ei	AUX	V	Number=Plur|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	21	aux	_	_
-20	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
-21	varuillamme	varuillaan	ADV	Adv	Number[psor]=Plur|Person[psor]=1	25	advcl	_	SpaceAfter=No
-22	,	,	PUNCT	Punct	_	21	punct	_	_
-23	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	25	nsubj	_	_
-24	saattaa	saattaa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
-25	johtaa	johtaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	14	conj	_	_
-26	vakavaan	vakava	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	27	amod	_	_
-27	epätasapainoon	epä#tasa#paino	NOUN	N	Case=Ill|Number=Sing	25	obl	_	SpaceAfter=No
-28	,	,	PUNCT	Punct	_	31	punct	_	_
-29	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	31	nsubj:cop	_	_
-30	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	cop	_	_
-31	kestämätön	kestämätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	27	acl:relcl	_	_
-32	niille	se	PRON	Pron	Case=All|Number=Plur|PronType=Dem	31	obl	_	SpaceAfter=No
-33	,	,	PUNCT	Punct	_	35	punct	_	_
-34	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	35	nsubj	36:nsubj|37:nsubj	_
-35	katsovat	katsoa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
-36	joutuvansa	joutua	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|Person[psor]=3|VerbForm=Part|Voice=Act	35	xcomp	_	_
-37	kärsimään	kärsiä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	36	xcomp	_	_
-38	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	37	obl	_	SpaceAfter=No
-39	.	.	PUNCT	Punct	_	14	punct	_	_
+17	,	,	PUNCT	Punct	_	26	punct	_	_
+18	mutta	mutta	CCONJ	C	_	26	cc	_	_
+19-20	ellemme	_	_	_	_	_	_	_	_
+19	jos	jos	SCONJ	C	_	22	mark	_	_
+20	emme	ei	AUX	V	Number=Plur|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	22	aux	_	_
+21	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	varuillamme	varuillaan	ADV	Adv	Number[psor]=Plur|Person[psor]=1	26	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	Punct	_	22	punct	_	_
+24	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	26	nsubj	_	_
+25	saattaa	saattaa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
+26	johtaa	johtaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	14	conj	_	_
+27	vakavaan	vakava	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	28	amod	_	_
+28	epätasapainoon	epä#tasa#paino	NOUN	N	Case=Ill|Number=Sing	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	Punct	_	32	punct	_	_
+30	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	32	nsubj:cop	_	_
+31	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	cop	_	_
+32	kestämätön	kestämätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	28	acl:relcl	_	_
+33	niille	se	PRON	Pron	Case=All|Number=Plur|PronType=Dem	32	obl	_	SpaceAfter=No
+34	,	,	PUNCT	Punct	_	36	punct	_	_
+35	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	36	nsubj	37:nsubj|38:nsubj	_
+36	katsovat	katsoa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl:relcl	_	_
+37	joutuvansa	joutua	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|Person[psor]=3|VerbForm=Part|Voice=Act	36	xcomp	_	_
+38	kärsimään	kärsiä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	37	xcomp	_	_
+39	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	38	obl	_	SpaceAfter=No
+40	.	.	PUNCT	Punct	_	14	punct	_	_
 
 # sent_id = e1046.8
 # text = Valitettavasti saimme tästä pahimpia pelkojammekin vakavamman osoituksen kansanäänestyksissä, jotka Ranska ja Alankomaat järjestivät Euroopan perustuslakiluonnoksesta.
@@ -14141,14 +14165,16 @@
 9	käsittelee	käsitellä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	obj	_	_
 11	kiitettävän	kiitettävä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	12	amod	_	_
-12	tasapainoisella	tasa#painoinen	ADJ	A	Case=Ade|Degree=Pos|Derivation=Inen|Number=Sing	18	amod	_	_
-13	-	-	PUNCT	Punct	_	17	punct	_	_
-14	etten	että#ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	_
-15	sanoisi	sanoa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	17	advcl	_	_
-16	melko	melko	ADV	Adv	_	17	advmod	_	_
-17	käytännönläheisellä	käytännön#läheinen	ADJ	A	Case=Ade|Degree=Pos|Derivation=Inen|Number=Sing	12	appos	_	_
-18	tavalla	tapa	NOUN	N	Case=Ade|Number=Sing	9	obl	_	SpaceAfter=No
-19	.	.	PUNCT	Punct	_	9	punct	_	_
+12	tasapainoisella	tasa#painoinen	ADJ	A	Case=Ade|Degree=Pos|Derivation=Inen|Number=Sing	19	amod	_	_
+13	-	-	PUNCT	Punct	_	18	punct	_	_
+14-15	etten	_	_	_	_	_	_	_	_
+14	että	että	SCONJ	C	_	16	mark	_	_
+15	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	sanoisi	sanoa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	18	advcl	_	_
+17	melko	melko	ADV	Adv	_	18	advmod	_	_
+18	käytännönläheisellä	käytännön#läheinen	ADJ	A	Case=Ade|Degree=Pos|Derivation=Inen|Number=Sing	12	appos	_	_
+19	tavalla	tapa	NOUN	N	Case=Ade|Number=Sing	9	obl	_	SpaceAfter=No
+20	.	.	PUNCT	Punct	_	9	punct	_	_
 
 # sent_id = e1073.3
 # text = Ylikansallisen ja alueellisen ulottuvuuden välillä on kiistatta jännitteitä.
@@ -14308,20 +14334,22 @@
 3	vielä	vielä	ADV	Adv	_	4	advmod	_	_
 4	lisää	lisää	ADV	Adv	_	2	advmod	_	_
 5	niin	niin	ADV	Adv	_	2	advmod	_	SpaceAfter=No
-6	,	,	PUNCT	Punct	_	8	punct	_	_
-7	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	mark	_	_
-8	niillä	se	PRON	Pron	Case=Ade|Number=Plur|PronType=Dem	5	ccomp	_	_
-9	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
-10	enää	enää	ADV	Adv	_	8	advmod	_	_
-11	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	12	det	_	_
-12	takeita	tae	NOUN	N	Case=Par|Number=Plur	8	nsubj:cop	_	_
-13	oikeussuojasta	oikeus#suoja	NOUN	N	Case=Ela|Number=Sing	12	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	Punct	_	18	punct	_	_
-15	jos	jos	SCONJ	C	_	18	mark	_	_
-16	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	17	nmod:poss	_	_
-17	toimivaltuuksia	toimi#valtuus	NOUN	N	Case=Par|Derivation=Vs|Number=Plur	18	obj	_	_
-18	rikotaan	rikkoa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl	_	SpaceAfter=No
-19	.	.	PUNCT	Punct	_	2	punct	_	_
+6	,	,	PUNCT	Punct	_	9	punct	_	_
+7-8	ettei	_	_	_	_	_	_	_	_
+7	että	että	SCONJ	C	_	9	mark	_	_
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	niillä	se	PRON	Pron	Case=Ade|Number=Plur|PronType=Dem	5	ccomp	_	_
+10	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+11	enää	enää	ADV	Adv	_	9	advmod	_	_
+12	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	13	det	_	_
+13	takeita	tae	NOUN	N	Case=Par|Number=Plur	9	nsubj:cop	_	_
+14	oikeussuojasta	oikeus#suoja	NOUN	N	Case=Ela|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	Punct	_	19	punct	_	_
+16	jos	jos	SCONJ	C	_	19	mark	_	_
+17	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	18	nmod:poss	_	_
+18	toimivaltuuksia	toimi#valtuus	NOUN	N	Case=Par|Derivation=Vs|Number=Plur	19	obj	_	_
+19	rikotaan	rikkoa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = e1073.11
 # text = Mielestäni Napolitanon mietinnössä pyritään antamaan hyvin kiintoisa oikeudellinen ratkaisu kaikkiin näihin huolenaiheisiin.
@@ -15792,11 +15820,13 @@
 7	toisen	toinen	PRON	Pron	Case=Gen|Number=Sing|PronType=Rcp	8	nsubj	_	_
 8	pitäessä	pitää	VERB	V	Case=Ine|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	4	advcl	_	_
 9	huolta	huoli	NOUN	N	Case=Par|Number=Sing	8	obj	_	_
-10	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	mark	_	_
-11	vene	vene	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	_
-12	ajelehtinut	ajelehtia	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	ccomp	_	_
-13	pois	pois	ADV	Adv	_	12	advmod	_	SpaceAfter=No
-14	.	.	PUNCT	Punct	_	4	punct	_	_
+10-11	ettei	_	_	_	_	_	_	_	_
+10	että	että	SCONJ	C	_	13	mark	_	_
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	_
+12	vene	vene	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	_
+13	ajelehtinut	ajelehtia	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	ccomp	_	_
+14	pois	pois	ADV	Adv	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = fD01.29
 # text = Erään kerran kun Theron oli sukeltanut pohjaan ja keräsi sieniä, hän sattui katsomaan jyrkänteen reunan yli.
@@ -16217,12 +16247,14 @@
 # text = Simonides tajusi, ettei Theron muuttaisi mieltään.
 1	Simonides	Simonides	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 2	tajusi	tajuta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	Punct	_	6	punct	_	_
-4	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	mark	_	_
-5	Theron	Theron	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	_
-6	muuttaisi	muuttaa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	2	ccomp	_	_
-7	mieltään	mieli	NOUN	N	Case=Par|Number=Sing|Person[psor]=3	6	obj	_	SpaceAfter=No
-8	.	.	PUNCT	Punct	_	2	punct	_	_
+3	,	,	PUNCT	Punct	_	7	punct	_	_
+4-5	ettei	_	_	_	_	_	_	_	_
+4	että	että	SCONJ	C	_	7	mark	_	_
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	Theron	Theron	PROPN	N	Case=Nom|Number=Sing	7	nsubj	_	_
+7	muuttaisi	muuttaa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	2	ccomp	_	_
+8	mieltään	mieli	NOUN	N	Case=Par|Number=Sing|Person[psor]=3	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = fD01.57
 # text = Raskain mielin hän lupautui vahtimaan venettä sillä aikaa kun Theron sukelsi.
@@ -19981,24 +20013,26 @@
 2	sidosryhmien	sidos#ryhmä	NOUN	N	Case=Gen|Number=Plur	3	nmod:poss	_	_
 3	edustajista	edustaja	NOUN	N	Case=Ela|Derivation=Ja|Number=Plur	1	nmod	_	_
 4	arveli	arvella	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	Punct	_	10	punct	_	_
-6	ettei	että#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	mark	_	_
-7	toisen	toinen	ADJ	Num	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	8	amod	_	_
-8	asteen	aste	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	_
-9	ammatillisten	ammatillinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Plur	10	amod	_	_
-10	oppilaitosten	oppi#laitos	NOUN	N	Case=Gen|Number=Plur	4	ccomp	_	_
-11	välillä	välillä	ADP	Adp	AdpType=Post	10	case	_	_
-12	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
-13	riittävästi	riittävästi	ADV	Adv	Derivation=Sti	14	advmod	_	_
-14	yhteistyötä	yhteis#työ	NOUN	N	Case=Par|Number=Sing	10	nsubj:cop	_	SpaceAfter=No
-15	,	,	PUNCT	Punct	_	18	punct	_	_
-16	koska	koska	SCONJ	C	_	18	mark	_	_
-17	oppilaitokset	oppi#laitos	NOUN	N	Case=Nom|Number=Plur	18	nsubj	_	_
-18	kilpailevat	kilpailla	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
-19	rahoituksesta	rahoitus	NOUN	N	Case=Ela|Number=Sing	18	obl	_	_
-20	ja	ja	CCONJ	C	_	21	cc	_	_
-21	opiskelijoista	opiskelija	NOUN	N	Case=Ela|Derivation=Ja|Number=Plur	19	conj	18:obl	SpaceAfter=No
-22	.	.	PUNCT	Punct	_	4	punct	_	_
+5	,	,	PUNCT	Punct	_	11	punct	_	_
+6-7	ettei	_	_	_	_	_	_	_	_
+6	että	että	SCONJ	C	_	11	mark	_	_
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	_
+8	toisen	toinen	ADJ	Num	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	9	amod	_	_
+9	asteen	aste	NOUN	N	Case=Gen|Number=Sing	11	nmod:poss	_	_
+10	ammatillisten	ammatillinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Plur	11	amod	_	_
+11	oppilaitosten	oppi#laitos	NOUN	N	Case=Gen|Number=Plur	4	ccomp	_	_
+12	välillä	välillä	ADP	Adp	AdpType=Post	11	case	_	_
+13	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+14	riittävästi	riittävästi	ADV	Adv	Derivation=Sti	15	advmod	_	_
+15	yhteistyötä	yhteis#työ	NOUN	N	Case=Par|Number=Sing	11	nsubj:cop	_	SpaceAfter=No
+16	,	,	PUNCT	Punct	_	19	punct	_	_
+17	koska	koska	SCONJ	C	_	19	mark	_	_
+18	oppilaitokset	oppi#laitos	NOUN	N	Case=Nom|Number=Plur	19	nsubj	_	_
+19	kilpailevat	kilpailla	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+20	rahoituksesta	rahoitus	NOUN	N	Case=Ela|Number=Sing	19	obl	_	_
+21	ja	ja	CCONJ	C	_	22	cc	_	_
+22	opiskelijoista	opiskelija	NOUN	N	Case=Ela|Derivation=Ja|Number=Plur	20	conj	19:obl	SpaceAfter=No
+23	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = u050.12
 # text = Puutteet näkyvät mm. aloituspaikkamäärien koordinoimattomuutena ja koulutusten päällekkäistarjontana.
@@ -22026,25 +22060,27 @@
 # sent_id = wn029.5
 # text = EU:n komissio tietää tilanteen, muttei ole halunnut puuttua siihen, sanoo Suomen oikeusministeriön vaalijohtaja Arto Jääskeläinen Helsingin Sanomille.
 1	EU:n	EU	PROPN	N	Abbr=Yes|Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	komissio	komissio	NOUN	N	Case=Nom|Number=Sing	3	nsubj	8:nsubj|9:nsubj	_
+2	komissio	komissio	NOUN	N	Case=Nom|Number=Sing	3	nsubj	9:nsubj|10:nsubj	_
 3	tietää	tietää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	tilanteen	tilanne	NOUN	N	Case=Gen|Number=Sing	3	obj	_	SpaceAfter=No
-5	,	,	PUNCT	Punct	_	8	punct	_	_
-6	muttei	mutta#ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	cc	_	_
-7	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	halunnut	haluta	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	conj	_	_
-9	puuttua	puuttua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	_
-10	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
-11	,	,	PUNCT	Punct	_	12	punct	_	_
-12	sanoo	sanoa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	8:parataxis	_
-13	Suomen	Suomi	PROPN	N	Case=Gen|Number=Sing	14	nmod:poss	_	_
-14	oikeusministeriön	oikeus#ministeriö	NOUN	N	Case=Gen|Number=Sing	15	nmod:poss	_	_
-15	vaalijohtaja	vaali#johtaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	16	compound:nn	_	_
-16	Arto	Arto	PROPN	N	Case=Nom|Number=Sing	12	nsubj	_	_
-17	Jääskeläinen	Jääskeläinen	PROPN	N	Case=Nom|Number=Sing	16	flat:name	_	_
-18	Helsingin	Helsinki	PROPN	N	Case=Gen|Number=Sing	19	nmod:poss	_	_
-19	Sanomille	sanoma	NOUN	N	Case=All|Number=Plur	12	obl	18:flat:name	SpaceAfter=No
-20	.	.	PUNCT	Punct	_	3	punct	_	_
+5	,	,	PUNCT	Punct	_	9	punct	_	_
+6-7	muttei	_	_	_	_	_	_	_	_
+6	mutta	mutta	CCONJ	C	_	9	cc	_	_
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	halunnut	haluta	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	conj	_	_
+10	puuttua	puuttua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	Punct	_	13	punct	_	_
+13	sanoo	sanoa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	9:parataxis	_
+14	Suomen	Suomi	PROPN	N	Case=Gen|Number=Sing	15	nmod:poss	_	_
+15	oikeusministeriön	oikeus#ministeriö	NOUN	N	Case=Gen|Number=Sing	16	nmod:poss	_	_
+16	vaalijohtaja	vaali#johtaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	17	compound:nn	_	_
+17	Arto	Arto	PROPN	N	Case=Nom|Number=Sing	13	nsubj	_	_
+18	Jääskeläinen	Jääskeläinen	PROPN	N	Case=Nom|Number=Sing	17	flat:name	_	_
+19	Helsingin	Helsinki	PROPN	N	Case=Gen|Number=Sing	20	nmod:poss	_	_
+20	Sanomille	sanoma	NOUN	N	Case=All|Number=Plur	13	obl	19:flat:name	SpaceAfter=No
+21	.	.	PUNCT	Punct	_	3	punct	_	_
 
 # sent_id = wn029.6
 # text = Jos taas esimerkiksi Suomessa asuva toisen EU-maan kansalainen olisi ilmoittautunut Suomen äänestäjärekisteriin, hän voisi äänestää Suomen vaaleissa mutta olisi menettänyt äänioikeutensa lähtömaansa vaaleissa.
