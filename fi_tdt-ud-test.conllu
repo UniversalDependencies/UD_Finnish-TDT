@@ -1900,7 +1900,7 @@
 12	Schipholia	Schiphol	PROPN	N	Case=Nom|Number=Sing	9	obl	_	_
 13	ja	ja	CCONJ	C	_	15	cc	_	_
 14	sitten	sitten	ADV	Adv	_	15	advmod	_	_
-15	Helsinki-Vantaata	Helsinki#Vantaa	PROPN	N	Case=Par|Number=Sing	12	conj	9:obl	SpaceAfter=No
+15	Helsinki-Vantaata	Helsinki-Vantaa	PROPN	N	Case=Par|Number=Sing	12	conj	9:obl	SpaceAfter=No
 16	.	.	PUNCT	Punct	_	5	punct	_	_
 
 # sent_id = b602.9
@@ -4158,7 +4158,7 @@
 21	ja	ja	CCONJ	C	_	22	cc	_	_
 22	koulutuksen	koulutus	NOUN	N	Case=Gen|Number=Sing	20	conj	23:nmod:gobj	_
 23	tukemisella	tukeminen	NOUN	N	Case=Ade|Derivation=Minen|Number=Sing	17	appos	_	_
-24	Etelä-Euroopan	Etelä#Eurooppa	PROPN	N	Case=Gen|Number=Sing	25	nmod:poss	_	_
+24	Etelä-Euroopan	Etelä-Eurooppa	PROPN	N	Case=Gen|Number=Sing	25	nmod:poss	_	_
 25	alueella	alue	NOUN	N	Case=Ade|Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	Punct	_	1	punct	_	_
 
@@ -4680,7 +4680,7 @@
 15	naisen	nainen	NOUN	N	Case=Gen|Number=Sing	16	nmod:gobj	_	_
 16	kivittäminen	kivittäminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	11	conj	19:nsubj	_
 17	kuoliaaksi	kuoliaaksi	ADV	Adv	_	16	advmod	_	_
-18	Pohjois-Nigeriassa	Pohjois#Nigeria	PROPN	N	Case=Ine|Number=Sing	11	nmod	16:nmod	_
+18	Pohjois-Nigeriassa	Pohjois-Nigeria	PROPN	N	Case=Ine|Number=Sing	11	nmod	16:nmod	_
 19	osoittavat	osoittaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	Punct	_	23	punct	_	_
 21	miten	miten	ADV	Adv	_	22	advmod	_	_
@@ -4875,11 +4875,11 @@
 5	mahdollisuutta	mahdollisuus	NOUN	N	Case=Par|Derivation=Llinen,Vs|Number=Sing	2	obj	_	_
 6	ryhtyä	ryhtyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	acl	_	_
 7	toimiin	toimi	NOUN	N	Case=Ill|Number=Plur	6	obl	_	_
-8	Etelä-Afrikassa	Etelä#Afrikka	PROPN	N	Case=Ine|Number=Sing	6	obl	_	SpaceAfter=No
+8	Etelä-Afrikassa	Etelä-Afrikka	PROPN	N	Case=Ine|Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	10	punct	_	_
 10	Liberiassa	Liberia	PROPN	N	Case=Ine|Number=Sing	8	conj	6:obl	_
 11	ja	ja	CCONJ	C	_	12	cc	_	_
-12	Norsunluurannikolla	Norsun#luu#rannikko	PROPN	N	Case=Ade|Number=Sing	8	conj	6:obl	SpaceAfter=No
+12	Norsunluurannikolla	Norsunluurannikko	PROPN	N	Case=Ade|Number=Sing	8	conj	6:obl	SpaceAfter=No
 13	,	,	PUNCT	Punct	_	26	punct	_	_
 14	ja	ja	CCONJ	C	_	26	cc	_	_
 15	Nigerian	Nigeria	PROPN	N	Case=Gen|Number=Sing	16	nmod:poss	_	_
@@ -5047,7 +5047,7 @@
 # sent_id = f212.2
 # text = M-junassa Pohjois-Haagan seisakkeella kerrostalot taipuvat vastahakoisesti poispäin radasta.
 1	M-junassa	M#juna	NOUN	N	Case=Ine|Number=Sing	5	obl	_	_
-2	Pohjois-Haagan	Pohjois#Haaga	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Pohjois-Haagan	Pohjois-Haaga	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	seisakkeella	seisake	NOUN	N	Case=Ade|Number=Sing	1	nmod	_	_
 4	kerrostalot	kerros#talo	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	_
 5	taipuvat	taipua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5428,8 +5428,9 @@
 
 # sent_id = f401.21
 # text = -Maks.
-1	-Maks	-#Maks	PROPN	N	Case=Nom|Number=Sing|Typo=Yes	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	Punct	_	1	punct	_	_
+1	-	-	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
+2	Maks	Maks	PROPN	N	Case=Nom|Number=Sing|Typo=Yes	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = f401.22
 # text = Ääni oli hyvin matala ja käheä ja sen sävy sai pojan säpsähtämään.
@@ -9784,7 +9785,7 @@
 17	ja	ja	CCONJ	C	_	21	cc	_	_
 18	menneen	mennyt	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	19	amod	_	_
 19	ajan	aika	NOUN	N	Case=Gen|Number=Sing	21	nmod:poss	_	_
-20	Välimeren	Väli#meri	PROPN	N	Case=Gen|Number=Sing	21	nmod:poss	_	_
+20	Välimeren	Välimeri	PROPN	N	Case=Gen|Number=Sing	21	nmod:poss	_	_
 21	alueen	alue	NOUN	N	Case=Gen|Number=Sing	14	conj	22:nmod:poss	_
 22	asioista	asia	NOUN	N	Case=Ela|Number=Plur	9	obl	_	SpaceAfter=No
 23	.	.	PUNCT	Punct	_	1	punct	_	_
@@ -10004,7 +10005,7 @@
 
 # sent_id = h1007.26
 # text = Metsähallitusta on aikaisemmin kovasti ruoskittu, mutta siellä on nähtävästi päätetty uusiutua ikään kuin kertaheitolla.
-1	Metsähallitusta	Metsä#hallitus	PROPN	N	Case=Par|Number=Sing	5	obj	_	_
+1	Metsähallitusta	Metsähallitus	PROPN	N	Case=Par|Number=Sing	5	obj	_	_
 2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
 3	aikaisemmin	aikaisemmin	ADV	Adv	_	5	advmod	_	_
 4	kovasti	kovasti	ADV	Adv	Derivation=Sti	5	advmod	_	_
@@ -11277,7 +11278,7 @@
 # text = Aulis perääntyi luotsilan pihalle ja seurasi heidän uurastustaan sieltä.
 1	Aulis	Aulis	PROPN	N	Case=Nom|Number=Sing	2	nsubj	6:nsubj	_
 2	perääntyi	perääntyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	luotsilan	luotsila	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	luotsilan	Luotsila	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	pihalle	piha	NOUN	N	Case=All|Number=Sing	2	obl	_	_
 5	ja	ja	CCONJ	C	_	6	cc	_	_
 6	seurasi	seurata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -15985,7 +15986,7 @@
 4	kursseja	kurssi	NOUN	N	Case=Par|Number=Plur	3	obj	_	_
 5	joissa	joka	PRON	Pron	Case=Ine|Number=Plur|PronType=Rel	6	obl	_	_
 6	käsiteltiin	käsitellä	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
-7	Kaakkois-Aasian	Kaakkois#Aasia	PROPN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
+7	Kaakkois-Aasian	Kaakkois-Aasia	PROPN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	talouselämään	talous#elämä	NOUN	N	Case=Ill|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	11	punct	_	_
 10	kansainvälistä	kansain#välinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	11	amod	_	_
@@ -16879,7 +16880,7 @@
 # sent_id = t030.1
 # text = "Valko-Venäjä saattaa yhdistyä Venäjään"
 1	"	"	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
-2	Valko-Venäjä	Valko#Venäjä	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
+2	Valko-Venäjä	Valko-Venäjä	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
 3	saattaa	saattaa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	yhdistyä	yhdistyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
 5	Venäjään	Venäjä	PROPN	N	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No
@@ -16890,7 +16891,7 @@
 1	Pahoissa	paha	ADJ	A	Case=Ine|Degree=Pos|Number=Plur	2	amod	_	_
 2	vaikeuksissa	vaikeus	NOUN	N	Case=Ine|Derivation=Vs|Number=Plur	3	obl	_	_
 3	oleva	olla	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
-4	Valko-Venäjä	Valko#Venäjä	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	_
+4	Valko-Venäjä	Valko-Venäjä	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	_
 5	nojaa	nojata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	yhä	yhä	ADV	Adv	_	7	advmod	_	_
 7	vahvemmin	vahvasti	ADV	Adv	Degree=Cmp|Derivation=Sti	5	advmod	_	_
@@ -16935,7 +16936,7 @@
 15	että	että	SCONJ	C	_	19	mark	_	_
 16	Venäjä	Venäjä	PROPN	N	Case=Nom|Number=Sing	19	nsubj	_	_
 17	ja	ja	CCONJ	C	_	18	cc	_	_
-18	Valko-Venäjä	Valko#Venäjä	PROPN	N	Case=Nom|Number=Sing	16	conj	19:nsubj	_
+18	Valko-Venäjä	Valko-Venäjä	PROPN	N	Case=Nom|Number=Sing	16	conj	19:nsubj	_
 19	yhdistyisivät	yhdistyä	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	13	ccomp	_	_
 20	yhdeksi	yksi	NUM	Num	Case=Tra|Number=Sing|NumType=Card	21	nummod	_	_
 21	valtioksi	valtio	NOUN	N	Case=Tra|Number=Sing	19	xcomp	_	SpaceAfter=No
@@ -16956,7 +16957,7 @@
 11	ja	ja	CCONJ	C	_	13	cc	_	_
 12	täysin	täysin	ADV	Adv	_	13	advmod	_	_
 13	riippuvaista	riippuvainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	9	conj	2:ccomp	_
-14	Valko-Venäjän	Valko#Venäjä	PROPN	N	Case=Gen|Number=Sing	15	nmod:poss	_	_
+14	Valko-Venäjän	Valko-Venäjä	PROPN	N	Case=Gen|Number=Sing	15	nmod:poss	_	_
 15	kansan	kansa	NOUN	N	Case=Gen|Number=Sing	16	nmod:poss	_	_
 16	tahdosta	tahto	NOUN	N	Case=Ela|Number=Sing	13	nmod	_	SpaceAfter=No
 17	"	"	PUNCT	Punct	_	9	punct	_	SpaceAfter=No
@@ -16997,7 +16998,7 @@
 7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
 8	kunnioitettava	kunnioittaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	3	ccomp	_	_
 9	myös	myös	ADV	Adv	_	11	advmod	_	_
-10	Valko-Venäjän	Valko#Venäjä	PROPN	N	Case=Gen|Number=Sing	11	nmod:poss	_	_
+10	Valko-Venäjän	Valko-Venäjä	PROPN	N	Case=Gen|Number=Sing	11	nmod:poss	_	_
 11	presidentin	presidentti	NOUN	N	Case=Gen|Number=Sing	14	nmod:poss	_	_
 12	Aljaksandr	Aljaksandr	PROPN	N	Case=Nom|Number=Sing	11	appos	_	_
 13	Lukašenkan	Lukašenka	PROPN	N	Case=Gen|Number=Sing	12	flat:name	_	_
@@ -17006,7 +17007,7 @@
 
 # sent_id = t030.8
 # text = Valko-Venäjä on kärsinyt pahoista talousvaikeuksista, energiasta on pulaa ja maaseudulla on arvioitu olevan jopa nälänhätää vastaava tilanne.
-1	Valko-Venäjä	Valko#Venäjä	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	_
+1	Valko-Venäjä	Valko-Venäjä	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	kärsinyt	kärsiä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	pahoista	paha	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	5	amod	_	_
@@ -17048,7 +17049,7 @@
 # text = Venäjä ja Valko-Venäjä ovat jo esimerkiksi tullialue- ja viisumiyhteistyössä ja Valko-Venäjä on vahvasti riippuvainen naapurinsa taloudellisesta tuesta.
 1	Venäjä	Venäjä	PROPN	N	Case=Nom|Number=Sing	7	nsubj:cop	9:nsubj:cop	_
 2	ja	ja	CCONJ	C	_	3	cc	_	_
-3	Valko-Venäjä	Valko#Venäjä	PROPN	N	Case=Nom|Number=Sing	1	conj	7:nsubj:cop|9:nsubj:cop	_
+3	Valko-Venäjä	Valko-Venäjä	PROPN	N	Case=Nom|Number=Sing	1	conj	7:nsubj:cop|9:nsubj:cop	_
 4	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	jo	jo	ADV	Adv	_	7	advmod	9:advmod	_
 6	esimerkiksi	esimerkiksi	ADV	Adv	_	7	advmod	9:advmod	_
@@ -17056,7 +17057,7 @@
 8	ja	ja	CCONJ	C	_	9	cc	_	_
 9	viisumiyhteistyössä	viisumi#yhteis#työ	NOUN	N	Case=Ine|Number=Sing	7	conj	_	_
 10	ja	ja	CCONJ	C	_	14	cc	_	_
-11	Valko-Venäjä	Valko#Venäjä	PROPN	N	Case=Nom|Number=Sing	14	nsubj:cop	_	_
+11	Valko-Venäjä	Valko-Venäjä	PROPN	N	Case=Nom|Number=Sing	14	nsubj:cop	_	_
 12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 13	vahvasti	vahvasti	ADV	Adv	Derivation=Sti	14	advmod	_	_
 14	riippuvainen	riippuvainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	7	conj	_	_
@@ -17212,7 +17213,7 @@
 24	Heikki	Heikki	PROPN	N	Case=Nom|Number=Sing	22	nsubj	_	_
 25	Räisänen	Räisänen	PROPN	N	Case=Nom|Number=Sing	24	flat:name	_	_
 26	TEM:tä	TEM	PROPN	N	Abbr=Yes|Case=Abl|Number=Sing|Typo=Yes	24	nmod	_	SpaceAfter=No
-27	Taloussanomille	Talous#sanomat	PROPN	N	Case=All|Number=Plur	22	obl	_	SpaceAfter=No
+27	Taloussanomille	Taloussanomat	PROPN	N	Case=All|Number=Plur	22	obl	_	SpaceAfter=No
 28	.	.	PUNCT	Punct	_	15	punct	_	_
 
 # sent_id = t032.8
@@ -19420,10 +19421,10 @@
 4	lachrymosus	lachrymosus	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	SpaceAfter=No
 5	)	)	PUNCT	Punct	_	3	punct	_	_
 6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
-7	Etelä-Amerikan	Etelä#Amerikka	PROPN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
+7	Etelä-Amerikan	Etelä-Amerikka	PROPN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	luoteisosissa	luoteis#osa	NOUN	N	Case=Ine|Number=Plur	11	obl	_	_
 9	ja	ja	CCONJ	C	_	10	cc	_	_
-10	Keski-Amerikassa	Keski#Amerikka	PROPN	N	Case=Ine|Number=Sing	8	conj	11:obl	_
+10	Keski-Amerikassa	Keski-Amerikka	PROPN	N	Case=Ine|Number=Sing	8	conj	11:obl	_
 11	tavattava	tavata	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	14	acl	_	_
 12	kipuajiin	kipuaja	NOUN	N	Case=Ill|Derivation=Ja|Number=Plur	13	obl	_	_
 13	kuuluva	kuulua	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
@@ -20018,7 +20019,7 @@
 12	,	,	PUNCT	Punct	_	14	punct	_	_
 13	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	14	obj	_	_
 14	omistaa	omistaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
-15	Rautakirja	Rauta#kirja	PROPN	N	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
+15	Rautakirja	Rautakirja	PROPN	N	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
 16	.	.	PUNCT	Punct	_	11	punct	_	_
 
 # sent_id = w091.2
@@ -20043,7 +20044,7 @@
 5	1912	1912	NUM	Num	NumType=Card	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	10	punct	_	_
 7	ja	ja	CCONJ	C	_	10	cc	_	_
-8	Rautakirja	Rauta#kirja	PROPN	N	Case=Nom|Number=Sing	10	nsubj	_	_
+8	Rautakirja	Rautakirja	PROPN	N	Case=Nom|Number=Sing	10	nsubj	_	_
 9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	omistanut	omistaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	conj	_	_
 11	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	obj	_	_
@@ -20251,7 +20252,7 @@
 
 # sent_id = w104.1
 # text = Urheilukanava on suomalainen urheiluun erikoistunut televisiokanava, joka näkyy maksutta useimmissa kaapeliverkoissa sekä maanpäällisessä digiverkossa.
-1	Urheilukanava	urheilu#kanava	PROPN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	_
+1	Urheilukanava	Urheilukanava	PROPN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 3	suomalainen	suomalainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	6	amod	_	_
 4	urheiluun	urheilu	NOUN	N	Case=Ill|Derivation=U|Number=Sing	5	obl	_	_
@@ -20271,7 +20272,7 @@
 # sent_id = w104.2
 # text = Suomen Urheilutelevisio Oy sai valtakunnallisen toimiluvan digitaaliseen televisioverkkoon vuonna 2000 ja noin vuotta myöhemmin, 27. elokuuta 2001 kello 15 Urheilukanava aloitti lähetyksensä.
 1	Suomen	Suomi	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	Urheilutelevisio	urheilu#televisio	PROPN	N	Case=Nom|Number=Sing	3	compound:nn	_	_
+2	Urheilutelevisio	Urheilutelevisio	PROPN	N	Case=Nom|Number=Sing	3	compound:nn	_	_
 3	Oy	oy	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	4	nsubj	1:flat:name	_
 4	sai	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	valtakunnallisen	valta#kunnallinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Sing	6	amod	_	_
@@ -20290,22 +20291,22 @@
 18	2001	2001	NUM	Num	NumType=Card	16	flat	_	_
 19	kello	kello	NOUN	N	Case=Nom|Number=Sing	16	flat	_	_
 20	15	15	NUM	Num	NumType=Card	16	flat	_	_
-21	Urheilukanava	urheilu#kanava	PROPN	N	Case=Nom|Number=Sing	22	nsubj	_	_
+21	Urheilukanava	Urheilukanava	PROPN	N	Case=Nom|Number=Sing	22	nsubj	_	_
 22	aloitti	aloittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 23	lähetyksensä	lähetys	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	22	obj	_	SpaceAfter=No
 24	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = w104.3
 # text = Urheilukanavan toimitusjohtaja on Sanoma Television Oy / Nelonen Median liiketoimintajohtaja Hans Edin.
-1	Urheilukanavan	urheilu#kanava	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Urheilukanavan	Urheilukanava	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	toimitusjohtaja	toimitus#johtaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	11	nsubj:cop	_	_
 3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
-4	Sanoma	sanoma	PROPN	N	Case=Nom|Number=Sing	10	nmod:poss	_	_
-5	Television	television	PROPN	N	Case=Gen|Number=Sing	4	flat:name	_	_
+4	Sanoma	Sanoma	PROPN	N	Case=Nom|Number=Sing	10	nmod:poss	_	_
+5	Television	Television	PROPN	N	Case=Gen|Number=Sing	4	flat:name	_	_
 6	Oy	oy	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	4	flat:name	_	_
 7	/	/	PUNCT	Punct	_	8	punct	_	_
-8	Nelonen	nelonen	PROPN	N	Case=Nom|Number=Sing	4	appos	_	_
-9	Median	media	PROPN	N	Case=Gen|Number=Sing	8	flat:name	_	_
+8	Nelonen	Nelonen	PROPN	N	Case=Nom|Number=Sing	4	appos	_	_
+9	Median	Media	PROPN	N	Case=Gen|Number=Sing	8	flat:name	_	_
 10	liiketoimintajohtaja	liike#toiminta#johtaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	11	compound:nn	_	_
 11	Hans	Hans	PROPN	N	Case=Nom|Number=Sing	0	root	_	_
 12	Edin	Edin	PROPN	N	Case=Nom|Number=Sing	11	flat:name	_	SpaceAfter=No
@@ -20331,11 +20332,11 @@
 
 # sent_id = w104.5
 # text = Urheilukanavan omistaa Sanoma-konserniin kuuluva Sanoma Entertainment.
-1	Urheilukanavan	urheilu#kanava	PROPN	N	Case=Gen|Number=Sing	2	obj	_	_
+1	Urheilukanavan	Urheilukanava	PROPN	N	Case=Gen|Number=Sing	2	obj	_	_
 2	omistaa	omistaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	Sanoma-konserniin	sanoma#konserni	PROPN	N	Case=Ill|Number=Sing	4	obl	_	_
+3	Sanoma-konserniin	Sanoma#konserni	NOUN	N	Case=Ill|Number=Sing	4	obl	_	_
 4	kuuluva	kuulua	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
-5	Sanoma	sanoma	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
+5	Sanoma	Sanoma	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 6	Entertainment	Entertainment	PROPN	N	Case=Nom|Number=Sing	5	flat:name	_	SpaceAfter=No
 7	.	.	PUNCT	Punct	_	2	punct	_	_
 
@@ -20363,7 +20364,7 @@
 20	49,9	49,9	NUM	Num	NumType=Card	21	nummod	_	_
 21	%	%	SYM	Punct	_	19	obj	_	_
 22	Suomen	Suomi	PROPN	N	Case=Gen|Number=Sing	25	nmod:poss	_	_
-23	Urheilutelevisio	urheilu#televisio	PROPN	N	Case=Nom|Number=Sing	22	flat:name	_	_
+23	Urheilutelevisio	Urheilutelevisio	PROPN	N	Case=Nom|Number=Sing	22	flat:name	_	_
 24	Oy:n	oy	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	22	flat:name	_	_
 25	osakkeista	osake	NOUN	N	Case=Ela|Number=Plur	21	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	Punct	_	2	punct	_	_
@@ -20383,14 +20384,14 @@
 
 # sent_id = w104.8
 # text = Urheilukanava lähettää muun muassa jalkapalloa, esim. Liigacupin finaalin keväisin, sekä pesäpalloa, jääkiekkoa (Mestis ja Sveitsin jääkiekkoliiga), salibandya, yleisurheilua, golfia, moottoriurheilua ja tennistä.
-1	Urheilukanava	urheilu#kanava	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
+1	Urheilukanava	Urheilukanava	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 2	lähettää	lähettää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	muun	muun	ADV	Adv	_	5	advmod	13:advmod|15:advmod|23:advmod|25:advmod|27:advmod|29:advmod|31:advmod	_
 4	muassa	muassa	ADV	Adv	_	3	fixed	_	_
 5	jalkapalloa	jalka#pallo	NOUN	N	Case=Par|Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	9	punct	_	_
 7	esim.	esim.	ADV	Adv	Abbr=Yes	9	advmod	_	_
-8	Liigacupin	liiga#cup	PROPN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
+8	Liigacupin	Liigacup	PROPN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
 9	finaalin	finaali	NOUN	N	Case=Gen|Number=Sing	5	appos	_	_
 10	keväisin	keväisin	ADV	Adv	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	Punct	_	9	punct	_	_
@@ -20399,7 +20400,7 @@
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	jääkiekkoa	jää#kiekko	NOUN	N	Case=Par|Number=Sing	5	conj	2:obj	_
 16	(	(	PUNCT	Punct	_	17	punct	_	SpaceAfter=No
-17	Mestis	mestis	PROPN	N	Case=Nom|Number=Sing	15	appos	_	_
+17	Mestis	Mestis	PROPN	N	Case=Nom|Number=Sing	15	appos	_	_
 18	ja	ja	CCONJ	C	_	20	cc	_	_
 19	Sveitsin	Sveitsi	PROPN	N	Case=Gen|Number=Sing	20	nmod:poss	_	_
 20	jääkiekkoliiga	jää#kiekko#liiga	NOUN	N	Case=Nom|Number=Sing	17	conj	15:appos	SpaceAfter=No
@@ -20433,7 +20434,7 @@
 13	Ruotsin	Ruotsi	PROPN	N	Case=Gen|Number=Sing	5	conj	16:nmod:poss	_
 14	ja	ja	CCONJ	C	_	15	cc	_	_
 15	Suomen	Suomi	PROPN	N	Case=Gen|Number=Sing	5	conj	16:nmod:poss	_
-16	pääsarjoja	pää#sarja	PROPN	N	Case=Par|Number=Plur	4	obj	_	SpaceAfter=No
+16	pääsarjoja	pää#sarja	NOUN	N	Case=Par|Number=Plur	4	obj	_	SpaceAfter=No
 17	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = w104.10
@@ -20448,7 +20449,7 @@
 
 # sent_id = w104.11
 # text = Urheilukanava näyttää myös raviurheilua.
-1	Urheilukanava	urheilu#kanava	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
+1	Urheilukanava	Urheilukanava	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 2	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	myös	myös	ADV	Adv	_	4	advmod	_	_
 4	raviurheilua	ravi#urheilu	NOUN	N	Case=Par|Derivation=U|Number=Sing	2	obj	_	SpaceAfter=No
@@ -20461,7 +20462,7 @@
 3	kolmipuolinen	kolmi#puolinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	7	punct	_	_
 5	kun	kun	SCONJ	C	_	7	mark	12.1:mark	_
-6	Aamupala	aamu#pala	PROPN	N	Case=Nom|Number=Sing	7	obj	_	_
+6	Aamupala	Aamupala	PROPN	N	Case=Nom|Number=Sing	7	obj	_	_
 7	näytetään	näyttää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl	_	_
 8	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	9	det	_	_
 9	aamu	aamu	NOUN	N	Case=Nom|Number=Sing	7	obl	_	_
@@ -20478,12 +20479,12 @@
 1	Raviohjelmistoon	ravi#ohjelmisto	NOUN	N	Case=Ill|Number=Sing	2	obl	_	_
 2	kuuluu	kuulua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	myös	myös	ADV	Adv	_	4	advmod	_	_
-4	Pelivihjeet	peli#vihje	PROPN	N	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	Pelivihjeet	Pelivihjeet	PROPN	N	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = w104.14
 # text = Urheilukanava esitti 23. joulukuuta 2007 Espanjan jalkapallon pääsarjan klassikko-ottelun Barcelona – Real Madrid, joka keräsi parhaimmillaan 135 000 katsojaa.
-1	Urheilukanava	urheilu#kanava	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
+1	Urheilukanava	Urheilukanava	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 2	esitti	esittää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	23.	23.	ADJ	Num	NumType=Ord	2	obl	_	_
 4	joulukuuta	joulukuu	NOUN	N	Case=Par|Number=Sing	3	flat	_	_
@@ -20509,7 +20510,7 @@
 1	11.	11.	ADJ	Num	NumType=Ord	5	obl	_	_
 2	huhtikuuta	huhtikuu	NOUN	N	Case=Par|Number=Sing	1	flat	_	_
 3	2009	2009	NUM	Num	NumType=Card	1	flat	_	_
-4	Urheilukanava	urheilu#kanava	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	_
+4	Urheilukanava	Urheilukanava	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	_
 5	esitti	esittää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	Vaasan	Vaasa	PROPN	N	Case=Gen|Number=Sing	12	obl	_	_
 7	Sport	Sport	PROPN	N	Case=Nom|Number=Sing	6	flat:name	_	_
@@ -20538,7 +20539,7 @@
 9	,	,	PUNCT	Punct	_	13	punct	_	_
 10	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	13	nsubj:cop	_	_
 11	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
-12	Urheilukanavan	urheilu#kanava	PROPN	N	Case=Gen|Number=Sing	13	nmod:poss	_	_
+12	Urheilukanavan	Urheilukanava	PROPN	N	Case=Gen|Number=Sing	13	nmod:poss	_	_
 13	katsojaennätys	katsoja#ennätys	NOUN	N	Case=Nom|Number=Sing	8	acl:relcl	_	SpaceAfter=No
 14	.	.	PUNCT	Punct	_	2	punct	_	_
 
@@ -20552,8 +20553,8 @@
 6	1950-	1950-	NUM	Num	_	12	obl	_	_
 7	ja	ja	CCONJ	C	_	8	cc	_	_
 8	1960-luvulla	1960#luku	NOUN	N	Case=Ade|Number=Sing	6	conj	12:obl	_
-9	Saariselän	Saari#selkä	PROPN	N	Case=Gen|Number=Sing	10	nmod:poss	_	_
-10	Lankojärvellä	Lanko#järvi	PROPN	N	Case=Ade|Number=Sing	12	obl	_	_
+9	Saariselän	Saariselkä	PROPN	N	Case=Gen|Number=Sing	10	nmod:poss	_	_
+10	Lankojärvellä	Lankojärvi	PROPN	N	Case=Ade|Number=Sing	12	obl	_	_
 11	turvekammissa	turve#kammi	NOUN	N	Case=Ine|Number=Sing	12	obl	_	_
 12	asunut	asua	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	13	acl	_	_
 13	erakko	erakko	NOUN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
@@ -20600,7 +20601,7 @@
 18	tai	tai	CCONJ	C	_	19	cc	_	_
 19	Raja-Jooseppi	Raja-Jooseppi	PROPN	N	Case=Nom|Number=Sing	17	conj	14:advcl	_
 20	tai	tai	CCONJ	C	_	21	cc	_	_
-21	Nätti-Jussi	Nätti#Jussi	PROPN	N	Case=Nom|Number=Sing	17	conj	14:advcl	SpaceAfter=No
+21	Nätti-Jussi	Nätti-Jussi	PROPN	N	Case=Nom|Number=Sing	17	conj	14:advcl	SpaceAfter=No
 22	.	.	PUNCT	Punct	_	2	punct	_	_
 
 # sent_id = w107.5
@@ -20629,7 +20630,7 @@
 5	tutuksi	tuttu	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	3	xcomp	_	_
 6	monelle	moni	PRON	Pron	Case=All|Number=Sing|PronType=Ind	10	det	_	_
 7	1950-luvulla	1950#luku	NOUN	N	Case=Ade|Number=Sing	10	obl	_	_
-8	Saariselän	Saari#selkä	PROPN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
+8	Saariselän	Saariselkä	PROPN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
 9	alueella	alue	NOUN	N	Case=Ade|Number=Sing	10	obl	_	_
 10	vaeltaneelle	vaeltaa	VERB	V	Case=All|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	obl	_	SpaceAfter=No
 11	.	.	PUNCT	Punct	_	3	punct	_	_
@@ -20701,7 +20702,7 @@
 1	Meänteis	Meänteis	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	rakentanut	rakentaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	Lankojärvelle	Lanko#järvi	PROPN	N	Case=All|Number=Sing	3	obl	_	_
+4	Lankojärvelle	Lankojärvi	PROPN	N	Case=All|Number=Sing	3	obl	_	_
 5	kammin	kammi	NOUN	N	Case=Gen|Number=Sing	7	nmod	12:nmod	_
 6	lisäksi	lisäksi	ADV	Adv	_	5	case	_	_
 7	niliaitan	nili#aitta	NOUN	N	Case=Gen|Number=Sing	3	obj	_	_
@@ -20724,13 +20725,13 @@
 8	Meänteis	Meänteis	PROPN	N	Case=Nom|Number=Sing	10	nsubj	_	_
 9	joutui	joutua	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	lähtemään	lähteä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	conj	_	_
-11	Lankojärveltä	Lanko#järvi	PROPN	N	Case=Abl|Number=Sing	10	obl	_	SpaceAfter=No
+11	Lankojärveltä	Lankojärvi	PROPN	N	Case=Abl|Number=Sing	10	obl	_	SpaceAfter=No
 12	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = w107.13
 # text = Sittemmin Saariselän alueelle perustetun UKK-kansallispuiston vuoksi asuinkenttä hävitettiin.
 1	Sittemmin	sittemmin	ADV	Adv	_	4	advmod	_	_
-2	Saariselän	Saari#selkä	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Saariselän	Saariselkä	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	alueelle	alue	NOUN	N	Case=All|Number=Sing	4	obl	_	_
 4	perustetun	perustaa	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
 5	UKK-kansallispuiston	UKK#kansallis#puisto	NOUN	N	Case=Gen|Number=Sing	8	obl	_	_
@@ -20748,7 +20749,7 @@
 5	silti	silti	ADV	Adv	_	7	advmod	_	_
 6	vielä	vielä	ADV	Adv	_	7	advmod	_	_
 7	nähtävillä	nähdä	VERB	V	Case=Ade|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
-8	Lankojärvellä	Lanko#järvi	PROPN	N	Case=Ade|Number=Sing	7	obl	_	SpaceAfter=No
+8	Lankojärvellä	Lankojärvi	PROPN	N	Case=Ade|Number=Sing	7	obl	_	SpaceAfter=No
 9	.	.	PUNCT	Punct	_	7	punct	_	_
 
 # sent_id = w107.15
@@ -20774,7 +20775,7 @@
 3	kirjassa	kirja	NOUN	N	Case=Ine|Number=Sing	19	obl	24:obl	_
 4	Pitkin	pitkin	ADV	Adv	_	6	advmod	10:advmod	_
 5	poikin	poikin	ADV	Adv	_	4	fixed	_	_
-6	Saariselkää	Saari#selkä	PROPN	N	Case=Par|Number=Sing	3	appos	_	_
+6	Saariselkää	Saariselkä	PROPN	N	Case=Par|Number=Sing	3	appos	_	_
 7	ja	ja	CCONJ	C	_	10	cc	_	_
 8	muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	10	det	_	_
 9	Lapin	Lappi	PROPN	N	Case=Gen|Number=Sing	10	nmod:poss	_	_
@@ -21977,7 +21978,7 @@
 
 # sent_id = w146.34
 # text = Isossa-Britanniassa seulonnan piiriin kuuluvat kaikki 50–64-vuotiaat naiset, ja seulonta tapahtuu kolmen vuoden välein.
-1	Isossa-Britanniassa	Iso#Britannia	PROPN	N	Case=Ine|Number=Sing	4	obl	11:obl	_
+1	Isossa-Britanniassa	Iso-Britannia	PROPN	N	Case=Ine|Number=Sing	4	obl	11:obl	_
 2	seulonnan	seulonta	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	piiriin	piiri	NOUN	N	Case=Ill|Number=Sing	4	obl	_	_
 4	kuuluvat	kuulua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -22606,7 +22607,7 @@
 2	noudatetaan	noudattaa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	aikaisemmista	aikainen	ADJ	A	Case=Ela|Degree=Cmp|Derivation=Inen|Number=Plur	6	amod	_	_
 4	The	The	PROPN	N	Case=Nom|Number=Sing	6	nmod:poss	_	_
-5	Sims-sarjan	Sims#sarja	PROPN	N	Case=Gen|Number=Sing|Typo=Yes	4	flat:name	_	_
+5	Sims-sarjan	Sims#sarja	NOUN	N	Case=Gen|Number=Sing|Typo=Yes	4	flat:name	_	_
 6	osista	osa	NOUN	N	Case=Ela|Number=Plur	7	nmod	_	_
 7	tuttua	tuttu	ADJ	A	Case=Par|Degree=Pos|Number=Sing	8	amod	_	_
 8	kaavaa	kaava	NOUN	N	Case=Par|Number=Sing	2	obj	_	SpaceAfter=No
@@ -22899,7 +22900,7 @@
 
 # sent_id = w173.28
 # text = Simin ihonväriä voi vaihtaa minkä väriseksi tahansa: pelissä voi tehdä vaikkapa vihreitä maahisia.
-1	Simin	sim	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Simin	Sim	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	ihonväriä	ihon#väri	NOUN	N	Case=Par|Number=Sing	4	obj	_	_
 3	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	vaihtaa	vaihtaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	_
@@ -23928,9 +23929,9 @@
 1	Alueen	alue	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	alkuperäisasukkaita	alku#peräis#asukas	NOUN	N	Case=Par|Number=Plur	4	nsubj:cop	6:nsubj:cop	_
 3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	6:cop	_
-4	tlingitit	tlingit	PROPN	N	Case=Nom|Number=Plur	0	root	_	_
+4	tlingitit	tlingi	NOUN	N	Case=Nom|Number=Plur	0	root	_	_
 5	ja	ja	CCONJ	C	_	6	cc	_	_
-6	haidat	haida	PROPN	N	Case=Nom|Number=Plur	4	conj	_	SpaceAfter=No
+6	haidat	haida	NOUN	N	Case=Nom|Number=Plur	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	Punct	_	4	punct	_	_
 
 # sent_id = w179.5
@@ -24559,7 +24560,7 @@
 2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 3	terroristijärjestö	terroristi#järjestö	NOUN	N	Case=Nom|Number=Sing	4	compound:nn	_	_
 4	al-Qaidan	al-Qaida	PROPN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
-5	Pohjois-Afrikan	Pohjois#Afrikka	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
+5	Pohjois-Afrikan	Pohjois-Afrikka	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	siipi	siipi	NOUN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Punct	_	6	punct	_	_
 
