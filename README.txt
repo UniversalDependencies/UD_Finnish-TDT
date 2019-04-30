@@ -4,7 +4,7 @@ UD_Finnish-TDT is based on the Turku Dependency Treebank (TDT), a broad-coverage
 
 # Introduction
 
-The treebank contains texts from Wikipedia articles, Wikinews articles, University online news, Blog entries, Student magazine articles, Grammar examples, Europarl speeches, JRC-Acquis legislation, Financial news, and Fiction sourced from 674 individual documents. The original annotation of the treebank was in Stanford Dependencies, including secondary dependencies, and fully manually checked morphological annotation. The treebank is also accompanied by a PropBank annotation (http://turkunlp.github.io/Finnish_PropBank/) and a dependency parser pipeline substantially outperforming the baseline UDPipe model (http://turkunlp.github.io/Finnish-dep-parser/).
+The treebank contains texts from Wikipedia articles, Wikinews articles, University online news, Blog entries, Student magazine articles, Grammar examples, Europarl speeches, JRC-Acquis legislation, Financial news, and Fiction sourced from 674 individual documents. The original annotation of the treebank was in Stanford Dependencies, including secondary dependencies, and fully manually checked morphological annotation. The treebank is also accompanied by a PropBank annotation (http://turkunlp.github.io/Finnish_PropBank/) and a dependency parser pipeline substantially outperforming the baseline UDPipe model (https://turkunlp.org/Turku-neural-parser-pipeline/).
 
 
 # Acknowledgments
@@ -65,6 +65,19 @@ annotation problems noticed after the 1.0 release.
 * CHANGELOG 2.1 -> 2.2
 
 - Repository renamed from UD_Finnish to UD_Finnish-TDT.
+
+* CHANGELOG 2.2 -> 2.3
+
+- No changes
+
+* CHANGELOG 2.3 -> 2.4
+
+- Parataxis punctuation now follow the official UD style
+- Basic dependencies are repeated in the enhanced graph
+- Multiword token annotation for tokens like "ettei"
+- More consistent lemma annotation
+- Various validation errors fixed
+- Various fixes of individual annotation errors
 
 
 --- Machine readable metadata ---
