@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Finnish-TDT:
-commit fcfb0ef1a68e8eca69044e212adb9235adf9cfaa
+commit b7b537364277abd1d2cf35d31c1d1604905d158f
+Merge: 32bfb26 ffb3023
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:00:44 2019 +0100
 Size: counted 202194 of 202194 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6184552651112.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 146220 out of 202194 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 10950 bugs.
+Udapi: found 10948 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 202194 words.
 Genres: found 6 out of 17 known.
 validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.768589421329054) = 0.197074210597193
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.458440903290899) = 0.141058739474123
+(weight=0.307692307692308) * (score{udapi}=0.458539818194407) = 0.141089174829048
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.673773568064875) * (availability=1) * (validity=1) = 0.673773568064875
+(TOTAL score=0.673804003419801) * (availability=1) * (validity=1) = 0.673804003419801
 STARS = 3.5
-UD_Finnish-TDT	0.673773568064875	3.5
+UD_Finnish-TDT	0.673804003419801	3.5
