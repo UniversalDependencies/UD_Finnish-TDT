@@ -1,10 +1,10 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Finnish-TDT:
-commit b7b537364277abd1d2cf35d31c1d1604905d158f
-Merge: 32bfb26 ffb3023
+commit 5fdd4d62bbb7308e027b99853f04883ee62ece00
+Merge: abf93a1 53be582
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 202194 of 202194 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6184552651112.
@@ -19,6 +19,8 @@ Features: 146220 out of 202194 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
+Udapi:
+               TOTAL      10948
 Udapi: found 10948 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 202194 words.
 Genres: found 6 out of 17 known.
