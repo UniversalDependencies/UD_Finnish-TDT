@@ -20,6 +20,45 @@ We are grateful for the funding received from:
 
 We thank all the authors who kindly allowed us to include their texts into the treebank, either by explicit permission, or by releasing their text under an open license in the first place.
 
+# Cite
+
+```
+{% raw %}
+
+@Article{haverinen2013tdt,
+  Title                    = {Building the essential resources for {Finnish}: the {Turku Dependency Treebank}},
+  Author                   = {Haverinen, Katri and Nyblom, Jenna and Viljanen, Timo and Laippala, Veronika and Kohonen, Samuel and Missil{\"a}, Anna and Ojala, Stina and Salakoski, Tapio and Ginter, Filip},
+  Journal                  = {Language Resources and Evaluation},
+  Year                     = {2014},
+  Note                     = {Open access},
+  Pages                    = {493-531},
+  Volume                   = {48},
+
+  Doi                      = {10.1007/s10579-013-9244-1},
+  ISSN                     = {1574-020X},
+  Issue                    = {3},
+  Keywords                 = {Treebank; Finnish; Parsing; Morphology},
+  Language                 = {English},
+  Owner                    = {ginter},
+  Publisher                = {Springer Netherlands},
+  Timestamp                = {2013.08.15},
+  Url                      = {http://dx.doi.org/10.1007/s10579-013-9244-1}
+}
+
+@InProceedings{pyysalo2015udfinnish,
+  Title                    = {Universal {D}ependencies for {F}innish},
+  Author                   = {Pyysalo, Sampo and Kanerva, Jenna and Missil{\"a}, Anna and Laippala, Veronika and Ginter, Filip},
+  Booktitle                = {Proceedings of NoDaLiDa 2015},
+  Year                     = {2015},
+  Pages                    = {163--172},
+  Publisher                = {NEALT},
+
+  Url                      = {https://aclweb.org/anthology/W/W15/W15-1821.pdf}
+}
+
+{% endraw %}
+```
+
 # Changelogs
 
 * CHANGELOG 1.0 -> 1.1
