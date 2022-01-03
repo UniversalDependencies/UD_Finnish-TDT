@@ -10843,7 +10843,7 @@
 11	,	,	PUNCT	Punct	_	13	punct	13:punct	_
 12	yhtä	yhtä	ADV	Adv	_	13	advmod	13:advmod	_
 13	paljon	paljon	ADV	Adv	_	16	orphan	16.1:advmod	_
-14	kuin	kuin	SCONJ	C	_	16	orphan	16.1:mark:comparator	_
+14	kuin	kuin	SCONJ	C	_	16	orphan	16.1:mark	_
 15	vanha	vanha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	amod	16:amod	_
 16	kansanrintama	kansan#rintama	NOUN	N	Case=Nom|Number=Sing	4	conj	4:conj|16.1:nsubj	_
 16.1	sai	saada	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	4:conj	_
@@ -17229,7 +17229,7 @@
 21	tai	tai	CCONJ	C	_	23	cc	23:cc	_
 22	jopa	jopa	ADV	Adv	_	23	advmod	23:advmod	_
 23	paremmin	hyvin	ADV	Adv	Degree=Cmp	20	conj	14:advmod|20:conj	_
-24	kuin	kuin	SCONJ	C	_	25	orphan	25.1:mark:comparator	_
+24	kuin	kuin	SCONJ	C	_	25	orphan	25.1:mark	_
 25	suomalaiset	suomalainen	NOUN	N	Case=Nom|Derivation=Lainen|Number=Plur	14	conj	14:conj|25.1:nsubj	_
 25.1	työllistyvät	työllistyä	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	14:conj	_
 26	vastaavien	vastaava	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	27	amod	27:amod	_
