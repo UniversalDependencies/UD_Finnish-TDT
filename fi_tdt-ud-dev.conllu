@@ -2301,7 +2301,7 @@
 5	laskun	lasku	NOUN	N	Case=Gen|Derivation=U|Number=Sing	3	obj	3:obj	_
 6	vain	vain	ADV	Adv	_	7	advmod	7:advmod	_
 7	44	44	NUM	Num	NumType=Card	8	nummod	8:nummod	_
-8	%:	%	SYM	Punct	Case=Ade|Number=Sing|Typo=Yes	3	obl	3:obl	_
+8	%:	%	NOUN	Punct	Case=Ade|Number=Sing|Typo=Yes	3	obl	3:obl	_
 9	lla	_	X	N	_	8	goeswith	8:goeswith	SpaceAfter=No
 10	.	.	PUNCT	Punct	_	2	punct	2:punct	_
 
@@ -2314,7 +2314,7 @@
 5	nostamalla	nostaa	VERB	V	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	2:advcl	_
 6	tulonlisät	tulo#lisä	NOUN	N	Case=Nom|Number=Plur	5	obj	5:obj	_
 7	75	75	NUM	Num	NumType=Card	8	nummod	8:nummod	_
-8	%:	%	SYM	Punct	Case=Ill|Number=Sing|Typo=Yes	5	obl	5:obl	_
+8	%:	%	NOUN	Punct	Case=Ill|Number=Sing|Typo=Yes	5	obl	5:obl	_
 9	iin	_	X	N	_	8	goeswith	8:goeswith	_
 10	hintojen	hinta	NOUN	N	Case=Gen|Number=Plur	11	nmod:poss	11:nmod:poss	_
 11	laskusta	lasku	NOUN	N	Case=Ela|Derivation=U|Number=Sing	8	nmod	8:nmod	SpaceAfter=No
