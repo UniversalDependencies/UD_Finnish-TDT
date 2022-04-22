@@ -1935,13 +1935,13 @@
 # sent_id = b716.2
 # text = Tämän hetken lemppari lisäke lähes ruoalla kuin ruoalla on paistettu kiinankaali.
 1	Tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	det	2:det	_
-2	hetken	hetki	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	3:nmod:poss	_
-3	lemppari	lemppari#lisäke	NOUN	N	Case=Nom|Number=Sing|Typo=Yes	11	nsubj:cop	11:nsubj:cop	_
-4	lisäke	_	X	N	_	3	goeswith	3:goeswith	_
+2	hetken	hetki	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	4:nmod:poss	_
+3	lemppari	lemppari	NOUN	N	Case=Nom|Number=Sing	4	compound:nn	4:compound:nn	_
+4	lisäke	lisäke	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj:cop	_
 5	lähes	lähes	ADV	Adv	_	6	advmod	6:advmod|8:advmod	_
-6	ruoalla	ruoka	NOUN	N	Case=Ade|Number=Sing	3	nmod	3:nmod	_
+6	ruoalla	ruoka	NOUN	N	Case=Ade|Number=Sing	4	nmod	4:nmod	_
 7	kuin	kuin	CCONJ	C	_	8	cc	8:cc	_
-8	ruoalla	ruoka	NOUN	N	Case=Ade|Number=Sing	6	conj	3:nmod|6:conj	_
+8	ruoalla	ruoka	NOUN	N	Case=Ade|Number=Sing	6	conj	4:nmod|6:conj	_
 9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 10	paistettu	paistaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	11	acl	11:acl	_
 11	kiinankaali	kiinan#kaali	NOUN	N	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
@@ -20481,8 +20481,8 @@
 21	ray-tracing	ray-tracing	X	Foreign	Foreign=Yes	19	appos	19:appos	SpaceAfter=No
 22	)	)	PUNCT	Punct	_	21	punct	21:punct	_
 23	perustuvan	perustua	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	26	acl	26:acl	_
-24	photo	photo#realistinen	ADJ	Foreign	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing|Typo=Yes	26	amod	26:amod	_
-25	realistisen	_	X	A	_	24	goeswith	24:goeswith	_
+24	photo	photo	X	Foreign	Foreign=Yes	25	compound	25:compound	_
+25	realistisen	realistinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	26	amod	26:amod	_
 26	tulostuksen	tulostus	NOUN	N	Case=Gen|Number=Sing	6	conj	4:appos|6:conj	SpaceAfter=No
 27	.	.	PUNCT	Punct	_	3	punct	3:punct	_
 

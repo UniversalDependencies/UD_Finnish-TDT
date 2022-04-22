@@ -2570,13 +2570,13 @@
 9	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	8	obl	8:obl	_
 10	kuitenkin	kuitenkin	ADV	Adv	_	8	advmod	8:advmod	_
 11	enmmän	enemmän	ADV	Adv	Typo=Yes	8	advmod	8:advmod	_
-12	eihan	ihan	ADV	Adv	Typo=Yes	13	advmod	13:advmod	_
-13	kebab	kebab#salaatti	NOUN	N	Case=Ess|Number=Sing|Typo=Yes	8	obl	8:obl	_
-14	salaattina	_	X	N	_	13	goeswith	13:goeswith	_
+12	eihan	ihan	ADV	Adv	Typo=Yes	14	advmod	14:advmod	_
+13	kebab	kebab	NOUN	N	Case=Nom|Number=Sing	14	compound:nn	14:compound:nn	_
+14	salaattina	salaatti	NOUN	N	Case=Ess|Number=Sing	8	obl	8:obl	_
 15	tai	tai	CCONJ	C	_	18	cc	18:cc	_
 16	joskus	joskus	ADV	Adv	_	18	advmod	18:advmod	_
 17	jopa	jopa	ADV	Adv	_	18	advmod	18:advmod	_
-18	ranskalaisilla	ranskalainen	NOUN	N	Case=Ade|Derivation=Lainen|Number=Plur	13	conj	8:obl|13:conj	_
+18	ranskalaisilla	ranskalainen	NOUN	N	Case=Ade|Derivation=Lainen|Number=Plur	14	conj	8:obl|14:conj	_
 19	.	.	PUNCT	Punct	_	4	punct	4:punct	_
 
 # sent_id = b709.18
@@ -5244,8 +5244,8 @@
 # text = Nuori, kolmetoista vuotias poika asteli hyvin pitkässä heinikossa.
 1	Nuori	nuori	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	SpaceAfter=No
 2	,	,	PUNCT	Punct	_	5	punct	5:punct	_
-3	kolmetoista	kolme#toista#vuotias	ADJ	Num	Case=Nom|Degree=Pos|Number=Sing|Typo=Yes	5	amod	5:amod	_
-4	vuotias	_	X	A	_	3	goeswith	3:goeswith	_
+3	kolmetoista	kolme#toista	NUM	Num	Case=Nom|Number=Sing|NumType=Card	4	compound	4:compound	_
+4	vuotias	vuotias	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
 5	poika	poika	NOUN	N	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 6	asteli	astella	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	hyvin	hyvin	ADV	Adv	_	8	advmod	8:advmod	_
@@ -5520,9 +5520,9 @@
 9	ja	ja	CCONJ	C	_	10	cc	10:cc	_
 10	käveli	kävellä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	8:conj	_
 11	istumaan	istua	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	10:xcomp	_
-12	bussin	bussi	NOUN	N	Case=Gen|Number=Sing	13	nmod:poss	13:nmod:poss	_
-13	keski	keski#osa	NOUN	N	Case=Ill|Number=Sing|Typo=Yes	11	obl	11:obl	_
-14	osaan	_	X	N	_	13	goeswith	13:goeswith	SpaceAfter=No
+12	bussin	bussi	NOUN	N	Case=Gen|Number=Sing	14	nmod:poss	14:nmod:poss	_
+13	keski	keski	ADJ	N	_	14	compound	14:compound	_
+14	osaan	osa	NOUN	N	Case=Ill|Number=Sing	11	obl	11:obl	SpaceAfter=No
 15	.	.	PUNCT	Punct	_	2	punct	2:punct	_
 
 # sent_id = f401.28
@@ -19496,13 +19496,13 @@
 # sent_id = w085.3
 # text = Lajin pää on valkoinen ja tihesti musta viiruinen.
 1	Lajin	laji	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	2:nmod:poss	_
-2	pää	pää	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj:cop|7:nsubj:cop	_
-3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop|7:cop	_
+2	pää	pää	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj:cop|8:nsubj:cop	_
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop|8:cop	_
 4	valkoinen	valkoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	0:root	_
-5	ja	ja	CCONJ	C	_	7	cc	7:cc	_
-6	tihesti	tiheästi	ADV	Adv	Derivation=Sti|Typo=Yes	7	advmod	7:advmod	_
-7	musta	musta#viiruinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing|Typo=Yes	4	conj	4:conj	_
-8	viiruinen	_	X	A	_	7	goeswith	7:goeswith	SpaceAfter=No
+5	ja	ja	CCONJ	C	_	8	cc	8:cc	_
+6	tihesti	tiheästi	ADV	Adv	Derivation=Sti|Typo=Yes	8	advmod	8:advmod	_
+7	musta	musta	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	compound	8:compound	_
+8	viiruinen	viiruinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	4	conj	4:conj	SpaceAfter=No
 9	.	.	PUNCT	Punct	_	4	punct	4:punct	_
 
 # sent_id = w085.4
