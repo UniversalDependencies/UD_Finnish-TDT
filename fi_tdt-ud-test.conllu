@@ -16478,8 +16478,8 @@
 12	työmme	työ	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	14	nsubj:cop	14:nsubj:cop	_
 13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 14	työtä	työ	NOUN	N	Case=Par|Number=Sing	4	conj	4:conj	_
-15	siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	17	nmod	17:nmod	_
-16	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Int	15	fixed	15:fixed	_
+15	siinä	siinä	ADV	Adv	_	17	mark	17:mark	_
+16	missä	missä	ADV	Adv	_	15	fixed	15:fixed	_
 17	muittenkin	muu	PRON	Pron	Case=Gen|Clitic=Kin|Number=Plur|PronType=Ind	14	advcl	14:advcl	SpaceAfter=No
 18	;	;	PUNCT	Punct	_	19	punct	19:punct	_
 19	pennissä	penni	NOUN	N	Case=Ine|Number=Sing	14	parataxis	14:parataxis	_

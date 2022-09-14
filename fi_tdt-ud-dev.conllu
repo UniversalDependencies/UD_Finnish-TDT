@@ -1323,11 +1323,11 @@
 
 # sent_id = b504.22
 # text = Pääasia että vehje toimii.
-1	Pääasia	pää#asia	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj:cop	_
+1	Pääasia	pää#asia	NOUN	N	Case=Nom|Number=Sing	0	root	0:root	_
 2	että	että	SCONJ	C	_	4	mark	4:mark	_
 3	vehje	vehje	NOUN	N	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
-4	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-5	.	.	PUNCT	Punct	_	4	punct	4:punct	_
+4	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:cop	1:csubj:cop	SpaceAfter=No
+5	.	.	PUNCT	Punct	_	1	punct	1:punct	_
 
 # sent_id = b504.23
 # text = Shieldit kiinnittyvät Arduinoon näin ikään.
