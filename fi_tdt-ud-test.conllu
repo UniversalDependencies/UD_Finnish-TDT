@@ -347,14 +347,14 @@
 
 # sent_id = b306.5
 # text = Sen minkä annat puhtain sydämin se tulee luokses aina takaisin.
-1	Sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
+1	Sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	7	dislocated	7:dislocated	_
 2	minkä	mikä	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	3	obj	3:obj	_
 3	annat	antaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 4	puhtain	puhdas	ADJ	A	Case=Ins|Degree=Pos|Number=Plur	5	amod	5:amod	_
 5	sydämin	sydän	NOUN	N	Case=Ins|Number=Plur	3	obl	3:obl	_
 6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
 7	tulee	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-8	luokses	luokse	ADV	Adv	Number[psor]=Sing|Person[psor]=2|Style=Coll	10	advmod	10:advmod	_
+8	luokses	luokse	ADV	Adv	Number[psor]=Sing|Person[psor]=2|Style=Coll	7	advmod	7:advmod	_
 9	aina	aina	ADV	Adv	_	7	advmod	7:advmod	_
 10	takaisin	takaisin	ADV	Adv	_	7	advmod	7:advmod	SpaceAfter=No
 11	.	.	PUNCT	Punct	_	7	punct	7:punct	_
@@ -7276,12 +7276,12 @@
 
 # sent_id = f803.2
 # text = Teltsu, se on niinku Telatassu, se rassaa Karrin kimpussa.
-1	Teltsu	Teltsu	PROPN	N	Case=Nom|Number=Sing	9	nsubj	9:nsubj	SpaceAfter=No
+1	Teltsu	Teltsu	PROPN	N	Case=Nom|Number=Sing	9	dislocated	9:dislocated	SpaceAfter=No
 2	,	,	PUNCT	Punct	_	6	punct	6:punct	_
 3	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	6:nsubj:cop	_
 4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 5	niinku	niin#kuin	ADV	Adv	Style=Coll	6	advmod	6:advmod	_
-6	Telatassu	Telatassu	PROPN	N	Case=Nom|Number=Sing	1	conj	1:conj|9:nsubj	SpaceAfter=No
+6	Telatassu	Telatassu	PROPN	N	Case=Nom|Number=Sing	1	appos	1:appos	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	6	punct	6:punct	_
 8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	9:nsubj	_
 9	rassaa	rassata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -8652,7 +8652,7 @@
 17	juuri	juuri	ADV	Adv	_	22	advmod	22:advmod	_
 18	A.	A.	PROPN	N	Abbr=Yes|Case=Nom|Number=Sing	21	nmod:poss	21:nmod:poss	_
 19	Jokisen	Jokinen	PROPN	N	Case=Gen|Number=Sing	18	flat:name	18:flat:name	_
-20	perunoiden	peruna	NOUN	N	Case=Gen|Number=Plur	21	nmod:poss	21:nmod:poss	_
+20	perunoiden	peruna	NOUN	N	Case=Gen|Number=Plur	21	nmod:gobj	21:nmod:gobj	_
 21	kuorijaa	kuorija	NOUN	N	Case=Par|Derivation=Ja|Number=Sing	22	advcl	22:advcl	_
 22	pätevämmän	pätevä	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	23	amod	23:amod	_
 23	kirjoittajan	kirjoittaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Sing	24	nsubj	24:nsubj	_

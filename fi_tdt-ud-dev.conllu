@@ -5499,7 +5499,7 @@
 # text = Se Ramin auto niin sehän on niin vanha että mä ihmettelen että ne yleensä sai sen käyntiin.
 1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	3:det	_
 2	Ramin	Rami	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	3:nmod:poss	_
-3	auto	auto	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj:cop	_
+3	auto	auto	NOUN	N	Case=Nom|Number=Sing	8	dislocated	8:dislocated	_
 4	niin	niin	ADV	Adv	_	8	advmod	8:advmod	_
 5	sehän	se	PRON	Pron	Case=Nom|Clitic=Han|Number=Sing|PronType=Dem	8	nsubj:cop	8:nsubj:cop	_
 6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
@@ -19289,8 +19289,8 @@
 
 # sent_id = u011.7
 # text = Kivelä on työnsä ohessa hän on tehnyt selvityksiä ja kirjoittanut runsaasti artikkeleita, oppikirjoja ja yleisiä tietokirjoja.
-1	Kivelä	Kivelä	PROPN	N	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
-2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+1	Kivelä	Kivelä	PROPN	N	Case=Nom|Number=Sing	7	dislocated	7:dislocated	_
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	dislocated	7:dislocated	_
 3	työnsä	työ	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	7	obl	7:obl|10:obl	_
 4	ohessa	ohessa	ADP	Adp	AdpType=Post	3	case	3:case	_
 5	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj|10:nsubj	_
