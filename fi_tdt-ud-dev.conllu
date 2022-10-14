@@ -10633,7 +10633,7 @@
 16	,	,	PUNCT	Punct	_	22	punct	22:punct	_
 17	sillä	sillä	SCONJ	C	_	22	mark	22:mark	_
 18	nimen	nimi	NOUN	N	Case=Gen|Number=Sing	19	nmod:poss	19:nmod:poss	_
-19	jälkiliite	jälki#liite	NOUN	N	Case=Nom|Number=Sing	22	nsubj:cop	22:nsubj:cop	_
+19	jälkiliite	jälki#liite	NOUN	N	Case=Nom|Number=Sing	22	nsubj:outer	22:nsubj:outer	_
 20	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
 21	levy-yhtiön	levy#yhtiö	NOUN	N	Case=Gen|Number=Sing	22	nsubj	22:nsubj	_
 22	lisäämä	lisätä	VERB	V	Case=Nom|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	4	advcl	4:advcl	SpaceAfter=No
@@ -15859,7 +15859,7 @@
 
 # sent_id = fD01.31
 # text = Se ei voinut olla maanjäristyksen mereen suistama, sillä rakennukset olivat ehjiä ja niiden marmori oli helmenvalkoista.
-1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	7:nsubj:cop	_
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:outer	7:nsubj:outer	_
 2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 3	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	aux	7:aux	_
 4	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	cop	7:cop	_
