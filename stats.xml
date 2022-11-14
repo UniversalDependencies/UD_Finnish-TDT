@@ -17,16 +17,16 @@
   <tags unique="15">
     <tag name="ADJ">14289</tag><!-- hyvä, uusi, suuri, oma, ensimmäinen, pieni, sellainen, tärkeä, koko, toinen -->
     <tag name="ADP">2974</tag><!-- mukaan, kanssa, jälkeen, vuoksi, ennen, lisäksi, kautta, vastaan, kohti, puolesta -->
-    <tag name="ADV">15612</tag><!-- myös, niin, nyt, vain, jo, vielä, sitten, kuitenkin, hyvin, paljon -->
+    <tag name="ADV">15614</tag><!-- myös, niin, nyt, vain, jo, vielä, sitten, kuitenkin, hyvin, paljon -->
     <tag name="AUX">12110</tag><!-- olla, ei, voida, pitää, saattaa, täytyä, joutua, aikoa, taitaa, tarvita -->
-    <tag name="CCONJ">8316</tag><!-- ja, tai, mutta, sekä, eli, vaan, vai, että, kuin, niin -->
+    <tag name="CCONJ">8318</tag><!-- ja, tai, mutta, sekä, eli, vaan, vai, että, kuin, niin -->
     <tag name="INTJ">209</tag><!-- no, hei, ai, joo, voi, kuule, okei, tuota, ugh, vie -->
     <tag name="NOUN">56454</tag><!-- vuosi, aika, päivä, osa, komissio, maa, asia, mies, artikla, ihminen -->
     <tag name="NUM">4979</tag><!-- kaksi, yksi, 1, 2, kolme, 2009, 3, miljoona, viisi, neljä -->
-    <tag name="PRON">13483</tag><!-- se, joka, tämä, hän, minä, mikä, kaikki, muu, jokin, sinä -->
+    <tag name="PRON">13481</tag><!-- se, joka, tämä, hän, minä, mikä, kaikki, muu, jokin, sinä -->
     <tag name="PROPN">12121</tag><!-- Eurooppa, Suomi, Turku, EU, Helsinki, Yhdysvallat, the, EY, Venäjä, Mithridates -->
     <tag name="PUNCT">29606</tag><!-- ., ,, ), (, ", :, ?, ”, -, – -->
-    <tag name="SCONJ">3925</tag><!-- että, kun, kuin, jos, vaikka, koska, sillä, jotta, kuten, mikäli -->
+    <tag name="SCONJ">3923</tag><!-- että, kun, kuin, jos, vaikka, koska, sillä, jotta, kuten, mikäli -->
     <tag name="SYM">478</tag><!-- :), %, &, +, :D, ;), 3.Rf3, =, >, 2.f4 -->
     <tag name="VERB">27342</tag><!-- saada, tehdä, olla, tulla, antaa, ottaa, sanoa, haluta, käyttää, koskea -->
     <tag name="X">294</tag><!-- _, metal, common, death, a, and, be, fun, it, pic -->
@@ -46,7 +46,7 @@
     <feat name="Case" value="Ess" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2458</feat><!-- vuonna, päivänä, aikana, tänä, vuosina, verrattuna, tarkoituksena, osana, tiistaina, perjantaina -->
     <feat name="Case" value="Gen" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">24839</feat><!-- sen, euroopan, tämän, hänen, vuoden, jonka, Turun, suomen, yhteisön, komission -->
     <feat name="Case" value="Ill" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">6175</feat><!-- huomioon, siihen, tähän, aikaan, johon, käyttöön, samaan, vuoteen, kotiin, tekemään -->
-    <feat name="Case" value="Ine" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,SYM,VERB">6771</feat><!-- jossa, tässä, siinä, Suomessa, yhteydessä, joissa, missä, olemassa, artiklassa, liitteessä -->
+    <feat name="Case" value="Ine" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,SYM,VERB">6769</feat><!-- jossa, tässä, siinä, Suomessa, yhteydessä, joissa, missä, olemassa, artiklassa, liitteessä -->
     <feat name="Case" value="Ins" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">493</feat><!-- tavoin, osin, ottaen, lukien, johtuen, noudattaen, käsin, liittyen, välein, omin -->
     <feat name="Case" value="Nom" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">35587</feat><!-- se, hän, joka, tämä, ne, ollut, jotka, kaikki, minä, kaksi -->
     <feat name="Case" value="Par" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,SYM,VERB">15745</feat><!-- sitä, mitä, tätä, prosenttia, niitä, mitään, joita, vuotta, jota, jotain -->
@@ -92,7 +92,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">21613</feat><!-- on, oli, ovat, ole, voi, olivat, voidaan, olen, tulee, saa -->
     <feat name="Mood" value="Pot" upos="AUX,VERB">50</feat><!-- lienee, liene, lie, hypänne, kertone, lienevät, luvanne, saanen, Palauttanet, Suonet -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">26561</feat><!-- ovat, ne, jotka, eivät, olivat, niiden, he, meidän, niitä, joita -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">105340</feat><!-- on, ei, oli, se, hän, sen, joka, sitä, olisi, voi -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">105338</feat><!-- on, ei, oli, se, hän, sen, joka, sitä, olisi, voi -->
     <feat name="Number[psor]" value="Plur" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">332</feat><!-- joukkueemme, mielestämme, edessämme, elämässämme, itsellemme, itseämme, keskuudessamme, lapsemme, toisiamme, elämämme -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">958</feat><!-- mielestäni, silmäni, itseni, itseäni, käteni, mieheni, ystäväni, pääni, elämäni, itselleni -->
     <feat name="NumType" value="Card" upos="ADJ,NUM">4685</feat><!-- 1, 2, kaksi, 2009, 3, 5, 4, kolme, yksi, 10 -->
@@ -109,9 +109,9 @@
     <feat name="Person[psor]" value="2" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">167</feat><!-- itsesi, kanssasi, sydämesi, autosi, haluamallasi, halutessasi, isäsi, kanssanne, kanssas, mielestänne -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">2378</feat><!-- itsensä, itselleen, itseään, mukanaan, olevansa, saadakseen, mukaansa, silmänsä, toisiaan, alkunsa -->
     <feat name="Polarity" value="Neg" upos="AUX,VERB">2474</feat><!-- ei, en, eivät, eikä, emme, et, enkä, älä, eikö, eivätkä -->
-    <feat name="PronType" value="Dem" upos="PRON">5156</feat><!-- se, sen, sitä, siitä, tämän, tämä, ne, tässä, niiden, siihen -->
+    <feat name="PronType" value="Dem" upos="PRON">5155</feat><!-- se, sen, sitä, siitä, tämän, tämä, ne, tässä, niiden, siihen -->
     <feat name="PronType" value="Ind" upos="NUM,PRON">2534</feat><!-- kaikki, mitään, jotain, joku, muita, muiden, muut, muuta, kaiken, kukaan -->
-    <feat name="PronType" value="Int" upos="PRON">377</feat><!-- mitä, mikä, kuka, mistä, missä, mihin, minkä, mitkä, millä, mitähän -->
+    <feat name="PronType" value="Int" upos="PRON">376</feat><!-- mitä, mikä, kuka, mistä, missä, mihin, minkä, mitkä, millä, mitähän -->
     <feat name="PronType" value="Prs" upos="PRON">2873</feat><!-- hän, hänen, minä, he, meidän, mä, me, heidän, minun, minua -->
     <feat name="PronType" value="Rcp" upos="PRON">185</feat><!-- toinen, toisen, toiselle, toiseen, toisella, toisiinsa, toisten, toiset, toisiaan, toisessa -->
     <feat name="PronType" value="Rel" upos="PRON">2093</feat><!-- joka, jotka, jonka, jossa, joita, jota, mitä, joiden, mikä, joissa -->
@@ -128,47 +128,49 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">5230</feat><!-- voidaan, tehty, ollut, tehdään, annettu, annetun, sovelletaan, julkaistiin, käytetään, otetaan -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="45">
+  <deps unique="47">
     <dep name="acl">3637</dep>
-    <dep name="acl:relcl">2105</dep>
+    <dep name="acl:relcl">2106</dep>
     <dep name="advcl">3506</dep>
-    <dep name="advmod">13978</dep>
+    <dep name="advmod">13976</dep>
     <dep name="amod">10403</dep>
-    <dep name="appos">1355</dep>
-    <dep name="aux">5831</dep>
+    <dep name="appos">1354</dep>
+    <dep name="aux">5829</dep>
     <dep name="aux:pass">760</dep>
     <dep name="case">2992</dep>
-    <dep name="cc">8191</dep>
+    <dep name="cc">8192</dep>
     <dep name="cc:preconj">161</dep>
     <dep name="ccomp">2016</dep>
     <dep name="compound">185</dep>
     <dep name="compound:nn">1197</dep>
     <dep name="compound:prt">281</dep>
-    <dep name="conj">10652</dep>
-    <dep name="cop">5154</dep>
+    <dep name="conj">10654</dep>
+    <dep name="cop">5153</dep>
     <dep name="cop:own">344</dep>
     <dep name="csubj">54</dep>
-    <dep name="csubj:cop">204</dep>
+    <dep name="csubj:cop">205</dep>
     <dep name="dep">4</dep>
     <dep name="det">3485</dep>
     <dep name="discourse">301</dep>
-    <dep name="fixed">512</dep>
+    <dep name="dislocated">16</dep>
+    <dep name="fixed">514</dep>
     <dep name="flat">896</dep>
     <dep name="flat:foreign">93</dep>
     <dep name="flat:name">2811</dep>
     <dep name="goeswith">23</dep>
-    <dep name="mark">3949</dep>
-    <dep name="nmod">5078</dep>
-    <dep name="nmod:gobj">1554</dep>
+    <dep name="mark">3950</dep>
+    <dep name="nmod">5074</dep>
+    <dep name="nmod:gobj">1555</dep>
     <dep name="nmod:gsubj">553</dep>
-    <dep name="nmod:poss">10955</dep>
-    <dep name="nsubj">11681</dep>
-    <dep name="nsubj:cop">4784</dep>
+    <dep name="nmod:poss">10954</dep>
+    <dep name="nsubj">11673</dep>
+    <dep name="nsubj:cop">4754</dep>
+    <dep name="nsubj:outer">21</dep>
     <dep name="nummod">3286</dep>
-    <dep name="obj">11309</dep>
+    <dep name="obj">11310</dep>
     <dep name="obl">18467</dep>
-    <dep name="orphan">321</dep>
-    <dep name="parataxis">819</dep>
+    <dep name="orphan">322</dep>
+    <dep name="parataxis">820</dep>
     <dep name="punct">29606</dep>
     <dep name="root">15136</dep>
     <dep name="vocative">117</dep>
