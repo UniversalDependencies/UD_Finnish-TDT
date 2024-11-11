@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Finnish-TDT:
-commit 29c8fb81264854d701e8cd1acd9fd7321ba727fb
+commit 33eeddbf2975febf86b031147fc04b80603f0139
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:50:44 2023 +0100
+Date:   Sun May 5 12:14:26 2024 +0200
 Size: counted 202192 of 202192 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6184354820327.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -26,25 +26,39 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 202192
 Genres: found 6 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-dev.conllu
 [Line 949 Sent b504.4 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2247 Sent e1039.4 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:samoilla:det --> 17:tuottajat:advcl)
+[Line 2265 Sent e1039.5 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:samalla:det --> 14:tuet:advcl)
 [Line 8643 Sent u031.10 Node 10]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 8642 Sent u031.10 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14593 Sent f501.6 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 4
+[Line 9296 Sent w043.18 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:ainoat:det --> 9:maajoukkueuransa:nmod)
+[Line 11315 Sent wn087.8 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:muilla:det --> 16:osuuksilla:advcl)
+[Line 11997 Sent b402.3 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:muuta:det --> 9:kerrata:advcl)
+[Line 12870 Sent b402.51 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:muuta:det --> 9:hankkiminen:advcl)
+[Line 14568 Sent f501.5 Node 68]: [L3 Warning leaf-det] 'det' not expected to have children (68:samaa:det --> 75:ruukut:advcl)
+...suppressing further errors regarding Warning
+Warnings: 14
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-test.conllu
+[Line 5944 Sent f401.60 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:samaan:det --> 16:määritellyt:advcl)
+[Line 7883 Sent f803.35 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:minkään:det --> 5:ei:aux)
+[Line 8700 Sent fB04.9 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:samaan:det --> 10:laittaa:advcl)
+[Line 11177 Sent h1052.19 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:samaan:det --> 6:missä:advcl)
+[Line 13370 Sent j001.44 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:muihin:det --> 23:kaupallisiin:advcl)
+Warnings: 5
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-train.conllu
+[Line 112 Sent b102.4 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:samalla:det --> 11:tuomiokirkkoa:advcl)
 [Line 457 Sent b105.17 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3069 Sent b202.9 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3875 Sent b202.65 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 11374 Sent b508.30 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 13089 Sent b603.14 Node 20]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 13944 Sent b604.21 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14247 Sent b606.15 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:samalla:det --> 8:minä:advcl)
 [Line 15713 Sent b712.12 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 15816 Sent b712.17 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 117079 Sent s108.25 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 120840 Sent s202.31 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 10
+...suppressing further errors regarding Warning
+Warnings: 51
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
