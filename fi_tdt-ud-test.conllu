@@ -15256,17 +15256,17 @@
 11	seuraavat	seuraava	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	6	acl:relcl	6:acl:relcl	SpaceAfter=No
 12	:	:	PUNCT	Punct	_	13	punct	13:punct	_
 13	Pôdohospodárska	Pôdohospodárska	X	Foreign	Foreign=Yes	11	appos	11:appos	_
-14	platobná	platobná	X	Foreign	Foreign=Yes	13	flat:name	13:flat:name	_
-15	agentúra	agentúra	X	Foreign	Foreign=Yes	13	flat:name	13:flat:name	_
-16	oddelenie	oddelenie	X	Foreign	Foreign=Yes	13	flat:name	13:flat:name	_
-17	obilnín	obilnín	X	Foreign	Foreign=Yes	13	flat:name	13:flat:name	_
-18	a	a	X	Foreign	Foreign=Yes	13	flat:name	13:flat:name	_
-19	škrobu	škrobu	X	Foreign	Foreign=Yes	13	flat:name	13:flat:name	_
-20	Dobrovičova	Dobrovičova	X	Foreign	Foreign=Yes	13	flat:name	13:flat:name	_
-21	12	12	NUM	Num	NumType=Card	13	flat:name	13:flat:name	_
-22	SK-815	SK#815	NUM	Num	Case=Nom|Number=Sing|NumType=Card	13	flat:name	13:flat:name	_
-23	26	26	NUM	Num	NumType=Card	13	flat:name	13:flat:name	_
-24	Bratislava	Bratislava	PROPN	N	Case=Nom|Number=Sing	13	flat:name	13:flat:name	_
+14	platobná	platobná	X	Foreign	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+15	agentúra	agentúra	X	Foreign	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+16	oddelenie	oddelenie	X	Foreign	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+17	obilnín	obilnín	X	Foreign	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+18	a	a	X	Foreign	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+19	škrobu	škrobu	X	Foreign	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+20	Dobrovičova	Dobrovičova	X	Foreign	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+21	12	12	NUM	Num	NumType=Card	13	nmod	13:nmod	_
+22	SK-815	SK#815	X	Num	Foreign=Yes	13	flat:foreign	13:flat:foreign	_
+23	26	26	NUM	Num	NumType=Card	13	nmod	13:nmod	_
+24	Bratislava	Bratislava	PROPN	N	Case=Nom|Number=Sing	13	conj	13:conj	_
 25	Puhelin	puhelin	NOUN	N	Case=Nom|Number=Sing	13	conj	11:appos|13:conj	_
 26	(421-2)	(421-2)	NUM	Num	NumType=Card	27	compound	27:compound	_
 27	58 24 32 71	58 24 32 71	NUM	Num	NumType=Card	25	appos	25:appos	_
@@ -16059,10 +16059,10 @@
 3	antoi	antaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	myös	myös	ADV	Adv	_	11	advmod	11:advmod	_
 5	paikallisen	paikallinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Sing	10	amod	10:amod	SpaceAfter=No
-6	,	,	PUNCT	Punct	_	7	punct	7:punct	_
-7	bahasa	bahasa	X	Foreign	Foreign=Yes	10	nmod:poss	10:nmod:poss	_
-8	indonesian	indonesia	NOUN	N	Case=Gen|Number=Sing	7	flat:name	7:flat:name	SpaceAfter=No
-9	,	,	PUNCT	Punct	_	7	punct	7:punct	_
+6	,	,	PUNCT	Punct	_	8	punct	8:punct	_
+7	bahasa	bahasa	X	Foreign	Foreign=Yes	8	compound	8:compound	OrigLang=id
+8	indonesian	indonesia	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	10:nmod:poss	OrigLang=id|SpaceAfter=No
+9	,	,	PUNCT	Punct	_	8	punct	8:punct	_
 10	kielen	kieli	NOUN	N	Case=Gen|Number=Sing	11	nmod:gobj	11:nmod:gobj	_
 11	opiskelu	opiskelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
 12	.	.	PUNCT	Punct	_	3	punct	3:punct	_
@@ -16550,12 +16550,12 @@
 # sent_id = s305.16
 # text = Be all you can be, bebe!
 1	Be	Be	X	Foreign	Foreign=Yes	0	root	0:root	_
-2	all	all	X	Foreign	Foreign=Yes	1	flat:name	1:flat:name	_
-3	you	you	X	Foreign	Foreign=Yes	1	flat:name	1:flat:name	_
-4	can	can	X	Foreign	Foreign=Yes	1	flat:name	1:flat:name	_
-5	be	be	X	Foreign	Foreign=Yes	1	flat:name	1:flat:name	SpaceAfter=No
+2	all	all	X	Foreign	Foreign=Yes	1	flat:foreign	1:flat:foreign	_
+3	you	you	X	Foreign	Foreign=Yes	1	flat:foreign	1:flat:foreign	_
+4	can	can	X	Foreign	Foreign=Yes	1	flat:foreign	1:flat:foreign	_
+5	be	be	X	Foreign	Foreign=Yes	1	flat:foreign	1:flat:foreign	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	1	punct	1:punct	_
-7	bebe	bebe	X	Foreign	Foreign=Yes	1	flat:name	1:flat:name	SpaceAfter=No
+7	bebe	bebe	X	Foreign	Foreign=Yes	1	flat:foreign	1:flat:foreign	SpaceAfter=No
 8	!	!	PUNCT	Punct	_	1	punct	1:punct	_
 
 # sent_id = t010.1
@@ -20164,11 +20164,11 @@
 4	(	(	PUNCT	Punct	_	6	punct	6:punct	SpaceAfter=No
 5	engl.	engl.	NOUN	N	Abbr=Yes|Case=Tra|Number=Sing	6	nmod	6:nmod	_
 6	light	light	X	Foreign	Foreign=Yes	3	appos	3:appos	_
-7	weight	weight	X	Foreign	Foreign=Yes	6	flat:name	6:flat:name	_
-8	coated	coated	X	Foreign	Foreign=Yes	6	flat:name	6:flat:name	_
-9	paper	paper	X	Foreign	Foreign=Yes	6	flat:name	6:flat:name	SpaceAfter=No
+7	weight	weight	X	Foreign	Foreign=Yes	6	flat:foreign	6:flat:foreign	OrigLang=en
+8	coated	coated	X	Foreign	Foreign=Yes	6	flat:foreign	6:flat:foreign	OrigLang=en
+9	paper	paper	X	Foreign	Foreign=Yes	6	flat:foreign	6:flat:foreign	OrigLang=en|SpaceAfter=No
 10	;	;	PUNCT	Punct	_	6	punct	6:punct	_
-11	LWC	LWC	X	Foreign	Foreign=Yes	6	appos	6:appos	SpaceAfter=No
+11	LWC	LWC	X	Foreign	Foreign=Yes	6	appos	6:appos	OrigLang=en|SpaceAfter=No
 12	)	)	PUNCT	Punct	_	6	punct	6:punct	_
 13	tarkoittaa	tarkoittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 14	puupitoista	puu#pitoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	15	amod	15:amod	_
@@ -22304,7 +22304,7 @@
 1	Pervomaisk	Pervomaisk	PROPN	N	Case=Nom|Number=Sing	7	nsubj:cop	7:nsubj:cop	_
 2	(	(	PUNCT	Punct	_	4	punct	4:punct	SpaceAfter=No
 3	ven.	ven.	NOUN	N	Abbr=Yes|Case=Tra|Number=Sing	4	nmod	4:nmod	_
-4	Первома́йск	Первома́йск	X	Foreign	Foreign=Yes	1	appos	1:appos	SpaceAfter=No
+4	Первома́йск	Первома́йск	X	Foreign	Foreign=Yes	1	appos	1:appos	OrigLang=ru|SpaceAfter=No
 5	)	)	PUNCT	Punct	_	4	punct	4:punct	_
 6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 7	kaupunki	kaupunki	NOUN	N	Case=Nom|Number=Sing	0	root	0:root	_
