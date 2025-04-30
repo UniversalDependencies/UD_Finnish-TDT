@@ -5941,7 +5941,7 @@
 13	tyttö	tyttö	NOUN	N	Case=Nom|Number=Sing	16	nsubj	16:nsubj	_
 14	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 15	itse	itse	ADV	Adv	_	16	advmod	16:advmod	_
-16	määritellyt	määritellä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	10	advcl	10:advcl	SpaceAfter=No
+16	määritellyt	määritellä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	advcl	11:advcl	SpaceAfter=No
 17	.	.	PUNCT	Punct	_	3	punct	3:punct	_
 
 # sent_id = f402.1
@@ -7880,7 +7880,7 @@
 2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 3	vähä	vähän	ADV	Adv	Style=Coll	4	advmod	4:advmod	_
 4	sellanen	sellainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing|Style=Coll	8	amod	8:amod	_
-5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 6	minkään	mikään	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	7	det	7:det	_
 7	jengin	jengi	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	8:nmod:poss	_
 8	maa	maa	NOUN	N	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
@@ -8697,7 +8697,7 @@
 7	huolehtiva	huolehtia	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	9	acl	9:acl	_
 8	nakkikojuketjun	nakki#koju#ketju	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	9:nmod:poss	_
 9	omistaja	omistaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	10	nsubj	10:nsubj	_
-10	laittaa	laittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
+10	laittaa	laittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
 11	paremmat	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Plur	12	amod	12:amod	_
 12	myyjät	myyjä	NOUN	N	Case=Nom|Number=Plur	10	obj	10:obj	_
 13	lähelle	lähelle	ADP	Adp	AdpType=Prep	16	case	16:case	_
@@ -11174,7 +11174,7 @@
 3	samaan	sama	PRON	Pron	Case=Ill|Number=Sing|PronType=Ind	4	det	4:det	_
 4	syöksykierteeseen	syöksy#kierre	NOUN	N	Case=Ill|Number=Sing	2	obl	2:obl	_
 5	kuin	kuin	SCONJ	C	_	6	mark	6:mark	_
-6	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Int	3	advcl	3:advcl	_
+6	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Int	4	advcl	4:advcl	_
 7	Ruotsi	Ruotsi	PROPN	N	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj:cop	_
 8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	SpaceAfter=No
 9	.	.	PUNCT	Punct	_	2	punct	2:punct	_
@@ -13367,7 +13367,7 @@
 20	usein	usein	ADV	Adv	_	19	advmod	19:advmod	_
 21	muihin	muu	PRON	Pron	Case=Ill|Number=Plur|PronType=Ind	24	det	24:det	_
 22	kuin	kuin	SCONJ	C	_	23	mark	23:mark	_
-23	kaupallisiin	kaupallinen	ADJ	A	Case=Ill|Degree=Pos|Derivation=Llinen|Number=Plur	21	advcl	21:advcl	_
+23	kaupallisiin	kaupallinen	ADJ	A	Case=Ill|Degree=Pos|Derivation=Llinen|Number=Plur	24	advcl	24:advcl	_
 24	tarkoituksiin	tarkoitus	NOUN	N	Case=Ill|Number=Plur	19	obl	19:obl	SpaceAfter=No
 25	,	,	PUNCT	Punct	_	30	punct	30:punct	_
 26	ja	ja	CCONJ	C	_	30	cc	30:cc	_
