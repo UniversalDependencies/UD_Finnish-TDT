@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Finnish-TDT:
-commit 33eeddbf2975febf86b031147fc04b80603f0139
+commit f912804e7d13380a3bb02bdcefb53b7a3cc2dd7c
+Merge: 1dbb48c e7ad38b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:14:26 2024 +0200
-Size: counted 202192 of 202192 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.6184354820327.
+Size: counted 202193 of 202193 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.6184453735964.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,60 +15,66 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 146195 out of 202192 total words have one or more features.
+Features: 146191 out of 202193 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3076
-Udapi: found 3076 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 202192 words.
-Genres: found 6 out of 17 known.
+               TOTAL       3019
+Udapi: found 3019 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 202193 words.
+Genres: found 6 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-dev.conllu
-[Line 949 Sent b504.4 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2247 Sent e1039.4 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:samoilla:det --> 17:tuottajat:advcl)
-[Line 2265 Sent e1039.5 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:samalla:det --> 14:tuet:advcl)
-[Line 8643 Sent u031.10 Node 10]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 8642 Sent u031.10 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 9296 Sent w043.18 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:ainoat:det --> 9:maajoukkueuransa:nmod)
-[Line 11315 Sent wn087.8 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:muilla:det --> 16:osuuksilla:advcl)
-[Line 11997 Sent b402.3 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:muuta:det --> 9:kerrata:advcl)
-[Line 12870 Sent b402.51 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:muuta:det --> 9:hankkiminen:advcl)
-[Line 14568 Sent f501.5 Node 68]: [L3 Warning leaf-det] 'det' not expected to have children (68:samaa:det --> 75:ruukut:advcl)
+[Line 320 Sent b204.22 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'tai sitten' does not have the 'ExtPos' feature
+[Line 925 Sent b504.3 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'itse asiassa' does not have the 'ExtPos' feature
+[Line 1337 Sent b504.23 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'näin ikään' does not have the 'ExtPos' feature
+[Line 1684 Sent b605.5 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'hip hip hurraa' does not have the 'ExtPos' feature
+[Line 1893 Sent b605.19 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ai niin' does not have the 'ExtPos' feature
+[Line 3816 Sent f604.20 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'vähän kuin' does not have the 'ExtPos' feature
+[Line 4562 Sent h1008.22 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'aika lailla' does not have the 'ExtPos' feature
+[Line 5163 Sent h1034.4 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'kenelle hyvänsä' does not have the 'ExtPos' feature
+[Line 5254 Sent h1034.12 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'kenelle tahansa' does not have the 'ExtPos' feature
+[Line 5775 Sent h1071.6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Voi helvetti' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 14
+Warnings: 37
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-test.conllu
-[Line 5944 Sent f401.60 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:samaan:det --> 16:määritellyt:advcl)
-[Line 7883 Sent f803.35 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:minkään:det --> 5:ei:aux)
-[Line 8700 Sent fB04.9 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:samaan:det --> 10:laittaa:advcl)
-[Line 11177 Sent h1052.19 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:samaan:det --> 6:missä:advcl)
-[Line 13370 Sent j001.44 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:muihin:det --> 23:kaupallisiin:advcl)
-Warnings: 5
+[Line 481 Sent b401.6 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'päällisin puolin' does not have the 'ExtPos' feature
+[Line 2000 Sent b602.14 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ai niin' does not have the 'ExtPos' feature
+[Line 3136 Sent e1008.23 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'aina vain' does not have the 'ExtPos' feature
+[Line 3183 Sent e1008.25 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'joka ainoalla' does not have the 'ExtPos' feature
+[Line 3320 Sent e1008.33 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'niin kutsutusta' does not have the 'ExtPos' feature
+[Line 3567 Sent e1008.45 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'joka ainoan' does not have the 'ExtPos' feature
+[Line 3604 Sent e1008.45 Node 47]: [L3 Warning fixed-without-extpos] Fixed expression 'koska tahansa' does not have the 'ExtPos' feature
+[Line 3785 Sent e1008.53 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'joka ainoaa' does not have the 'ExtPos' feature
+[Line 4104 Sent e1021.4 Node 46]: [L3 Warning fixed-without-extpos] Fixed expression 'suuressa määrin' does not have the 'ExtPos' feature
+[Line 4381 Sent e1075.6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Näin ollen' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 53
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-train.conllu
-[Line 112 Sent b102.4 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:samalla:det --> 11:tuomiokirkkoa:advcl)
-[Line 457 Sent b105.17 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3069 Sent b202.9 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3875 Sent b202.65 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 11374 Sent b508.30 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 13089 Sent b603.14 Node 20]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 13944 Sent b604.21 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14247 Sent b606.15 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:samalla:det --> 8:minä:advcl)
-[Line 15713 Sent b712.12 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 15816 Sent b712.17 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 200 Sent b105.3 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'sen suuremmin' does not have the 'ExtPos' feature
+[Line 242 Sent b105.5 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ikään kuin' does not have the 'ExtPos' feature
+[Line 611 Sent b108.7 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'saman tien' does not have the 'ExtPos' feature
+[Line 1390 Sent b111.17 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ikään kuin' does not have the 'ExtPos' feature
+[Line 1683 Sent b114.15 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'itse asiassa' does not have the 'ExtPos' feature
+[Line 1701 Sent b114.16 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'vähän kuin' does not have the 'ExtPos' feature
+[Line 2217 Sent b201.3 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'No niin' does not have the 'ExtPos' feature
+[Line 3127 Sent b202.13 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'niin sanotusti' does not have the 'ExtPos' feature
+[Line 4212 Sent b203.4 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'mutta toisaalta' does not have the 'ExtPos' feature
+[Line 4405 Sent b203.15 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'suuna päänä' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 51
+Warnings: 413
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.352941176470588) = 0.0271493212669683
+(weight=0.0769230769230769) * (score{genres}=0.333333333333333) = 0.0256410256410256
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.768587989382079) = 0.197073843431302
+(weight=0.256410256410256) * (score{size}=0.768588705357337) = 0.197074027014702
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.847867373585503) = 0.260882268795539
+(weight=0.307692307692308) * (score{udapi}=0.850687214690914) = 0.261749912212589
 (weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.795675732299403) * (availability=1) * (validity=1) = 0.795675732299403
+(TOTAL score=0.795035263673909) * (availability=1) * (validity=1) = 0.795035263673909
 STARS = 4
-UD_Finnish-TDT	0.795675732299403	4
+UD_Finnish-TDT	0.795035263673909	4
