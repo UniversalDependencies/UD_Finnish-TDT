@@ -5,31 +5,31 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>15136</sentences><tokens>201948</tokens><words>202192</words><fused>244</fused></total>
-    <train><sentences>12217</sentences><tokens>162615</tokens><words>162814</words><fused>199</fused></train>
+    <total><sentences>15136</sentences><tokens>201949</tokens><words>202193</words><fused>244</fused></total>
+    <train><sentences>12217</sentences><tokens>162616</tokens><words>162815</words><fused>199</fused></train>
     <dev><sentences>1364</sentences><tokens>18290</tokens><words>18308</words><fused>18</fused></dev>
     <test><sentences>1555</sentences><tokens>21043</tokens><words>21070</words><fused>27</fused></test>
   </size>
-  <lemmas unique="26035" /><!-- ., ,, olla, ja, se, ei, joka, että, tämä, hän, minä, ), voida, (, vuosi -->
+  <lemmas unique="26033" /><!-- ., ,, olla, ja, se, ei, joka, että, tämä, hän, minä, ), voida, (, vuosi -->
   <forms unique="53903" /><!-- ., ,, ja, on, että, ei, oli, ), se, (, tai, hän, myös, mutta, sen -->
   <fusions unique="30" /><!-- ettei, etten, muttei, etteivät, ellei, miksei, jollei, emmä, ettemme, ellemme, vaikkei, vaikkeivat, etteikö, elleivät, ettet -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
     <tag name="ADJ">14289</tag><!-- hyvä, uusi, suuri, oma, ensimmäinen, pieni, sellainen, tärkeä, koko, toinen -->
     <tag name="ADP">2974</tag><!-- mukaan, kanssa, jälkeen, vuoksi, ennen, lisäksi, kautta, vastaan, kohti, puolesta -->
-    <tag name="ADV">15614</tag><!-- myös, niin, nyt, vain, jo, vielä, sitten, kuitenkin, hyvin, paljon -->
+    <tag name="ADV">15620</tag><!-- myös, niin, nyt, vain, jo, vielä, sitten, kuitenkin, hyvin, paljon -->
     <tag name="AUX">12110</tag><!-- olla, ei, voida, pitää, saattaa, täytyä, joutua, aikoa, taitaa, tarvita -->
-    <tag name="CCONJ">8318</tag><!-- ja, tai, mutta, sekä, eli, vaan, vai, että, kuin, niin -->
+    <tag name="CCONJ">8319</tag><!-- ja, tai, mutta, sekä, eli, vaan, vai, että, kuin, niin -->
     <tag name="INTJ">209</tag><!-- no, hei, ai, joo, voi, kuule, okei, tuota, ugh, vie -->
-    <tag name="NOUN">56454</tag><!-- vuosi, aika, päivä, osa, komissio, maa, asia, mies, artikla, ihminen -->
-    <tag name="NUM">4979</tag><!-- kaksi, yksi, 1, 2, kolme, 2009, 3, miljoona, viisi, neljä -->
-    <tag name="PRON">13481</tag><!-- se, joka, tämä, hän, minä, mikä, kaikki, muu, jokin, sinä -->
-    <tag name="PROPN">12121</tag><!-- Eurooppa, Suomi, Turku, EU, Helsinki, Yhdysvallat, the, EY, Venäjä, Mithridates -->
+    <tag name="NOUN">56450</tag><!-- vuosi, aika, päivä, osa, komissio, maa, asia, mies, artikla, ihminen -->
+    <tag name="NUM">4978</tag><!-- kaksi, yksi, 1, 2, kolme, 2009, 3, miljoona, viisi, neljä -->
+    <tag name="PRON">13475</tag><!-- se, joka, tämä, hän, minä, mikä, kaikki, muu, jokin, sinä -->
+    <tag name="PROPN">12122</tag><!-- Eurooppa, Suomi, Turku, EU, Helsinki, Yhdysvallat, the, EY, Venäjä, Mithridates -->
     <tag name="PUNCT">29606</tag><!-- ., ,, ), (, ", :, ?, ”, -, – -->
     <tag name="SCONJ">3923</tag><!-- että, kun, kuin, jos, vaikka, koska, sillä, jotta, kuten, mikäli -->
     <tag name="SYM">478</tag><!-- :), %, &, +, :D, ;), 3.Rf3, =, >, 2.f4 -->
-    <tag name="VERB">27342</tag><!-- saada, tehdä, olla, tulla, antaa, ottaa, sanoa, haluta, käyttää, koskea -->
-    <tag name="X">294</tag><!-- _, metal, common, death, a, and, be, fun, it, pic -->
+    <tag name="VERB">27341</tag><!-- saada, tehdä, olla, tulla, antaa, ottaa, sanoa, haluta, käyttää, koskea -->
+    <tag name="X">299</tag><!-- _, metal, common, death, a, be, fun, it, pic, DIY -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="93">
@@ -42,14 +42,14 @@
     <feat name="Case" value="Ade" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">4074</feat><!-- tällä, sillä, perusteella, jolla, joilla, tavalla, avulla, meillä, minulla, alueella -->
     <feat name="Case" value="All" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">2398</feat><!-- minulle, hänelle, kaikille, meille, sille, niille, komissiolle, itselleen, toiselle, jäsenvaltioille -->
     <feat name="Case" value="Com" upos="ADJ,NOUN,PRON,PROPN">47</feat><!-- kaikkine, poikineen, postikuluineen, Näine, ajatuksineni, allekirjoittajineen, asenteineen, bajamajoineen, eduskuntakäsittelyineenkin, herkkuineen -->
-    <feat name="Case" value="Ela" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">5239</feat><!-- siitä, tästä, niistä, josta, vuodesta, joista, mielestäni, mistä, asiasta, syystä -->
+    <feat name="Case" value="Ela" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">5238</feat><!-- siitä, tästä, niistä, josta, vuodesta, joista, mielestäni, mistä, asiasta, syystä -->
     <feat name="Case" value="Ess" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2458</feat><!-- vuonna, päivänä, aikana, tänä, vuosina, verrattuna, tarkoituksena, osana, tiistaina, perjantaina -->
-    <feat name="Case" value="Gen" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">24839</feat><!-- sen, euroopan, tämän, hänen, vuoden, jonka, Turun, suomen, yhteisön, komission -->
+    <feat name="Case" value="Gen" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">24835</feat><!-- sen, euroopan, tämän, hänen, vuoden, jonka, Turun, suomen, yhteisön, komission -->
     <feat name="Case" value="Ill" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">6175</feat><!-- huomioon, siihen, tähän, aikaan, johon, käyttöön, samaan, vuoteen, kotiin, tekemään -->
-    <feat name="Case" value="Ine" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,SYM,VERB">6769</feat><!-- jossa, tässä, siinä, Suomessa, yhteydessä, joissa, missä, olemassa, artiklassa, liitteessä -->
+    <feat name="Case" value="Ine" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,SYM,VERB">6768</feat><!-- jossa, tässä, siinä, Suomessa, yhteydessä, joissa, missä, olemassa, artiklassa, liitteessä -->
     <feat name="Case" value="Ins" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">493</feat><!-- tavoin, osin, ottaen, lukien, johtuen, noudattaen, käsin, liittyen, välein, omin -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">35587</feat><!-- se, hän, joka, tämä, ne, ollut, jotka, kaikki, minä, kaksi -->
-    <feat name="Case" value="Par" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,SYM,VERB">15745</feat><!-- sitä, mitä, tätä, prosenttia, niitä, mitään, joita, vuotta, jota, jotain -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">35583</feat><!-- se, hän, joka, tämä, ne, ollut, jotka, kaikki, minä, kaksi -->
+    <feat name="Case" value="Par" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,SYM,VERB">15746</feat><!-- sitä, mitä, tätä, prosenttia, niitä, mitään, joita, vuotta, jota, jotain -->
     <feat name="Case" value="Tra" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1458</feat><!-- toiseksi, hyväksi, kolmanneksi, saadakseen, hetkeksi, osaksi, kohteeksi, uudeksi, valmiiksi, varmistamiseksi -->
     <feat name="Clitic" value="Han" upos="ADJ,ADV,AUX,NOUN,PRON,PROPN,VERB">129</feat><!-- eihän, onhan, sehän, olihan, mitähän, pitihän, kyllähän, niinhän, Mehän, Pakkohan -->
     <feat name="Clitic" value="Han,Kin" upos="PRON">1</feat><!-- nekinhän -->
@@ -75,7 +75,7 @@
     <feat name="Derivation" value="Lainen,Vs" upos="NOUN">13</feat><!-- Oikeistolaisuuteen, alaisuuteen, erilaisuuden, francolaisuus, kansalaisuuden, kansalaisuudet, kansalaisuus, laaja-alaisuutta, siirtolaisuuden, tolstoilaisuudesta -->
     <feat name="Derivation" value="Llinen" upos="ADJ,NOUN">1202</feat><!-- mahdollista, kansalliset, kansallisten, alueellisen, kansallisia, suhteellisen, kansallisen, mahdollisia, virallisessa, kansallinen -->
     <feat name="Derivation" value="Llinen,Vs" upos="NOUN">258</feat><!-- mahdollisuus, mahdollisuuden, mahdollisuutta, mahdollisuuksia, mahdollisuudet, todellisuudessa, todellisuus, turvallisuuden, teollisuuden, mahdollisuuksien -->
-    <feat name="Derivation" value="Minen" upos="ADJ,NOUN">1758</feat><!-- muuttamisesta, soveltamista, tekemistä, liittymistä, soveltamisesta, kotouttamiseen, varmistamiseksi, perustamisen, soveltaminen, saaminen -->
+    <feat name="Derivation" value="Minen" upos="ADJ,NOUN">1759</feat><!-- muuttamisesta, soveltamista, tekemistä, liittymistä, soveltamisesta, kotouttamiseen, varmistamiseksi, perustamisen, soveltaminen, saaminen -->
     <feat name="Derivation" value="Sti" upos="ADV">1720</feat><!-- erityisesti, mukaisesti, varmasti, nopeasti, helposti, selvästi, oikeasti, seuraavasti, huomattavasti, tietysti -->
     <feat name="Derivation" value="Tar" upos="NOUN">19</feat><!-- kuningatar, kaunotar, kuningattaren, herttuatar, kaunotarta, kaunottaria, kuningatarta, kuningattarien, paronitar, vapaaherratar -->
     <feat name="Derivation" value="Ton" upos="ADJ,NOUN,VERB">369</feat><!-- välttämätöntä, mahdotonta, tavattoman, uskomatonta, vaivatonta, ehdottomaan, erottamaton, laittoman, maksuton, riippumaton -->
@@ -83,7 +83,7 @@
     <feat name="Derivation" value="Ttain" upos="ADV">202</feat><!-- erittäin, nimittäin, vuosittain, osittain, päivittäin, hiljattain, äskettäin, ajoittain, asteittain, kuukausittain -->
     <feat name="Derivation" value="U" upos="NOUN">1964</feat><!-- avulla, alussa, loppuun, keskustelua, alusta, apua, lopussa, kasvu, kasvua, lopulla -->
     <feat name="Derivation" value="Vs" upos="NOUN">937</feat><!-- yhteydessä, oikeus, oikeuden, osuus, yhteyttä, ihmisoikeuksien, terveyttä, ihmisoikeuksia, liikkuvuuden, oikeutta -->
-    <feat name="Foreign" value="Yes" upos="X">262</feat><!-- metal, common, death, a, and, be, fun, it, pic, DIY -->
+    <feat name="Foreign" value="Yes" upos="X">267</feat><!-- metal, common, death, a, be, fun, it, pic, DIY, I -->
     <feat name="InfForm" value="1" upos="AUX,VERB">3567</feat><!-- olla, tehdä, saada, ottaa, käyttää, pitää, antaa, mennä, sanoa, tulla -->
     <feat name="InfForm" value="2" upos="AUX,VERB">626</feat><!-- kuluessa, tarvittaessa, ottaen, lukien, johtuen, ollessa, noudattaen, liittyen, käyttäen, pitäen -->
     <feat name="InfForm" value="3" upos="AUX,VERB">1505</feat><!-- olemassa, tekemään, olemaan, katsomaan, tulossa, käyttämään, etsimään, hoitamaan, istumaan, opiskelemaan -->
@@ -91,40 +91,40 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">417</feat><!-- älä, lisää, ota, älkää, keitä, paista, leikkaa, lue, ole, tee -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">21613</feat><!-- on, oli, ovat, ole, voi, olivat, voidaan, olen, tulee, saa -->
     <feat name="Mood" value="Pot" upos="AUX,VERB">50</feat><!-- lienee, liene, lie, hypänne, kertone, lienevät, luvanne, saanen, Palauttanet, Suonet -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">26561</feat><!-- ovat, ne, jotka, eivät, olivat, niiden, he, meidän, niitä, joita -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">105338</feat><!-- on, ei, oli, se, hän, sen, joka, sitä, olisi, voi -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">26560</feat><!-- ovat, ne, jotka, eivät, olivat, niiden, he, meidän, niitä, joita -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">105329</feat><!-- on, ei, oli, se, hän, sen, joka, sitä, olisi, voi -->
     <feat name="Number[psor]" value="Plur" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">332</feat><!-- joukkueemme, mielestämme, edessämme, elämässämme, itsellemme, itseämme, keskuudessamme, lapsemme, toisiamme, elämämme -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">958</feat><!-- mielestäni, silmäni, itseni, itseäni, käteni, mieheni, ystäväni, pääni, elämäni, itselleni -->
-    <feat name="NumType" value="Card" upos="ADJ,NUM">4685</feat><!-- 1, 2, kaksi, 2009, 3, 5, 4, kolme, yksi, 10 -->
+    <feat name="NumType" value="Card" upos="ADJ,NUM">4684</feat><!-- 1, 2, kaksi, 2009, 3, 5, 4, kolme, yksi, 10 -->
     <feat name="NumType" value="Ord" upos="ADJ">1153</feat><!-- ensimmäinen, 1., ensimmäisen, 2., 3., toisen, II, toinen, I, ensimmäistä -->
     <feat name="PartForm" value="Agt" upos="AUX,VERB">508</feat><!-- johtama, edellyttämät, esittämä, tekemä, järjestämän, järjestämässä, olemassa, aiheuttamasta, antama, antamaa -->
     <feat name="PartForm" value="Neg" upos="VERB">9</feat><!-- asettelematonta, hallitsemattomissa, kunnioittamattomasta, mainitsemattoman, maksamattomia, palamaton, pesimättömiä, tavoittamattomissa, ulottumattomissa -->
     <feat name="PartForm" value="Past" upos="AUX,VERB">4804</feat><!-- ollut, tehty, saanut, tullut, s., tehnyt, olleet, annettu, annetun, antanut -->
     <feat name="PartForm" value="Pres" upos="AUX,VERB">2479</feat><!-- olevan, koskevan, koskevat, oleva, olevat, vastaava, koskevien, olevien, liittyviä, olevia -->
-    <feat name="Person" value="0" upos="AUX,VERB">901</feat><!-- on, voi, oli, pitäisi, pitää, olisi, saa, tulee, tuli, voisi -->
+    <feat name="Person" value="0" upos="AUX,VERB">900</feat><!-- on, voi, oli, pitäisi, pitää, olisi, saa, tulee, tuli, voisi -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">3885</feat><!-- en, minä, olen, meidän, mä, me, minun, olin, olemme, minua -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">1006</feat><!-- et, sinä, olet, sä, älä, sinun, lisää, teitä, te, sinua -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">18987</feat><!-- on, ei, oli, hän, ovat, olisi, hänen, voi, eivät, eikä -->
     <feat name="Person[psor]" value="1" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">1123</feat><!-- mielestäni, silmäni, itseni, joukkueemme, itseäni, käteni, mieheni, mielestämme, ystäväni, pääni -->
     <feat name="Person[psor]" value="2" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">167</feat><!-- itsesi, kanssasi, sydämesi, autosi, haluamallasi, halutessasi, isäsi, kanssanne, kanssas, mielestänne -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">2378</feat><!-- itsensä, itselleen, itseään, mukanaan, olevansa, saadakseen, mukaansa, silmänsä, toisiaan, alkunsa -->
-    <feat name="Polarity" value="Neg" upos="AUX,VERB">2474</feat><!-- ei, en, eivät, eikä, emme, et, enkä, älä, eikö, eivätkä -->
-    <feat name="PronType" value="Dem" upos="PRON">5155</feat><!-- se, sen, sitä, siitä, tämän, tämä, ne, tässä, niiden, siihen -->
-    <feat name="PronType" value="Ind" upos="NUM,PRON">2534</feat><!-- kaikki, mitään, jotain, joku, muita, muiden, muut, muuta, kaiken, kukaan -->
+    <feat name="Polarity" value="Neg" upos="AUX,VERB">2473</feat><!-- ei, en, eivät, eikä, emme, et, enkä, älä, eikö, eivätkä -->
+    <feat name="PronType" value="Dem" upos="PRON">5153</feat><!-- se, sen, sitä, siitä, tämän, tämä, ne, tässä, niiden, siihen -->
+    <feat name="PronType" value="Ind" upos="NUM,PRON">2529</feat><!-- kaikki, mitään, jotain, joku, muita, muiden, muut, muuta, kukaan, kaiken -->
     <feat name="PronType" value="Int" upos="PRON">376</feat><!-- mitä, mikä, kuka, mistä, missä, mihin, minkä, mitkä, millä, mitähän -->
     <feat name="PronType" value="Prs" upos="PRON">2873</feat><!-- hän, hänen, minä, he, meidän, mä, me, heidän, minun, minua -->
     <feat name="PronType" value="Rcp" upos="PRON">185</feat><!-- toinen, toisen, toiselle, toiseen, toisella, toisiinsa, toisten, toiset, toisiaan, toisessa -->
     <feat name="PronType" value="Rel" upos="PRON">2093</feat><!-- joka, jotka, jonka, jossa, joita, jota, mitä, joiden, mikä, joissa -->
-    <feat name="Reflex" value="Yes" upos="PRON">186</feat><!-- itsensä, itse, itselleen, itseään, itseni, itseäni, itselleni, itsestään, itseensä, itseltään -->
+    <feat name="Reflex" value="Yes" upos="PRON">187</feat><!-- itsensä, itse, itselleen, itseään, itseni, itseäni, itselleni, itsestään, itseensä, itseltään -->
     <feat name="Style" value="Arch" upos="ADJ,NOUN,VERB">3</feat><!-- Wanhan, pääskysein, tuta -->
     <feat name="Style" value="Coll" upos="ADJ,ADP,ADV,AUX,CCONJ,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">1589</feat><!-- mä, et, ku, mut, mun, on, sit, sä, ni, ett -->
     <feat name="Tense" value="Past" upos="AUX,VERB">7405</feat><!-- oli, olivat, sai, tuli, sanoi, olin, kertoi, alkoi, piti, voitti -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">14208</feat><!-- on, ovat, ole, voi, voidaan, olen, tulee, saa, pitää, ottaa -->
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,INTJ,NOUN,NUM,PRON,PROPN,VERB">396</feat><!-- EU:, EY:, version, %:, Lisä, MUUTTOLIIKEIDEN, ai, minun, musta, sen -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">25950</feat><!-- on, ei, oli, ovat, ole, voi, olisi, en, eivät, eikä -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">25949</feat><!-- on, ei, oli, ovat, ole, voi, olisi, en, eivät, eikä -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">5702</feat><!-- olla, tehdä, saada, ottaa, käyttää, pitää, antaa, mennä, olemassa, sanoa -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">7800</feat><!-- ollut, olevan, tehty, saanut, tullut, s., tehnyt, koskevan, olleet, annettu -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">32653</feat><!-- on, ei, oli, ovat, olisi, voi, olla, en, ollut, eivät -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">32652</feat><!-- on, ei, oli, ovat, olisi, voi, olla, en, ollut, eivät -->
     <feat name="Voice" value="Pass" upos="AUX,VERB">5230</feat><!-- voidaan, tehty, ollut, tehdään, annettu, annetun, sovelletaan, julkaistiin, käytetään, otetaan -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -132,45 +132,45 @@
     <dep name="acl">3637</dep>
     <dep name="acl:relcl">2106</dep>
     <dep name="advcl">3506</dep>
-    <dep name="advmod">13976</dep>
-    <dep name="amod">10403</dep>
-    <dep name="appos">1354</dep>
+    <dep name="advmod">13985</dep>
+    <dep name="amod">10393</dep>
+    <dep name="appos">1353</dep>
     <dep name="aux">5829</dep>
     <dep name="aux:pass">760</dep>
     <dep name="case">2992</dep>
     <dep name="cc">8192</dep>
     <dep name="cc:preconj">161</dep>
     <dep name="ccomp">2016</dep>
-    <dep name="compound">185</dep>
-    <dep name="compound:nn">1197</dep>
+    <dep name="compound">238</dep>
+    <dep name="compound:nn">1162</dep>
     <dep name="compound:prt">281</dep>
-    <dep name="conj">10654</dep>
+    <dep name="conj">10655</dep>
     <dep name="cop">5153</dep>
     <dep name="cop:own">344</dep>
     <dep name="csubj">54</dep>
     <dep name="csubj:cop">205</dep>
     <dep name="dep">4</dep>
-    <dep name="det">3485</dep>
+    <dep name="det">3486</dep>
     <dep name="discourse">301</dep>
     <dep name="dislocated">16</dep>
-    <dep name="fixed">514</dep>
+    <dep name="fixed">510</dep>
     <dep name="flat">896</dep>
-    <dep name="flat:foreign">93</dep>
-    <dep name="flat:name">2811</dep>
+    <dep name="flat:foreign">113</dep>
+    <dep name="flat:name">2769</dep>
     <dep name="goeswith">23</dep>
-    <dep name="mark">3950</dep>
-    <dep name="nmod">5074</dep>
+    <dep name="mark">3952</dep>
+    <dep name="nmod">5075</dep>
     <dep name="nmod:gobj">1555</dep>
     <dep name="nmod:gsubj">553</dep>
-    <dep name="nmod:poss">10954</dep>
+    <dep name="nmod:poss">10955</dep>
     <dep name="nsubj">11673</dep>
     <dep name="nsubj:cop">4754</dep>
     <dep name="nsubj:outer">21</dep>
     <dep name="nummod">3286</dep>
     <dep name="obj">11310</dep>
-    <dep name="obl">18467</dep>
+    <dep name="obl">18470</dep>
     <dep name="orphan">322</dep>
-    <dep name="parataxis">820</dep>
+    <dep name="parataxis">822</dep>
     <dep name="punct">29606</dep>
     <dep name="root">15136</dep>
     <dep name="vocative">117</dep>
