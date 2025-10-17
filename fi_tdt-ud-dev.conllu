@@ -15954,7 +15954,7 @@
 9	vanha	vanha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	amod	10:amod	_
 10	mies	mies	NOUN	N	Case=Nom|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No
 11	,	,	PUNCT	Punct	_	14	punct	14:punct	_
-12	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	16	obj	16:obj	_
+12	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	16	nsubj	16:nsubj	_
 13	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	14:nsubj	_
 14	kutsuivat	kutsua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	10:acl:relcl	_
 15	mukaan	mukaan	ADV	Adv	_	14	advmod	14:advmod	_
