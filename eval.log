@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Finnish-TDT:
-commit f912804e7d13380a3bb02bdcefb53b7a3cc2dd7c
-Merge: 1dbb48c e7ad38b
+commit cce5e9bd84cc431d1cd591199f3f134f5a11230f
+Merge: 5e3a88a fe6aa88
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'fi_tdt'
+Language code (from CoNLL-U file name) = 'fi'
+Found the following data files: fi_tdt-ud-dev.conllu, fi_tdt-ud-test.conllu, fi_tdt-ud-train.conllu
 Size: counted 202193 of 202193 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6184453735964.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,62 +23,57 @@ Features: 146191 out of 202193 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       3019
-Udapi: found 3019 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 202193 words.
 Genres: found 6 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-dev.conllu
-[Line 320 Sent b204.22 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'tai sitten' does not have the 'ExtPos' feature
-[Line 925 Sent b504.3 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'itse asiassa' does not have the 'ExtPos' feature
-[Line 1337 Sent b504.23 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'näin ikään' does not have the 'ExtPos' feature
-[Line 1684 Sent b605.5 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'hip hip hurraa' does not have the 'ExtPos' feature
-[Line 1893 Sent b605.19 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ai niin' does not have the 'ExtPos' feature
-[Line 3816 Sent f604.20 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'vähän kuin' does not have the 'ExtPos' feature
-[Line 4562 Sent h1008.22 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'aika lailla' does not have the 'ExtPos' feature
-[Line 5163 Sent h1034.4 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'kenelle hyvänsä' does not have the 'ExtPos' feature
-[Line 5254 Sent h1034.12 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'kenelle tahansa' does not have the 'ExtPos' feature
-[Line 5775 Sent h1071.6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Voi helvetti' does not have the 'ExtPos' feature
+[Line 171 Sent b204.13]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 184 Sent b204.14]: [L3 Warning verbform-fin-without-mood] Finite verb 'eivät' lacks the 'Mood' feature
+[Line 244 Sent b204.18]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 280 Sent b204.20]: [L3 Warning verbform-fin-without-mood] Finite verb 'en' lacks the 'Mood' feature
+[Line 320 Sent b204.22]: [L3 Warning fixed-without-extpos] Fixed expression 'tai sitten' does not have the 'ExtPos' feature
+[Line 446 Sent b204.31]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 502 Sent b204.34]: [L3 Warning verbform-fin-without-mood] Finite verb 'En' lacks the 'Mood' feature
+[Line 548 Sent b204.37]: [L3 Warning verbform-fin-without-mood] Finite verb 'Eivätkö' lacks the 'Mood' feature
+[Line 925 Sent b504.3]: [L3 Warning fixed-without-extpos] Fixed expression 'itse asiassa' does not have the 'ExtPos' feature
+[Line 963 Sent b504.4]: [L3 Warning verbform-fin-without-mood] Finite verb 'eivät' lacks the 'Mood' feature
 ...suppressing further errors regarding Warning
-Warnings: 37
+Warnings: 287
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-test.conllu
-[Line 481 Sent b401.6 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'päällisin puolin' does not have the 'ExtPos' feature
-[Line 2000 Sent b602.14 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ai niin' does not have the 'ExtPos' feature
-[Line 3136 Sent e1008.23 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'aina vain' does not have the 'ExtPos' feature
-[Line 3183 Sent e1008.25 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'joka ainoalla' does not have the 'ExtPos' feature
-[Line 3320 Sent e1008.33 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'niin kutsutusta' does not have the 'ExtPos' feature
-[Line 3567 Sent e1008.45 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'joka ainoan' does not have the 'ExtPos' feature
-[Line 3604 Sent e1008.45 Node 47]: [L3 Warning fixed-without-extpos] Fixed expression 'koska tahansa' does not have the 'ExtPos' feature
-[Line 3785 Sent e1008.53 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'joka ainoaa' does not have the 'ExtPos' feature
-[Line 4104 Sent e1021.4 Node 46]: [L3 Warning fixed-without-extpos] Fixed expression 'suuressa määrin' does not have the 'ExtPos' feature
-[Line 4381 Sent e1075.6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Näin ollen' does not have the 'ExtPos' feature
+[Line 340 Sent b306.4]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 380 Sent b401.2]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 386 Sent b401.2]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 481 Sent b401.6]: [L3 Warning fixed-without-extpos] Fixed expression 'päällisin puolin' does not have the 'ExtPos' feature
+[Line 512 Sent b401.8]: [L3 Warning verbform-fin-without-mood] Finite verb 'emme' lacks the 'Mood' feature
+[Line 528 Sent b401.9]: [L3 Warning verbform-fin-without-mood] Finite verb 'en' lacks the 'Mood' feature
+[Line 552 Sent b401.10]: [L3 Warning verbform-fin-without-mood] Finite verb 'en' lacks the 'Mood' feature
+[Line 562 Sent b401.11]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 723 Sent b401.19]: [L3 Warning verbform-fin-without-mood] Finite verb 'Eivät' lacks the 'Mood' feature
+[Line 782 Sent b401.21]: [L3 Warning pron-det-without-prontype] The word 'toisen' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 53
+Warnings: 324
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-TDT/fi_tdt-ud-train.conllu
-[Line 200 Sent b105.3 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'sen suuremmin' does not have the 'ExtPos' feature
-[Line 242 Sent b105.5 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ikään kuin' does not have the 'ExtPos' feature
-[Line 611 Sent b108.7 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'saman tien' does not have the 'ExtPos' feature
-[Line 1390 Sent b111.17 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ikään kuin' does not have the 'ExtPos' feature
-[Line 1683 Sent b114.15 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'itse asiassa' does not have the 'ExtPos' feature
-[Line 1701 Sent b114.16 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'vähän kuin' does not have the 'ExtPos' feature
-[Line 2217 Sent b201.3 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'No niin' does not have the 'ExtPos' feature
-[Line 3127 Sent b202.13 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'niin sanotusti' does not have the 'ExtPos' feature
-[Line 4212 Sent b203.4 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'mutta toisaalta' does not have the 'ExtPos' feature
-[Line 4405 Sent b203.15 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'suuna päänä' does not have the 'ExtPos' feature
+[Line 104 Sent b102.4]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 199 Sent b105.3]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 200 Sent b105.3]: [L3 Warning fixed-without-extpos] Fixed expression 'sen suuremmin' does not have the 'ExtPos' feature
+[Line 242 Sent b105.5]: [L3 Warning fixed-without-extpos] Fixed expression 'ikään kuin' does not have the 'ExtPos' feature
+[Line 429 Sent b105.15]: [L3 Warning pron-det-without-prontype] The word 'itseään' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 447 Sent b105.16]: [L3 Warning verbform-fin-without-mood] Finite verb 'ei' lacks the 'Mood' feature
+[Line 462 Sent b105.17]: [L3 Warning verbform-fin-without-mood] Finite verb 'eikä' lacks the 'Mood' feature
+[Line 584 Sent b108.5]: [L3 Warning pron-det-without-prontype] The word 'joka' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 611 Sent b108.7]: [L3 Warning fixed-without-extpos] Fixed expression 'saman tien' does not have the 'ExtPos' feature
+[Line 712 Sent b108.13]: [L3 Warning pron-det-without-prontype] The word 'itseäni' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 413
+Warnings: 2599
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.333333333333333) = 0.0256410256410256
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.768588705357337) = 0.197074027014702
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.850687214690914) = 0.261749912212589
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.795035263673909) * (availability=1) * (validity=1) = 0.795035263673909
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.333333333333333) = 0.037037037037037
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.768588705357337) = 0.28466248346568
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.770301063221907) * (availability=1) * (validity=1) = 0.770301063221907
 STARS = 4
-UD_Finnish-TDT	0.795035263673909	4
+UD_Finnish-TDT	0.770301063221907	4
