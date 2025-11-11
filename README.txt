@@ -123,6 +123,7 @@ annotation problems noticed after the 1.0 release.
 Data available since: UD v1.0
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news wiki blog legal fiction grammar-examples
 Lemmas: manual native
 UPOS: converted from manual
